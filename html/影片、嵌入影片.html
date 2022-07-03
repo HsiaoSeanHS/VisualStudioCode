@@ -5,8 +5,22 @@
         <title>影片、嵌入影片</title>
     </head>
     <body>
-        <video src="../【html】1小時初學者教學 #html #html教學 #html入門.mp4" controls>哭阿</video><br/>  
-        <video src="https://www.youtube.com/watch?v=CLUPkcLQm64&t=2869s" controls>哭阿</video>
+        <!--video src="影片位址或是網址" 加上controls屬性表示可以控制影片的各種動作> 這裡是影片播放失敗時所顯示的文字 </video>-->
+        <h1>內部影片</h1>
+            <h3>no controls</h3>
+            <video src="範例/窩不知道.mov" >哭阿</video>  <!--無controls的影片等同只有縮圖-->
+            <h3>controls</h3>
+            <video src="範例/窩不知道.mov" controls width="1440">哭阿</video><br/>  <!--同樣可以width和length控制介面大小-->
+        <hr/>
+        <h1>外部影片</h1>
+            <!--video src 僅限內部影片使用，與圖片不同-->
+            <h3>no controls</h3>
+            <video src="https://www.youtube.com/watch?v=_enPf2aOzbw">哭阿</video>  
+            <h3>controls</h3>
+            <video src="https://www.youtube.com/watch?v=_enPf2aOzbw" controls>哭阿</video><br/>  
+        <h2>嵌入Youtube影片</h2>
+            <!--取得嵌入影片程式碼: 點選分享，進入嵌入選項，複製完整程式碼貼上即可-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_enPf2aOzbw" title="窩不知道" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>  <!--功能正常-->
     </body>
 </html>
 <!--2022.07.03-->
