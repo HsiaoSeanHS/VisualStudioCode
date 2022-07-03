@@ -1,2 +1,2 @@
 # VisualStudioCode
-<video src="https://www.youtube.com/watch?v=CLUPkcLQm64"/>  
+https://img.youtube.com/vi/<CLUPkcLQm64>/maxresdefault.jpg  
