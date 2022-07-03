@@ -1,2 +1,2 @@
-# Self-Destruct_Devices
+# VisualStudioCode
 Pari Papa Piripipi.
