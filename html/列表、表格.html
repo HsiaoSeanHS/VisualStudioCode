@@ -1,0 +1,467 @@
+<!--摘要-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>列表、表格</title>
+    </head>
+    <body>
+        <h1>列表</h1>
+            <h2>項目符號</h2> <!--沒有順序需求的列表，使用<ul>，內部<li>項目</li>-->
+                <ul>
+                    <li>*</li>
+                    <li>**</li>
+                    <li>***</li>
+                    <li>****</li>
+                    <li>*****</li>
+                </ul>
+            <h2>編號</h2> <!--有順序需求的列表，使用<ol>，根據<ol>的不同type決定編號系統，內部同樣<li>項目</li>-->
+                <h3>預設</h3>
+                    <ol>
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+                <h3>數字</h3>
+                    <ol type="1">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+                <h3>英文字母大寫</h3>
+                    <ol type="A">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+                <h3>英文字母小寫</h3>
+                    <ol type="a">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+                <h3>羅馬數字大寫</h3>
+                    <ol type="I">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+                <h3>羅馬數字小寫</h3>
+                    <ol type="i">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ol>
+        <hr/>
+        <hr/>
+        <h1>表格</h1>
+            <table><!--表示範圍內皆是表格格式，範圍內<br/>、<hr/>效果皆會產生在<table>程式碼之前(<table>分段寫可以解決此問題，如下方)-->
+                <tr> <!--<tr>代表表格的行，<td>則代表該行內依序每列的內容-->
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <br/>
+            <table>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <br/>
+            <table>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+                <br/>
+            <table>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <br/>
+            <table>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td> </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <hr/>
+            <h2>課表</h2>
+            <table>
+                <tr>
+                    <td>節數\星期</td> <!--每列會上下自動對齊-->
+                    <td>星期一</td>
+                    <td>星期二</td>
+                    <td>星期三</td>
+                    <td>星期四</td>
+                    <td>星期五</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>自習</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td> <!--<td>可接受不輸入內容，同樣佔一格-->
+                    <td>自習</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>放學</td>
+                    <td>放學</td>
+                    <td>放學</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td/> <!--<td>可不輸入內容，故也可以/取代後半</td>-->
+                    <td/>
+                    <td/>
+                    <td>自習</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>自習</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>放學</td>
+                    <td>放學</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td/>
+                    <td>.</td>
+                </tr>
+            </table>
+            <hr/>
+            <h2>屬性控制表格寬度</h2>
+                <h3>預設</h3>
+                    <table>
+                        <tr>
+                            <td>+</td>
+                            <td>-</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>+</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>+</td>
+                            <td>-</td>
+                            <td>+</td>
+                        </tr>
+                    </table>
+                <h3>table width="75"</h3> <!--表格只能使用width改變寬度，不能使用length改變高度-->
+                    <table width="75">
+                        <tr>
+                            <td>+</td>
+                            <td>-</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>+</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>+</td>
+                            <td>-</td>
+                            <td>+</td>
+                        </tr>
+                    </table>
+    </body>
+</html>
+<!--2022.07.05-->
