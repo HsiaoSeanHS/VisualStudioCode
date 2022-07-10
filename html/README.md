@@ -5,4 +5,4 @@
 [![Watch the video](https://img.youtube.com/vi/CLUPkcLQm64/maxresdefault.jpg)](https://www.youtube.com/watch?v=CLUPkcLQm64)  
   
 更多教學內容:  
-<a herf="https://www.w3schools.com/html/">HTML Tutorial - W3Schools</a>  
+[![HTML Tutorial - W3Schools]("https://www.w3schools.com/html/)]  
