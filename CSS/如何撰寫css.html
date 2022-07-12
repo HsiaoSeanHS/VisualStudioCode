@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>如何撰寫css</title>
+    </head>
+    <body> <!--style="CSS指令: 參數; CSS指令: 參數; ..."-->
+        容器外
+        <div style="color:red; font-size: 100px;">
+        <!--color: 文字顏色;--> <!--font-size: 文字大小(像素)px;-->
+            <h3 style="background-color: blue">容器內</h3>
+                <p style="color:green">示範文字</p> <!--CSS指令以內層優先執行-->
+                <p style="border: 5px dashed skyblue; width: 1000px; height: 250px;">窩不知道</p> <!--border: 粗細 樣式 顏色; width: 寬度; height: 高度;-->
+                <p style="border: 10px solid black; max-width: 1500px;">伸縮自如的ㄎㄨㄤㄎㄨㄤ</p> <!--max-width: 根據視窗縮放的最大寬度-->
+                <p style="border: 20px solid violet;">我我我我我很很很很很長長長長長</p> <!--若沒有指定任何寬度、高度，寬度會由視窗大小自動調整，高度則是由內容當下行數決定-->
+        </div>
+    </body>
+</html>
+<!--2022.07.12-->
