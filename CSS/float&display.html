@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>float&display</title>
+    </head>
+    <body> <!--用於排版-->
+        <h1>float 用於物件並排</h1>
+            <h2>float: left之前</h2>
+                <img src="Bad Luck Brian.jpg" width="200px"/>
+                <p>超衰布萊恩</p>
+            <h2>float: left之後</h2> <!--可讓圖片與文字共用同行-->
+                <img src="Bad Luck Brian.jpg" width="200px" style="float: left;" />
+                <p>超衰布萊恩</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <h2>ul, ol, li(表格)也適用</h2>
+                <h3>前</h3>
+                    <ul style="background-color: greenyellow; margin=0px; padding=15px;">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ul>
+                    <p>超衰布萊恩</p>
+                <h3>後</h3>
+                    <ul style="background-color: greenyellow; margin=0px; padding=15px; float: left">
+                        <li>*</li>
+                        <li>**</li>
+                        <li>***</li>
+                        <li>****</li>
+                        <li>*****</li>
+                    </ul>
+                    <p>超衰布萊恩</p>
+            <br/><br/><br/><br/>
+            <h2>三維模型觀念教學</h2>
+                <a href="https://youtu.be/Ml78vnNTBLw?t=1465">【css】2小時初學者教學 #css #css教學 #css入門</a>
+        <h1>display 控制文字是否換行</h1>
+                <h2>預設</h2>
+                <hr/>
+                    <p>block: 占用一行</p>
+                    <p>p</p>
+                    <hr/>
+                    <span>inline: 共用一行</span>
+                    <span>span</span>
+                <hr/>
+                <h2>強制轉換</h2>
+                <hr/>
+                    <p style="display: inline;">inline: 共用一行</p>
+                    <p style="display: inline;">p</p>
+                    <hr/>
+                    <span style="display: block;">block: 占用一行</span>
+                    <span style="display: block;">span</span>
+                <hr/>
+    </body>
+</html>
+<!--2022.07.15-->
