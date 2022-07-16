@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position 定位</title>
+    </head>
+    <body>
+        <h1>fixed</h1> <!--固定定位: 被固定的方塊在網頁滑動時會停留在視窗中相同地方-->
+            <h2>未使用</h2>
+                <div style="width: 50px; height: 50px; background-color: red;"></div>
+                <div style="width: 70px; height: 70px; background-color: blue;"></div>
+            <h2>使用中</h2> <!--此時紅色方塊因向上移一層，原本使用的空間被原本在下方的藍色方塊取代，看起來就像重疊-->
+                <div style="position: fixed; width: 50px; height: 50px; background-color: red;"></div>
+                <div style="width: 70px; height: 70px; background-color: blue;"></div>
+                <h3>指定網頁位置</h3> <!--上下左右都可以指定-->
+                    <div style="position: fixed; top: 0px; right: 0px; width: 50px; height: 50px; background-color: red;"></div>
+                    <div style="position: fixed; bottom: 0px; left: 0px; width: 50px; height: 50px; background-color: red;"></div>
+        <hr/>
+        <h1>relative</h1> <!--相對定位: 若沒有給定任何參數，方塊將不會做任何移動，可作為絕對定位時的層數認定而不需要改變原本方塊的位置; 方位參數定義:與該方向的距離-->
+            <div style="position: relative; top: 30px; left: 30px; width: 50px; height: 50px; background-color: red;"></div>
+            <div style="width: 70px; height: 70px; background-color: blue;"></div>
+        <hr/>
+        <h1>absolute</h1> <!--絕對定位: 方塊維持在與未使用時相同的位置-->
+            <h2>未使用</h2>
+                <div style="padding: 20px; border: 5px dashed blue;">
+                    <div style="padding: 20px; border: 5px solid green;">
+                        <div style="width: 20px; height: 20px; background-color: red;"></div>
+                    </div>
+                </div>
+            <h2>已使用(未指定位置參數)</h2> <!--原本的外框不再受到在內方塊佔用空間的影響後，直接向上移動(此時外框判定無內容物)-->
+                <div style="padding: 20px; border: 5px dashed blue;">
+                    <div style="padding: 20px; border: 5px solid green;">
+                        <div style="position: absolute; width: 20px; height: 20px; background-color: red;"></div>
+                    </div>
+                </div>
+            <h2>已使用(指定位置參數)</h2> <!--有指定位置則方塊只會在指定位置停留，不會隨著網頁滾動移動，與固定定位fixed不同-->
+                <div style="padding: 20px; border: 5px dashed blue;">
+                    <div style="padding: 20px; border: 5px solid green;">
+                        <div style="position: absolute; top: 500px; left: 500px; width: 20px; height: 20px; background-color: black;"></div>
+                    </div>
+                </div>
+                <h3>外層絕對定位(指定位置參數)</h3> <!--若使用絕對定位的方塊外層也有使用position指令，則將以最接近本體的外層為基準移動指定位置-->
+                    <div style="position: relative; padding: 20px; border: 5px dashed blue;"> <!--只有最外層position: relative-->
+                        <div style="padding: 20px; border: 5px solid green;">
+                            <div style="position: absolute; bottom: 0px; left: 0px; width: 20px; height: 20px; background-color: yellow;"></div>
+                        </div>
+                    </div>
+                    <br/><br/><br/>
+                    <div style="position: relative; padding: 20px; border: 5px dashed blue;">  <!--兩外層皆有position: relative-->
+                        <div style="position: relative; padding: 20px; border: 5px solid green;">
+                            <div style="position: absolute; bottom: 0px; left: 0px; width: 20px; height: 20px; background-color: yellow;"></div>
+                        </div>
+                    </div>
+
+    </body>
+</html>
+<!--2022.07.16-->
