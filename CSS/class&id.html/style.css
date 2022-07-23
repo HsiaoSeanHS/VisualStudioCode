@@ -1,0 +1,19 @@
+/*.class名稱*/
+.a{
+    color: red;
+}
+.b{
+    background-color: green;
+}
+.c{
+    border: dashed 5px blue;
+}
+
+/*#id名稱*/
+#danger-text{
+    color: red;
+}
+#safe-border{
+    border: 10px solid green;
+}
+/*2022.07.23*/

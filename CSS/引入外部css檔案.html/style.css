@@ -1,0 +1,12 @@
+/*CSS標註*/
+/*原本寫在head的style標籤內所有指令可以直接移至獨立的.css檔，能夠在多個不同網頁需要使用相同設定時使用，使用時只需引入.css檔即可。*/
+h1{
+    color: red;
+}
+h2{
+    background-color: orange;
+}
+p{
+    border: 3px dashed yellow;
+}
+/*2022.07.21*/

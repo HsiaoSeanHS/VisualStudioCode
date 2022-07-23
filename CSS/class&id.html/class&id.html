@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class & id</title>
+        <link rel="stylesheet" href="style.css"/> <!--引入.css必要指令-->
+    </head>
+    <body>
+        <h2>class</h2> <!--為內容分類，非唯一，可重複、同時使用-->
+            <p class="a">a</p>
+            <p class="b">b</p>
+            <p class="c">c</p>
+            <p class="a b">a b</p>
+            <p class="a c">a c</p>
+            <p class="b c">b c</p>
+            <p class="a b c">a b c</p>
+        <h2>id</h2> <!--個別唯一，可重複、不可同時使用-->
+            <p id="danger-text">DANGER TEXT</p>
+            <p id="safe-border">safe border</p>
+            <p id="danger-text">danger text</p>
+            <p id="safe-border">SAFE BORDER</p>
+            <p id="danger-text safe-border">DANGER border</p> <!--同時使用無效果-->
+        <h2>class與id可同時使用</h2>
+            <p class="b" id="safe-border">b safe</p>
+            <h3>效果衝突</h3> <!--不論順序如何，id皆優先覆蓋class執行-->
+                <p class="c" id="safe-border">c safe</p>
+                <p id="safe-border" class="c">safe c</p>
+    </body>
+</html>
+<!--2022.07.23-->
