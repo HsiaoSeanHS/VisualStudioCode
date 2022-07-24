@@ -1,0 +1,28 @@
+.H1, #H2{ /*用逗號間隔使不同標籤使用相同style*/
+    color: red;
+}
+h1{ /*直接輸入標籤名稱，將整個網頁皆套用相同style*/
+    background-color: orange;
+}
+*{ /*整個網站所有標籤皆套用相同style*/
+    border: 1px dashed lightblue;
+}
+ul li{ /*在ul標籤內找到li標籤並套用style*/
+    color: yellow;
+}
+ul a{ /*在ul標籤內找到a標籤並套用style*/
+    color: green;
+}
+[type]{ /*[標籤內屬性]:整個網站所有輸入中括號的屬性皆套用相同style*/
+    background-color: skyblue;
+}
+[href]{
+    border: 5px solid black;
+}
+#HahaoVeER:hover{ /*hover前方可以輸入各種標籤，冒號後不可輸入各種東西，包含空格;游標移動到上方時，產生變色(background-color)*/
+    background-color: violet;
+}
+tr:hover{
+    background-color: purple;
+}
+/*2022.07.24*/
