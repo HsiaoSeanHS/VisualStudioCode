@@ -1,0 +1,93 @@
+/*註釋*/
+.container0 div:hover{ /*游標移動至上方時顯示紅色虛線框框*/
+    border: 5px dashed red;
+    padding: 15px 15px 15px 25px;
+}
+.container0 div{ /*未顯示框框時的正常顯示*/
+    padding: 20px 20px 20px 30px;
+    width: 20px;
+}
+
+.container1 div:hover{
+    border: 5px dashed red;
+    padding: 15px 15px 15px 25px;
+}
+.container1 div{
+    padding: 20px 20px 20px 30px;
+    width: 20px;
+}
+.container1{
+    display: flex; /*預設排序為水平方向、由左至右*/
+    flex-wrap: wrap; /*區塊可換行(根據軸)，預設為不可換行*/
+}
+.container1 .box1{
+    flex:9; /*隨著視窗大小根據主軸方向平均分配每個區塊的空間，同範圍下數字越大的空間越大*/
+    order:4; /*同範圍下的排列順序，數字越小排越前面(可為負數或0)*/
+}
+.container1 .box2{
+    flex:8;
+    order:3;
+}
+.container1 .box3{
+    flex:7;
+    order:2;
+}
+.container1 .box4{
+    flex:6;
+    order:1;
+}
+.container1 .box5{
+    flex:5;
+    order:0;
+}
+.container1 .box6{
+    flex:4;
+    order:-1;
+}
+.container1 .box7{
+    flex:3;
+    order:-2;
+}
+.container1 .box8{
+    flex:2;
+    order:-3;
+}
+.container1 .box9{
+    flex:1;
+    order:-4;
+}
+
+.container2 div:hover{
+    border: 5px dashed red;
+    padding: 15px 15px 15px 25px;
+}
+.container2 div{
+    padding: 20px 20px 20px 30px;
+    width: 20px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    flex-direction: row-reverse; /*預設主軸為row(水平)，由左至右; column為垂直主軸，預設為由上至下；加上reverse則是換行排列上下左右相反*/
+}
+
+.container3 div:hover{
+    border: 5px dashed red;
+    padding: 15px 15px 15px 25px;
+}
+.container3 div{
+    padding: 20px 20px 20px 30px;
+    width: 20px;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid green;
+    flex-direction: row-reverse;
+    justify-content: space-around; /*主軸對齊。center:向主軸的中心對齊; flex-start向主軸開始方向對齊，flex-end則相反; space-around:平均分配一行的空間; space-between: 將頭尾的區塊貼齊邊界，剩餘的區塊平均分配剩餘的空間; space-evenly:將所有區塊間的空格平均分配(包含頭尾與邊界的間隔)*/
+    /*align-items: center;*/ /*單行內容的次軸對齊。語法如上一行*/
+    align-content: center; /*多行內容的次軸對齊*/
+    /*justify-content與align-items皆是以當下flex-direction(主軸)的方向而定*/
+}
+/*2022.07.25*/
