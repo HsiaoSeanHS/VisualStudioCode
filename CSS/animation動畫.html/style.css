@@ -1,0 +1,25 @@
+/*註釋*/
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: lightgray;
+    position: relative; /*下方動畫位移時座標的使用方式*/
+}
+@keyframes jump-shine{ /*建立一個動畫，名字叫做jump-shine(跳和閃)*/
+    12.5% {background-color: lightgoldenrodyellow; left:500px;}
+    25% {background-color: khaki; left:500px;}
+    37.5% {background-color: yellow; left:500px; top:500px;}
+    50% {background-color: goldenrod; left:500px; top:500px;}
+    62.5% {background-color: lightsalmon; top:500px;}
+    75% {background-color: goldenrod; top:500px;}
+    87.5% {background-color: yellow;}
+    /*100% {background-color: khaki;}
+    /*%數: 根據animation-duration的時間長度分配；{}內為該時間點時執行的動作(變色+位移)*/
+}
+.animation/*:hover*/{ /*此時用hover將使動畫在游標碰觸到物體時才開始執行(預設為網頁載入即開始)*/
+    animation-name: jump-shine; /*呼叫名稱為"jump-shine"的動畫*/
+    animation-duration: 8s; /*執行動畫的總花費時間長度*/
+    animation-iteration-count: 1; /*總共執行次數，可輸入infinite(執行無限次)*/
+    /*animation-delay: 1s;*/ /*執行前的延遲時間長度，若不想延遲可以直接忽略不寫*/
+}
+/*2022.07.27*/
