@@ -5,7 +5,7 @@
 //變數取名規則: 只能是數字英文與_或是$搭配，且不能以數字開頭
 let _string="不知道";
 let number2333=123;
-let $boolin$=false;
+let $boolean$=false;
 
 //改變變數內容
 document.write("窩" + _string); //字串相加，直接合併
@@ -28,8 +28,8 @@ let number3332=321-number2333;
 }
 
 {
-    let $boolin$=true;
-    document.write($boolin$);
+    let $boolean$=true;
+    document.write($boolean$);
 }
 //布林值可以直接改變
 /*2022.07.31*/
