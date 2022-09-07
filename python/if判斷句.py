@@ -2,13 +2,13 @@
 def Max_N(N1,N2,N3):
     if not(N1==N2 and N2==N3):
         if N1>N2 and N1>N3:
-            return N1;
+            return N1
         
         elif(N2>N1 and N2>N3):
-            return N2;
+            return N2
         
         else:
-            return N3;
+            return N3
     else:
         return "All numbers are equal. 所以沒有哪個數"
     
