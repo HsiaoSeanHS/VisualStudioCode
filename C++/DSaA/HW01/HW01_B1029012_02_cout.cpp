@@ -165,5 +165,9 @@ int main()
         cout<<endl;
     }
     
-    return 0;
+    //釋放記憶體
+    for(int i = 0; i < x; i++){
+        delete [] n[i];
+        delete [] n;
+    }
 }

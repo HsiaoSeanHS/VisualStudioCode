@@ -18,11 +18,10 @@ int main() {
         n[i] = new char[y];
     }
 
-    //陣列
     //New
     char c;
     int space = 0;
-    for(int i=0;i < x; i++){
+    for(int i=0; i<x; i++){
         int j = 0;
         do{
             cin.get(c);
@@ -30,7 +29,7 @@ int main() {
                 if(space==0){
                     space++;
                     break;
-                } else if(space>=1){
+                }else if(space>=1){
                     space++;
                     break;
                 }
@@ -42,22 +41,23 @@ int main() {
                 n[i][j] = c;
             }
             j++;
-        } while(j <= y);
+        }while(j<=y);
         continue;
     }
+
     //Malloc
     char **m = (char **) malloc(sizeof(char *) * x);
-    for (int i = 0; i < x; i++) {
+    for(int i=0; i<x; i++){
         m[i] = (char *) malloc(sizeof(char) * y);
-        for (int j = 0; j < y; j++) {
+        for(int j=0; j<y; j++){
             m[i][j] = n[i][j];
         }
     }
 
     //Bubble sort，ASCII由大而小
-    for (int d = 0; d < x; d++) {
-        for (int e = d + 1; e < x; e++) {
-            if (int(m[d][0]) < int(m[e][0])) {
+    for(int d=0; d<x; d++){
+        for(int e=d+1; e<x; e++){
+            if(int(m[d][0]) < int(m[e][0])){
                 char* temp = m[d];
                 m[d] = m[e];
                 m[e] = temp;
@@ -66,21 +66,21 @@ int main() {
     }
     
     //輸出
-    cout << endl;
-    for(int i=0;i < x; i++){
-        for(int j=0;j < y; j++){
+    cout<< endl;
+    for(int i=0; i<x; i++){
+        for(int j=0; j<y; j++){
             printf("%c", m[i][j]);
         }     
-        cout << endl;
+        cout<< endl;
     }
 
     //釋放記憶體
-    for(int i = 0; i < x; i++){
+    for(int i=0; i<x; i++){
         delete [] n[i];
         delete [] n;
     }
-    for (int i = 0; i < x; i++) {
+    for(int i=0; i<x; i++){
         free(m[i]);
-        free(m);
     }
+    free(m);
 }
