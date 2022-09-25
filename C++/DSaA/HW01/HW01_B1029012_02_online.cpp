@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int x = 0;
-    cout<<"x: ";//字串數量限制
+    cout<<"輸入x: ";//字串數量限制
     cin>>x;
     
     //輸入名字
@@ -57,7 +57,7 @@ int main()
     for(int i=0; i<x; i++){
         int o = 0;
         for(int j=0; j<y; j++){
-            if((isspace(n[i][j])==8)&&(o==0)){
+            if((isspace(n[i][j])==8192)&&(o==0)){
                 space[i]=j;
                 o++;
             }
@@ -91,7 +91,4 @@ int main()
         delete [] n[i];
     }
     delete [] n;
-    
-	cin.get();
-    //system("pause");
 }
