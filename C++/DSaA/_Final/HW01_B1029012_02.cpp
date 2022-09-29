@@ -62,8 +62,8 @@ int main()
                 o++;
             }
         }
-        cout << endl;
     }
+    cout << endl;
     
     //找出最大前段
     int ls = space[0];
@@ -80,7 +80,7 @@ int main()
         for(int j=1; j<=(space[ls_p]-space[i]); j++){
             cout<<" ";
         }
-        for(int j=0; j<y; j++){
+        for(int j=0; j<len[i].length(); j++){
             printf("%c", n[i][j]);
         }
         cout<<endl;

@@ -17,7 +17,8 @@
         "system_error": "cpp",
         "xlocale": "cpp",
         "array": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "cstdlib": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "python.pythonPath": "D:\\python\\python.exe"
