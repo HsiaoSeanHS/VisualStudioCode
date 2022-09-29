@@ -50,7 +50,7 @@ int main() {
 
     //Bubble sort，ASCII由大而小
     for(int d=0; d<x; d++){
-        for(int e=d+1; e<x; e++){
+        for(int e=d+1; e<x-d; e++){
             if(int(m[d][0]) < int(m[e][0])){
             		char* temp = m[d];
                 	m[d] = m[e];
