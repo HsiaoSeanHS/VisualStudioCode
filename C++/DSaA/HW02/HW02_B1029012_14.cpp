@@ -6,11 +6,14 @@
 
 using namespace std;
 
-//Add Function (Program 1.35)
-void Add(int** a,int** b,int** c,int m,int n){
+//Mux Function (Program 1.35)
+void Mux(int** a,int** b,int** c,int m,int n,int p){
     for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            c[i][j] += a[i][j] * b[i][j];
+        for(int j=0;j<p;j++){
+            c[i][j]=0;
+            for(int k=0;k<n;k++){
+                c[i][j] += a[i][k] * b[k][j];
+            }
         }
     }
 }
@@ -23,6 +26,7 @@ int main(){
     
     for(int n_num=1;n_num<=30;n_num++){ //run 100,200, ...,3000.
         int n = n_num*100;
+        int p = n;
         
         //Array
         int **a = new int*[m];
@@ -43,7 +47,7 @@ int main(){
         
         //Time
         std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
-        Add(a,b,c,m,n);
+        Mux(a,b,c,m,n,p);
         std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
         cout << std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count() << endl;
 
