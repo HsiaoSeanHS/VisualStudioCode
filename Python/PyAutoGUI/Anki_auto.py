@@ -60,7 +60,7 @@ if Anki != 0:
                         pyautogui.click(Easy_center.x, Easy_center.y)
                         print(x, "Easy Left1d")
                 else: 
-                    if random.random() >= 0.7:
+                    if random.random() <= 0.7:
                         pyautogui.click(Easy_center.x, Easy_center.y)
                         print(x, "Easy Left10min&no1d")
                     else:
