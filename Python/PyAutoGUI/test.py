@@ -10,7 +10,7 @@ import time
 import win32com.client
 
 pyautogui.PAUSE = 0.5 
-print(random.randint(0,1))
+print(random.random())
 # if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
 #     os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 #     time.sleep(10)
