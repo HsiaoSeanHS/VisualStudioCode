@@ -192,3 +192,5 @@ for index in list:
     else:
         print("Anki open fail")
 driver.quit()
+pyautogui.hotkey('alt', 'f4')
+print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
