@@ -193,4 +193,5 @@ for index in list:
         print("Anki open fail")
 driver.quit()
 pyautogui.hotkey('alt', 'f4')
+os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
