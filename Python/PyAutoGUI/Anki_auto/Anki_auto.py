@@ -63,13 +63,13 @@ if Anki != 0:
                 else: 
                     if random.random() <= 0.7:
                         pyautogui.click(Easy_center.x, Easy_center.y)
-                        print(x, "Easy Left10min&no1d")
+                        print(x, "Easy rand") #Left10min&no1d
                     else:
                         pyautogui.click(Good_center.x, Good_center.y)
                         print(x, "Good rand")
             else: 
                 pyautogui.click(Easy_center.x, Easy_center.y)
-                print(x, "Easy no10min")
+                print(x, "Easy no10min") #impossible
             pyautogui.press('space')
             time.sleep(random.randint(50,60))
             CheckAnki()
