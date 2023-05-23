@@ -18,8 +18,7 @@ import win32con
 #     else: os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 #     time.sleep(3)
 
-if win32gui.FindWindow(None, "Add") == 0:
-    os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
+if win32gui.FindWindow(None, "Add") == 0 and win32gui.FindWindow(None, "User 1 - Anki") != 0: os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 os.system("cls")
 service = Service(executable_path = "geckodriver")
 driver = webdriver.Firefox(service = service)
@@ -33,7 +32,7 @@ index = words.readline().replace('\n','') #去掉換行
 # 	# print(index)
 # 	index = words.readline().replace('\n','') #去掉換行
 # words.close()
-with open('Anki_web/pending.txt','r') as words:
+with open('Anki_web/pending.txt','r+') as words:
     temp = words.read()
     list = temp.split('\n')
 for index in list:
@@ -54,7 +53,14 @@ for index in list:
     search_bar.send_keys(index)
     search_button.submit()
 
-    content = driver.find_element(By.CSS_SELECTOR, "div.def-block.ddef_block").text
+    Have_content = True
+    try: driver.find_element(By.CSS_SELECTOR, "div.def-block.ddef_block")
+    except: Have_content = False
+    if Have_content: content = driver.find_element(By.CSS_SELECTOR, "div.def-block.ddef_block").text
+    else: 
+        print('"' + index +'" is wrong.')
+        os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
+        break
     # while '\n' not in content:
     # content.splitlines()
     # for i in content:
@@ -109,16 +115,17 @@ for index in list:
     # print(Cloze_A, Cloze_B, Cloze_C)
     pyautogui.PAUSE = 0.5
     if win32gui.FindWindow(None, "Add") == 0:
-        os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
-        os.system("cls")
+        if win32gui.FindWindow(None, "User 1 - Anki") != 0: os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
         os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
         time.sleep(10)
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.AppActivate("User 1 - Anki")
     Anki = win32gui.FindWindow(None, "User 1 - Anki")
+    os.system("cls")
     if Anki != 0:
         Add_home_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/Add_home.png', confidence=0.9)
-        if Add_home_location is not None:
+        New_Learn_Due_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/New_Learn_Due.png', confidence=0.9)
+        if Add_home_location and New_Learn_Due_location is not None:
             Add_home_center = pyautogui.center(Add_home_location)
             pyautogui.click(Add_home_center.x, Add_home_center.y)
             English_Deck_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/English_Deck.png', confidence=0.9)
@@ -192,6 +199,7 @@ for index in list:
     else:
         print("Anki open fail")
 driver.quit()
-pyautogui.hotkey('alt', 'f4')
-os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
+if win32gui.FindWindow(None, "Add") != 0:
+    pyautogui.hotkey('alt', 'f4')
+    os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
