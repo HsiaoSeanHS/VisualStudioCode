@@ -47,6 +47,8 @@ if Anki != 0:
             Easy_center = pyautogui.center(Easy_location)
             Lower10min_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/10min.png', confidence=0.9)
             aDay_location = pyautogui.locateOnScreen('screenshots/1d.png', confidence=0.9)
+            if x < 10: print("  ", end = '')
+            elif x < 100: print(" ", end = '')
             if Lower10min_location is not None:
                 Lower10min_center = pyautogui.center(Lower10min_location)
                 if Lower10min_center.x >= 1600: 
