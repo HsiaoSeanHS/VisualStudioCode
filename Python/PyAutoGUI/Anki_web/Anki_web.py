@@ -23,6 +23,7 @@ os.system("cls")
 service = Service(executable_path = "geckodriver")
 driver = webdriver.Firefox(service = service)
 # driver.maximize_window()
+# driver = webdriver.Firefox()
 driver.set_window_position(0, 0)
 driver.set_window_size(1284, 1044)
 
@@ -32,7 +33,7 @@ index = words.readline().replace('\n','') #去掉換行
 # 	# print(index)
 # 	index = words.readline().replace('\n','') #去掉換行
 # words.close()
-with open('Anki_web/pending.txt','r+') as words:
+with open('Anki_web/pending.txt','r') as words:
     temp = words.read()
     list = temp.split('\n')
 for index in list:
@@ -200,6 +201,6 @@ for index in list:
         print("Anki open fail")
 driver.quit()
 if win32gui.FindWindow(None, "Add") != 0:
-    pyautogui.hotkey('alt', 'f4')
+    # pyautogui.hotkey('alt', 'f4')
     os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
