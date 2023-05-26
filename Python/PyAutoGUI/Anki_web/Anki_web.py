@@ -79,16 +79,29 @@ for index in list:
     # if dontknow == '\n': print("_")
     # print(dontknow, type(dontknow))
     # if right_mid_bracket != -1: content = content[right_mid_bracket+2:] 
+
     OfNoUse = True
     content = content[content.find("\n") + 1:] 
-    try: driver.find_element(By.CSS_SELECTOR, "span.epp-xref.dxref")
+    # print(content)
+    try: 
+        driver.find_element(By.CSS_SELECTOR, "span.def-info.ddef-info")
+        # print(len(driver.find_element(By.CSS_SELECTOR, "span.def-info.ddef-info").text))
+        if len(driver.find_element(By.CSS_SELECTOR, "span.def-info.ddef-info").text) == 0: OfNoUse = False
     except: OfNoUse = False
     if OfNoUse: content = content[content.find("\n") + 1:] #無用資訊
-    try: driver.find_element(By.CSS_SELECTOR, "span.def-info.ddef-info.gc.dgc")
-    except: OfNoUse = False
-    if OfNoUse: content = content[content.find("\n") + 1:] #無用資訊
+    # try: driver.find_element(By.CSS_SELECTOR, "span.epp-xref.dxref")
+    # except: OfNoUse = False
+    # if OfNoUse: content = content[content.find("\n") + 1:] #無用資訊
+    # try: driver.find_element(By.CSS_SELECTOR, "span.def-info.ddef-info.gc.dgc")
+    # except: OfNoUse = False
+    # if OfNoUse: content = content[content.find("\n") + 1:] #無用資訊
+
+    # OfUse = True
+    # while OfUse is True:
+    #     try: driver.find_element(By.CSS_SELECTOR, "div.def.ddef_d.db")
+
     count = 0; start = 0 #content.find('\n') + 1  # Find the position of the second '\n'
-    print(content)
+    # print(content)
     while count >= 0:
         n = content.find("\n",start)
         if n == -1: break
@@ -100,13 +113,13 @@ for index in list:
     # part_of_speech = part_of_speech.title()
     # print(part_of_speech)
     content = part_of_speech + ".\n" + content
-    print(content)
+    # print(content)
 
     phoneme = driver.find_element(By.CSS_SELECTOR, "span.us.dpron-i span.ipa.dipa.lpr-2.lpl-1").text
-    print(phoneme)
+    # print(phoneme)
 
     Source = driver.current_url
-    print(Source)
+    # print(Source)
 
     #Cloze
 
@@ -203,4 +216,5 @@ driver.quit()
 if win32gui.FindWindow(None, "Add") != 0:
     # pyautogui.hotkey('alt', 'f4')
     os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
+os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
