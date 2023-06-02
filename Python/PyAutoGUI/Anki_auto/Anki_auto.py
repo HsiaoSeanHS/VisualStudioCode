@@ -80,6 +80,7 @@ if Anki != 0:
                 Sync_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/Sync.png', confidence=0.9)
                 Sync_center = pyautogui.center(Sync_location)
                 pyautogui.click(Sync_center.x, Sync_center.y)
+                time.sleep(15)
                 break
     else:
         finished_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/finished.png', confidence=0.9)
