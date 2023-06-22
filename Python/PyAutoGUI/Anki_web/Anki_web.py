@@ -27,18 +27,19 @@ driver = webdriver.Firefox(service = service)
 driver.set_window_position(0, 0)
 driver.set_window_size(1284, 1044)
 
-words = open('Anki_web/pending.txt', 'r')
+words = open('pending.txt', 'r')
 index = words.readline().replace('\n','') #去掉換行
 # while index:
 # 	# print(index)
 # 	index = words.readline().replace('\n','') #去掉換行
 # words.close()
-with open('Anki_web/pending.txt','r') as words:
+with open('pending.txt','r') as words:
     temp = words.read()
     list = temp.split('\n')
 for index in list:
     driver.get("https://dictionary.cambridge.org/zht/")
     driver.implicitly_wait(5)
+    # time.sleep(5)
     # index = "fine"
 
     #search_bar = driver.find_element(By.ID, "APjFqb")
@@ -53,6 +54,7 @@ for index in list:
     search_button = driver.find_element(By.CLASS_NAME, "bo.iwc.iwc-40.hao.lb0.cdo-search-button.lp-0")
     search_bar.send_keys(index)
     search_button.submit()
+    # time.sleep(2)
 
     Have_content = True
     try: driver.find_element(By.CSS_SELECTOR, "div.def-block.ddef_block")
@@ -115,7 +117,11 @@ for index in list:
     content = part_of_speech + ".\n" + content
     # print(content)
 
-    phoneme = driver.find_element(By.CSS_SELECTOR, "span.us.dpron-i span.ipa.dipa.lpr-2.lpl-1").text
+    try: 
+        phoneme = driver.find_element(By.CSS_SELECTOR, "span.us.dpron-i span.ipa.dipa.lpr-2.lpl-1").text
+    except:
+        try: phoneme = driver.find_element(By.CSS_SELECTOR, "span.ipa.dipa.lpr-2.lpl-1").text
+        except Exception as e: print(e)
     # print(phoneme)
 
     Source = driver.current_url
@@ -216,5 +222,5 @@ driver.quit()
 if win32gui.FindWindow(None, "Add") != 0:
     # pyautogui.hotkey('alt', 'f4')
     os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
-os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
+    os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))

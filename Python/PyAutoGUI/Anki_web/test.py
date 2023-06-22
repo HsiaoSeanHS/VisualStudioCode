@@ -84,8 +84,8 @@ previous = ""
 #     print(index)
 
 # index = "consecutive"
-service = Service(executable_path = "geckodriver")
-driver = webdriver.Firefox(service = service)
+# service = Service(executable_path = "geckodriver")
+# driver = webdriver.Firefox(service = service)
 # driver.get("https://dictionary.cambridge.org/zht/")
 # driver.implicitly_wait(5)
 # search_bar = driver.find_element(By.ID, "searchword")
@@ -115,5 +115,8 @@ driver = webdriver.Firefox(service = service)
 
 # print(win32gui.FindWindow(None, "User 1 - Anki"))
 
-driver.set_window_position(0, 0)
-driver.set_window_size(1284, 1044)
+# driver.set_window_position(0, 0)
+# driver.set_window_size(1284, 1044)
+
+f = open('pending.txt', 'r')
+print(f)
