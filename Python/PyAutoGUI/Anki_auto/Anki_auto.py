@@ -45,40 +45,44 @@ shell.AppActivate("User 1 - Anki")
 Anki = win32gui.FindWindow(None, "User 1 - Anki")
 x = 0
 if Anki != 0:
-    AllDone = 0
     while True:
+        AllDone = 0
         English_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/English.png', confidence=0.9)
         if English_location is not None: #1
             English_center = pyautogui.center(English_location)
             pyautogui.click(English_center.x, English_center.y)
             AllDone = StudyNow(AllDone)
+        A0_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/A0.png', confidence=0.9)
+        if A0_location is not None: #2
+            A0_center = pyautogui.center(A0_location)
+            pyautogui.click(A0_center.x, A0_center.y)
+            AllDone = StudyNow(AllDone)
         A2_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/A2.png', confidence=0.9)
-        if A2_location is not None: #2
+        if A2_location is not None: #3
             A2_center = pyautogui.center(A2_location)
             pyautogui.click(A2_center.x, A2_center.y)
             AllDone = StudyNow(AllDone)
         B_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/B.png', confidence=0.9)
-        if B_location is not None: #3
+        if B_location is not None: #4
             B_center = pyautogui.center(B_location)
             pyautogui.click(B_center.x, B_center.y)
             AllDone = StudyNow(AllDone)
         C_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/C.png', confidence=0.9)
-        if C_location is not None: #4
+        if C_location is not None: #5
             C_center = pyautogui.center(C_location)
             pyautogui.click(C_center.x, C_center.y)
             AllDone = StudyNow(AllDone)
         D_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/D.png', confidence=0.9)
-        if D_location is not None: #5
+        if D_location is not None: #6
             D_center = pyautogui.center(D_location)
             pyautogui.click(D_center.x, D_center.y)
             AllDone = StudyNow(AllDone)
-        if AllDone == 5:
-            print("Review has done")
-            Sync_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/Sync.png', confidence=0.9)
-            Sync_center = pyautogui.center(Sync_location)
-            pyautogui.click(Sync_center.x, Sync_center.y)
-            time.sleep(15)
-            break
+        KK_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/KK.png', confidence=0.9)
+        if KK_location is not None: #7
+            KK_center = pyautogui.center(KK_location)
+            pyautogui.click(KK_center.x, KK_center.y)
+            AllDone = StudyNow(AllDone)
+        
         ShowAnswer_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/ShowAnswer.png', confidence=1)
         pyautogui.press('space')
         CheckAnki()
@@ -127,6 +131,13 @@ if Anki != 0:
                         Decks_center = pyautogui.center(Decks_location)
                         pyautogui.click(Decks_center.x, Decks_center.y)
                     break
+        elif AllDone == 7:
+            print("Review has done")
+            Sync_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/Sync.png', confidence=0.9)
+            Sync_center = pyautogui.center(Sync_location)
+            pyautogui.click(Sync_center.x, Sync_center.y)
+            time.sleep(15)
+            break
         else:
             # finished_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/finished.png', confidence=0.9)
             # if finished_location is not None: print("Review has done")
