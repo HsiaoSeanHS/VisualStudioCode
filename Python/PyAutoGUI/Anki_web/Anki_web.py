@@ -27,13 +27,13 @@ driver = webdriver.Firefox(service = service)
 driver.set_window_position(0, 0)
 driver.set_window_size(1284, 1044)
 
-words = open('pending.txt', 'r')
+words = open('D:\Backup\VisualStudioCode\Python\PyAutoGUI\Anki_web\pending.txt', 'r')
 index = words.readline().replace('\n','') #去掉換行
 # while index:
 # 	# print(index)
 # 	index = words.readline().replace('\n','') #去掉換行
 # words.close()
-with open('pending.txt','r') as words:
+with open('D:\Backup\VisualStudioCode\Python\PyAutoGUI\Anki_web\pending.txt','r') as words:
     temp = words.read()
     list = temp.split('\n')
 for index in list:
@@ -62,7 +62,7 @@ for index in list:
     if Have_content: content = driver.find_element(By.CSS_SELECTOR, "div.def-block.ddef_block").text
     else: 
         print('"' + index +'" is wrong.')
-        os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
+        # os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
         break
     # while '\n' not in content:
     # content.splitlines()
