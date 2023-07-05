@@ -42,6 +42,10 @@ os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 while True:
     Decks_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/Decks.png', confidence=0.9)
     if Decks_location is not None:
+        OK_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/OK.png', confidence=0.9)
+        if OK_location is not None:
+            OK_center = pyautogui.center(OK_location)
+            pyautogui.click(OK_center.x, OK_center.y)
         Syncing_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/Syncing.png', confidence=0.9)
         if Syncing_location is None:
             break
