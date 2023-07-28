@@ -1,6 +1,6 @@
 
 import os, time
-import pyautogui, pyperclip
+import pyautogui, pyperclip, keyboard
 from PIL import Image, ImageGrab
 import win32gui, win32com.client
 from selenium import webdriver
@@ -205,7 +205,9 @@ for index in list:
         pyautogui.hotkey('alt', 'tab')
         pyautogui.hotkey('ctrl', 'v')
         pyautogui.press('tab', presses=2)
-        pyautogui.typewrite(Source)
+        # pyautogui.typewrite(Source)
+        keyboard.wait('enter')
+        keyboard.send('backspace')
         pyautogui.press('tab', presses=6)
         pyautogui.typewrite(Cloze_A)
         pyautogui.press('tab', presses=2)
