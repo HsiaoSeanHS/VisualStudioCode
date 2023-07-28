@@ -5243,3 +5243,361 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
 1688560467434	Marionette	INFO	Stopped listening on port 50919
 Dynamically enable window occlusion 1
+1689518944711	geckodriver	INFO	Listening on 127.0.0.1:64793
+1689518947764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64794" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile5e88Zm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689518948272	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689518948365	Marionette	INFO	Listening on port 64803
+WebDriver BiDi listening on ws://127.0.0.1:64794
+Read port: 64803
+1689518948558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64794/devtools/browser/467f5a0b-c835-48dc-bbae-be2cfb177c9a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 199 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 176 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5136, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5136, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5136, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+[Parent 5136, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6623 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4813 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 5642 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2662 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 361 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1806 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2925 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2140 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2223 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689519226525	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5136, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1689519233060	Marionette	INFO	Stopped listening on port 64803
+Dynamically enable window occlusion 1
+1689519258535	geckodriver	INFO	Listening on 127.0.0.1:65530
+1689519261566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65531" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileH1faid"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689519261956	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689519262041	Marionette	INFO	Listening on port 49156
+WebDriver BiDi listening on ws://127.0.0.1:65531
+Read port: 49156
+1689519262209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65531/devtools/browser/8bf8e1b0-7fbd-4083-bbfa-dfba2d85dcf5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 5157 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 20124, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2123 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689519317550	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689519317607	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 316 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689519320889	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1689519322540	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 20124, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+[Parent 20124, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 936 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 20124, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Parent 20124, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 3849 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1391 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 3633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1619 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4933 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 5127 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4137 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 3237 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 20124, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1502 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 5755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1689520010059	Marionette	INFO	Stopped listening on port 49156
+Dynamically enable window occlusion 1
+1689520035288	geckodriver	INFO	Listening on 127.0.0.1:57358
+1689520038333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57359" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileMUnRmq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689520038700	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689520038787	Marionette	INFO	Listening on port 57367
+WebDriver BiDi listening on ws://127.0.0.1:57359
+Read port: 57367
+1689520038961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57359/devtools/browser/9e8b9f2b-9b49-4ead-8d16-deb1a0073995
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 7774 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689520053311	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 11856, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+[Parent 11856, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+[Parent 11856, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6041 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 618: TypeError: MutationObserver.observe: Argument 1 is not an object.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1941 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6329 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 207 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1670 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689520126635	Marionette	INFO	Stopped listening on port 57367
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1689520145628	geckodriver	INFO	Listening on 127.0.0.1:50084
+1689520148660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50085" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileXKkQOc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689520149034	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689520149119	Marionette	INFO	Listening on port 50094
+WebDriver BiDi listening on ws://127.0.0.1:50085
+Read port: 50094
+1689520149296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50085/devtools/browser/d1d9278b-b47c-48e9-ab13-da6d19a97656
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 933 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1689520239044	Marionette	INFO	Stopped listening on port 50094
+Dynamically enable window occlusion 1
+1689520246691	geckodriver	INFO	Listening on 127.0.0.1:50471
+1689520249707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50472" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofiletH0BJX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689520250099	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689520250182	Marionette	INFO	Listening on port 50480
+WebDriver BiDi listening on ws://127.0.0.1:50472
+Read port: 50480
+1689520250359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50472/devtools/browser/f259bd85-d17c-4268-a4b0-91de5d994ed8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1208 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 10208, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+[Parent 10208, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2299 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689520407769	Marionette	INFO	Stopped listening on port 50480
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1689520429827	geckodriver	INFO	Listening on 127.0.0.1:60452
+1689520432850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile73A8Jj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689520433225	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689520433309	Marionette	INFO	Listening on port 60462
+WebDriver BiDi listening on ws://127.0.0.1:60453
+Read port: 60462
+1689520433484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60453/devtools/browser/df623133-da51-45df-8541-d63a9ba4578e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 6264, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 2936 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4894 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 6264, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4079 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 5613 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 3210 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 7288 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 7076 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 6360 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 4267 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1495 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JuxDZWINa7otHwaisCqyMSq7iwQyCfHq_LhnNSU0b2U.js line 2 > eval line 1158 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1689520799533	Marionette	INFO	Stopped listening on port 60462
+Dynamically enable window occlusion 1
+1690560235497	geckodriver	INFO	Listening on 127.0.0.1:52539
+1690560238527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52540" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileCaGWQD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690560238859	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690560238946	Marionette	INFO	Listening on port 52548
+WebDriver BiDi listening on ws://127.0.0.1:52540
+Read port: 52548
+1690560239175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52540/devtools/browser/0d08c942-eead-48b1-8e94-78984dd5ea92
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+1690560252259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1690560252459	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1690560252533	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 17860, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1690560301788	Marionette	INFO	Stopped listening on port 52548
+Dynamically enable window occlusion 1
+1690560484160	geckodriver	INFO	Listening on 127.0.0.1:57181
+1690560487213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileXxzveu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690560487547	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690560487617	Marionette	INFO	Listening on port 57190
+WebDriver BiDi listening on ws://127.0.0.1:57182
+Read port: 57190
+1690560487782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57182/devtools/browser/acb77303-c7e6-44cd-889d-bcea371369cb
+1690560493565	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 11768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+[Parent 11768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1690560632740	Marionette	INFO	Stopped listening on port 57190
+Dynamically enable window occlusion 1
+1690560678716	geckodriver	INFO	Listening on 127.0.0.1:59884
+1690560681727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile51GVzk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690560682079	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690560682163	Marionette	INFO	Listening on port 59896
+WebDriver BiDi listening on ws://127.0.0.1:59885
+Read port: 59896
+1690560682333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59885/devtools/browser/28f52df2-2eda-4f02-b116-76a7ab633d65
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1690560692396	Marionette	INFO	Stopped listening on port 59896
+Dynamically enable window occlusion 1
+1690560747427	geckodriver	INFO	Listening on 127.0.0.1:60208
+1690560750452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileDuU6nv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690560750805	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690560750876	Marionette	INFO	Listening on port 60219
+WebDriver BiDi listening on ws://127.0.0.1:60209
+Read port: 60219
+1690560751042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60209/devtools/browser/2b98de44-2970-4f06-aa50-c7e26f0a1489
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+1690560759015	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 21768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 21768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 21768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 21768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+1690562095580	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+1690562380265	Marionette	INFO	Stopped listening on port 60219
+Dynamically enable window occlusion 1
