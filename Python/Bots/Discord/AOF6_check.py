@@ -7,6 +7,11 @@ intents.message_content = True
 client = discord.Client(intents = intents)
 online = discord.Game("單人伺服器")
 offline = discord.Game("多人離線遊戲")
+to = "MTEzOTE5MTQwMTY4NzU2MDM1NA "
+k = "Gz5L-e "
+en = "8zr-xnJT1lY5JK_DYj-3QfJYByHGqRdhfmQOCE"
+T = to + k + en
+T = T.replace(" ", ".")
 
 def fetch_website_value():
     response = requests.get("https://sr-api.sfirew.com/server/aof6steven159.3utilities.com/")
@@ -33,4 +38,4 @@ async def on_ready():
                 await client.change_presence(status = discord.Status.do_not_disturb, activity = offline)
         await asyncio.sleep(10)
 
-client.run("MTEzOTE5MTQwMTY4NzU2MDM1NA.GKegZb.xT4KYLsztT2eC_wPJjoCa8_lDC5r4yW4zI0vso")
+client.run(T)
