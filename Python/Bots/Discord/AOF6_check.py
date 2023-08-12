@@ -44,12 +44,9 @@ async def on_ready():
                         await channel.send("伺服器復活了")
                         broken = False
                     await client.change_presence(status = discord.Status.online, activity = online)
-                        # print(1)
                 else:
                     broken = True
                     await client.change_presence(status = discord.Status.do_not_disturb, activity = offline)
-                    # print(0)
-                # print("True")
         except: 
             broken = True
             await client.change_presence(status = discord.Status.idle, activity = outline)
