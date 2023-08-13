@@ -1,6 +1,7 @@
 import discord
 import asyncio
 import aiohttp
+import keep_alive
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -60,4 +61,5 @@ async def on_ready():
             continue
         await asyncio.sleep(10)
 
+keep_alive.keep_alive()
 client.run(T)
