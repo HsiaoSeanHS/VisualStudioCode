@@ -6,15 +6,15 @@ import keep_alive
 intents = discord.Intents.default()
 intents.messages = True
 client = discord.Client(intents = intents)
-online = discord.Game("單人伺服器")
-offline = discord.Game("多人離線遊戲")
-outline = discord.Game("無修正的Bug")
-to = "MTEzOTE5MTQwMTY4NzU2MDM1NA "
-k = "Gz5L-e "
-en = "8zr-xnJT1lY5JK_DYj-3QfJYByHGqRdhfmQOCE"
+online = discord.Game("Develop mode")
+offline = discord.Game("Solo")
+outline = discord.Game("Breaking bad")
+to = "MTE0MDE4Mjc3MTMyMzYzNzg4MQ "
+k = "GdxTDu "
+en = "abrw_q9sf75guaIqzq_U4Eqg_YlzgM_Mh5_Y7E"
 T = to + k + en
 T = T.replace(" ", ".")
-Server_IP = "aof6steven159.3utilities.com"
+Server_IP = "mc.sidestore.io"
 
 
 async def fetch_website_value():
