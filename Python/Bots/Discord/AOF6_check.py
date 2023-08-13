@@ -42,7 +42,7 @@ async def on_ready():
                 if online_value is True:
                     if broken is True:
                         channel =  await client.get_channel(1139192448342569010)
-                        await channel.send("伺服器復活了")
+                        await channel.send(Server_IP + "復活了")
                         broken = False
                     await client.change_presence(status = discord.Status.online, activity = online)
                 else:
