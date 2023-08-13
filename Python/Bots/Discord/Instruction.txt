@@ -1,0 +1,22 @@
+# Node.js 請看這篇教學
+https://reurl.cc/xDozj1
+
+# Python 原文教學
+https://reurl.cc/5gV0WV
+
+
+==========================
+
+# 加在最開始模組導入
+import keep_alive
+
+# 加在 bot.run(token) 前一行
+keep_alive.keep_alive()
+
+# Render環境變數加上
+PYTHON_VERSION 3.10.11
+
+# 啟動指令為
+python botname.py
+
+==========================
