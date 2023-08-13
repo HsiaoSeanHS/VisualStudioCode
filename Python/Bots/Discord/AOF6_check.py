@@ -31,7 +31,7 @@ async def fetch_website_value():
 @client.event
 async def on_ready():
     print("The service is starting.")
-    broken = False #Variables with condition cannot be Global variable
+    broken = False # Variables with condition cannot be Global variable
     fail_times = 0
     while True:
         try:
