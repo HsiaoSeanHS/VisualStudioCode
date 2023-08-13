@@ -9,6 +9,9 @@ https://reurl.cc/5gV0WV
 # Invite bot into Server
 OAuth2 -> In-App -> bot -> URL Generator -> bot -> Copy
 
+# Change Root Directory
+Python/Bots/Discord
+
 # 加在最開始模組導入
 import keep_alive
 
