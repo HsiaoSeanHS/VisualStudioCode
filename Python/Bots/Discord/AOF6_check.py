@@ -4,7 +4,7 @@ import aiohttp
 import keep_alive
 
 intents = discord.Intents.default()
-intents.message_content = True
+intents.messages = True
 client = discord.Client(intents = intents)
 online = discord.Game("單人伺服器")
 offline = discord.Game("多人離線遊戲")
