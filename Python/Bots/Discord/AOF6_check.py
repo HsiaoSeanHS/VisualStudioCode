@@ -53,10 +53,10 @@ async def on_ready():
             await client.change_presence(status = discord.Status.idle, activity = outline)
             fail_times += 1
             print("失敗了", end = ""), print(fail_times, end = ""), print("次")
-            if fail_times > 10:
-                print("嘗試次數已超過10次")
-                break
-            await asyncio.sleep(1)
+            # if fail_times > 10:
+            #     print("嘗試次數已超過10次")
+            #     break
+            await asyncio.sleep(60)
             continue
         await asyncio.sleep(10)
 
