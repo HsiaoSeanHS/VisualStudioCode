@@ -51,6 +51,8 @@ async def on_ready():
         except: 
             broken = True
             await client.change_presence(status = discord.Status.idle, activity = outline)
+            channel =  await client.get_channel(1139192448342569010)
+            await channel.send(Server_IP + "機器人掛了")
             fail_times += 1
             print("失敗了", end = ""), print(fail_times, end = ""), print("次")
             # if fail_times > 10:
