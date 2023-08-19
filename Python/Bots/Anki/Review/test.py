@@ -1,5 +1,6 @@
 import os
 import PIL
+import cv2
 #import subprocess
 import pyautogui
 import random
@@ -39,5 +40,8 @@ pyautogui.PAUSE = 0.5
 # pyautogui.moveTo(50, 15, duration = 0)
 # aDay_location = pyautogui.locateOnScreen('screenshots/1d.png', confidence=0.9)
 # print(aDay_location)
-StudyNow_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_auto/screenshots/StudyNow.png', confidence=0.9)
+# SN = cv2.imread(r"screenshots/StudyNow.png")
+# print(os.path.dirname(os.path.abspath(__file__)))
+abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
+StudyNow_location = pyautogui.locateOnScreen(abs + "StudyNow.png", confidence=0.9)
 print(StudyNow_location)
