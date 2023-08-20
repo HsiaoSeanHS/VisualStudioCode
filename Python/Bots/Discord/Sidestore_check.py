@@ -1,3 +1,4 @@
+import os, time
 import discord
 import asyncio
 import aiohttp
@@ -15,7 +16,7 @@ en = "abrw_q9sf75guaIqzq_U4Eqg_YlzgM_Mh5_Y7E"
 T = to + k + en
 T = T.replace(" ", ".")
 Server_IP = "mc.sidestore.io"
-
+Status = ["Online ", "Offline ", "Error "]
 
 async def fetch_website_value():
     async with aiohttp.ClientSession() as session:
@@ -30,7 +31,9 @@ async def fetch_website_value():
 
 @client.event
 async def on_ready():
+    os.system("cls")
     print("The service is starting.")
+    Previous = "Unknown "
     broken = False # Variables with condition cannot be Global variable
     fail_times = 0
     while True:
@@ -45,9 +48,15 @@ async def on_ready():
                         await channel.send(Server_IP + "復活了")
                         broken = False
                     await client.change_presence(status = discord.Status.online, activity = online)
+                    if Previous != Status[0]: 
+                        print(Status[0] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                        Previous = Status[0]
                 else:
                     broken = True
                     await client.change_presence(status = discord.Status.do_not_disturb, activity = offline)
+                    if Previous != Status[1]: 
+                        print(Status[1] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                        Previous = Status[1]
         except: 
             broken = True
             await client.change_presence(status = discord.Status.idle, activity = outline)
@@ -55,12 +64,15 @@ async def on_ready():
             await channel.send(Server_IP + "機器人掛了")
             fail_times += 1
             print("失敗了", end = ""), print(fail_times, end = ""), print("次")
+            if Previous != Status[2]: 
+                print(Status[2] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                Previous = Status[2]
             # if fail_times > 10:
             #     print("嘗試次數已超過10次")
             #     break
-            await asyncio.sleep(60)
+            await asyncio.sleep(50)
             continue
-        await asyncio.sleep(10)
+        finally: await asyncio.sleep(10)
 
 keep_alive.keep_alive()
 client.run(T)
