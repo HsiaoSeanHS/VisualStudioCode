@@ -39,8 +39,9 @@ driver = webdriver.Firefox(service = service, options = options)
 
 os.system("cls")
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/temp."
-driver.get("https://ani.gamer.com.tw/"); driver.implicitly_wait(5)
-driver.find_element(By.CSS_SELECTOR, "li.head").click(); driver.implicitly_wait(5)
+driver.get("https://user.gamer.com.tw/login.php")
+driver.implicitly_wait(5)
+# driver.find_element(By.CSS_SELECTOR, "li.head").click(); driver.implicitly_wait(5)
 
 reCAPTCHA = driver.find_element(By.CLASS_NAME, "g-recaptcha")
 frames = reCAPTCHA.find_elements(By.TAG_NAME, "iframe")
@@ -103,5 +104,9 @@ while True:
     except:
         delay()
         continue
-
-print("Done.")
+driver.implicitly_wait(5)
+driver.find_element(By.ID, "signin-btn").click() # 每日簽到
+try: driver.find_element(By.CSS_SELECTOR, 'button.popup-dailybox__btn').click() # 領取雙倍巴幣
+except: print("已簽到過")
+time.sleep(10)
+driver.quit()
