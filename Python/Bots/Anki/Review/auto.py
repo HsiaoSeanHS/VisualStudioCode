@@ -148,6 +148,6 @@ if Anki != 0:
 else: print("Anki open fail")
 
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
-if x == 7: time.sleep(30)
+if x == 0: time.sleep(30)
 else: time.sleep(1800)
 sys.exit()
