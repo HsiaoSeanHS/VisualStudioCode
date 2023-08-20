@@ -7,6 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 
+def rand(last):
+    return random.randint(0, last)
 def delay():
     time.sleep(random.randint(2,3))
 def u(n, l): 
@@ -16,11 +18,24 @@ def t(x, l, n):
     n += 1
     return x + u(n, l) + str(n), n
 
-# profile = webdriver.FirefoxProfile()
+Mozilla = "Mozilla/5.0 "
+System = ["(Windows NT 10.0; Win64; x64) ",
+          "(X11; Linux x86_64) ",
+          "(Macintosh; Intel Mac OS X 10_15_7) ",
+          "(Macintosh; Intel Mac OS X 13_1) "]
+AppleWebKit = ["AppleWebKit/537.36 (KHTML, like Gecko) ",
+               "AppleWebKit/605.1.15 (KHTML, like Gecko) ",
+               "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 "]
+Chrome = ["Chrome/108.0.0.0 ",
+          "Chrome/109.0.0.0 "]
+Safari = ["Safari/537.36",
+          "Safari/605.1.15"]
+Ar = rand(2)
+Agent = Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
 options=Options()
-# options.set_preference("general.useragent.override", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36")
+options.set_preference("general.useragent.override", Agent)
 service = Service(executable_path = "geckodriver")
-driver = webdriver.Firefox(service = service) # , options = options
+driver = webdriver.Firefox(service = service, options = options)
 
 os.system("cls")
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/temp."
