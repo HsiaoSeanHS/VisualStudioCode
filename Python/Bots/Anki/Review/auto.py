@@ -46,10 +46,10 @@ while True:
 shell = win32com.client.Dispatch("WScript.Shell")
 shell.AppActivate("User 1 - Anki")
 Anki = win32gui.FindWindow(None, "User 1 - Anki")
-x = AllDone = 0
+x = 0
 if Anki != 0:
     while True:
-        # AllDone = 0
+        AllDone = 0
         English_location = pyautogui.locateOnScreen(abs + 'English.png', confidence=0.9)
         if English_location is not None: #1
             English_center = pyautogui.center(English_location)
@@ -148,6 +148,6 @@ if Anki != 0:
 else: print("Anki open fail")
 
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
-if AllDone != 7: time.sleep(30)
+if x == 7: time.sleep(30)
 else: time.sleep(1800)
 sys.exit()
