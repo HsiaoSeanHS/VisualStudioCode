@@ -1,11 +1,11 @@
 
 import os, time, random, pydub, urllib
+import speech_recognition as sr
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
-import speech_recognition as sr
 
 def delay():
     time.sleep(random.randint(2,3))
@@ -24,9 +24,9 @@ driver = webdriver.Firefox(service = service) # , options = options
 
 os.system("cls")
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/temp."
-driver.get("https://user.gamer.com.tw/login.php")
+driver.get("https://ani.gamer.com.tw/"); driver.implicitly_wait(5)
+driver.find_element(By.CSS_SELECTOR, "li.head").click(); driver.implicitly_wait(5)
 
-driver.implicitly_wait(5)
 reCAPTCHA = driver.find_element(By.CLASS_NAME, "g-recaptcha")
 frames = reCAPTCHA.find_elements(By.TAG_NAME, "iframe")
 driver.switch_to.frame(frames[0])
@@ -57,6 +57,7 @@ try:
             delay()
             driver.find_element(By.ID, "audio-response").send_keys(key.lower())
             driver.find_element(By.ID, "audio-response").send_keys(Keys.ENTER)
+            os.remove(abs + "mp3"); os.remove(abs + "wav")
             break
         except:
             try: 
