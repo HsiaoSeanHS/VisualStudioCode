@@ -16,7 +16,7 @@ en = "abrw_q9sf75guaIqzq_U4Eqg_YlzgM_Mh5_Y7E"
 T = to + k + en
 T = T.replace(" ", ".")
 Server_IP = "mc.sidestore.io"
-Status = ["Online ", "Offline ", "Error "]
+Status = ["online ", "offline ", "outline "]
 
 async def fetch_website_value():
     async with aiohttp.ClientSession() as session:
@@ -33,43 +33,31 @@ async def fetch_website_value():
 async def on_ready():
     os.system("cls")
     print("The service is starting.")
+    channel = client.get_channel(1139192448342569010)
     Previous = "Unknown "
-    broken = False # Variables with condition cannot be Global variable
-    fail_times = 0
     while True:
         try:
             website_data = await fetch_website_value()
             if website_data and "online" in website_data:
-                fail_times = 0
                 online_value = website_data["online"]
                 if online_value is True:
-                    if broken is True:
-                        channel =  await client.get_channel(1139192448342569010)
-                        await channel.send(Server_IP + "復活了")
-                        broken = False
                     await client.change_presence(status = discord.Status.online, activity = online)
                     if Previous != Status[0]: 
-                        print(Status[0] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                        if Previous == Status[1]: await channel.send(Server_IP + "復活了")
+                        print(Status[0].capitalize() + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
                         Previous = Status[0]
                 else:
-                    broken = True
                     await client.change_presence(status = discord.Status.do_not_disturb, activity = offline)
                     if Previous != Status[1]: 
-                        print(Status[1] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                        print(Status[1].capitalize() + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
                         Previous = Status[1]
         except: 
             broken = True
             await client.change_presence(status = discord.Status.idle, activity = outline)
-            channel =  await client.get_channel(1139192448342569010)
             await channel.send(Server_IP + "機器人掛了")
-            fail_times += 1
-            print("失敗了", end = ""), print(fail_times, end = ""), print("次")
-            if Previous != Status[2]: 
-                print(Status[2] + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
-                Previous = Status[2]
-            # if fail_times > 10:
-            #     print("嘗試次數已超過10次")
-            #     break
+            if Previous != Status[-1]: 
+                print(Status[-1].capitalize() + time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
+                Previous = Status[-1]
             await asyncio.sleep(50)
             continue
         finally: await asyncio.sleep(10)
