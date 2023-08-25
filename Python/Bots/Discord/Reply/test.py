@@ -144,7 +144,7 @@ for line in lines:
     if line.find("Huggingface") == 0:
         passwd = line.split(" ")[1]
         print(passwd)
-        break
+        # break
 
 # import sys
 # sys.path.insert(0, '../')
