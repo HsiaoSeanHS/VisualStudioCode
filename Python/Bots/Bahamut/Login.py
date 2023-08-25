@@ -75,7 +75,7 @@ try:
             os.remove(abs + "mp3"); os.remove(abs + "wav")
             print("Temp file deleted.") # The last step in anticipation.
         except: print("Temp sound files are not exist.")
-    except: print("Cannot doing audio test."); driver.quit(); exit()
+    except: print("Cannot doing audio test.")
 except: print("No reCAPTCHA")
 
 driver.switch_to.default_content()
