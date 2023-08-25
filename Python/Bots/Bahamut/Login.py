@@ -86,9 +86,10 @@ while True:
     try:
         driver.find_element(By.LINK_TEXT, "登入").click()
         human
-        driver.find_element(By.ID, "signin-btn").click() # 每日簽到
+        driver.find_element(By.ID, "signin-btn")
         break
     except: continue
+driver.find_element(By.ID, "signin-btn").click() # 每日簽到
 try: driver.find_element(By.CSS_SELECTOR, 'button.popup-dailybox__btn').click() # 領取雙倍巴幣
 except: print("已簽到")
 time.sleep(15)
