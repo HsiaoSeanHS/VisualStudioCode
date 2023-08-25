@@ -33,10 +33,10 @@ Chrome = ["Chrome/108.0.0.0 ",
 Safari = ["Safari/537.36",
           "Safari/605.1.15"]
 id, B = AcPw("Bahamut")
-id = id[:11]; p = a = ""; n = 0; Ar = rand(2)
+id = id[:11]; p = a = ""; n = 0
 for l in id[5:9]: p, n = t(p, l, n)
 for l in B[::2]: a, n = t(a, l, n)
-R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a
+R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a; Ar = rand(2)
 Agent = Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
 options = Options()
 options.set_preference("general.useragent.override", Agent)
