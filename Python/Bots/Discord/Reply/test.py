@@ -140,7 +140,7 @@ for line in lines:
     line = line.replace("\n", "")
     if line.find("Email") == 0:
         email = line.split(" ")[1]
-        print(email)
+        print(email[5:9])
     if line.find("Huggingface") == 0:
         passwd = line.split(" ")[1]
         print(passwd)
