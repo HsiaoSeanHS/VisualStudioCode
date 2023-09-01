@@ -18,22 +18,23 @@ import win32con
 #     else: os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 #     time.sleep(3)
 
+abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 if win32gui.FindWindow(None, "Add") == 0 and win32gui.FindWindow(None, "User 1 - Anki") != 0: os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 os.system("cls")
-service = Service(executable_path = "geckodriver")
-driver = webdriver.Firefox(service = service)
+# service = Service(executable_path = "geckodriver")
+driver = webdriver.Firefox()
 # driver.maximize_window()
 # driver = webdriver.Firefox()
 driver.set_window_position(0, 0)
 driver.set_window_size(1284, 1044)
 
-words = open('D:\Backup\VisualStudioCode\Python\PyAutoGUI\Anki_web\pending.txt', 'r')
+words = open(abs + '/pending.txt', 'r')
 index = words.readline().replace('\n','') #去掉換行
 # while index:
 # 	# print(index)
 # 	index = words.readline().replace('\n','') #去掉換行
 # words.close()
-with open('D:\Backup\VisualStudioCode\Python\PyAutoGUI\Anki_web\pending.txt','r') as words:
+with open(abs + '/pending.txt','r') as words:
     temp = words.read()
     list = temp.split('\n')
 for index in list:
@@ -136,28 +137,28 @@ for index in list:
     pyautogui.PAUSE = 0.5
     if win32gui.FindWindow(None, "Add") == 0:
         if win32gui.FindWindow(None, "User 1 - Anki") != 0: os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
-        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        os.system("start C:/Users/Public/Desktop/Anki.lnk")
         time.sleep(10)
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.AppActivate("User 1 - Anki")
     Anki = win32gui.FindWindow(None, "User 1 - Anki")
     os.system("cls")
     if Anki != 0:
-        Add_home_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/Add_home.png', confidence=0.9)
-        New_Learn_Due_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/New_Learn_Due.png', confidence=0.9)
+        Add_home_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_home.png', confidence=0.9)
+        New_Learn_Due_location = pyautogui.locateOnScreen(abs + '/screenshots/New_Learn_Due.png', confidence=0.9)
         if Add_home_location and New_Learn_Due_location is not None:
             Add_home_center = pyautogui.center(Add_home_location)
             pyautogui.click(Add_home_center.x, Add_home_center.y)
-            English_Deck_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/English_Deck.png', confidence=0.9)
+            English_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/English_Deck.png', confidence=0.9)
             if English_Deck_location is not None:
                 English_Deck_center = pyautogui.center(English_Deck_location)
                 pyautogui.click(English_Deck_center.x, English_Deck_center.y)
                 pyautogui.typewrite(['a', 'd', 'd'])
-            Choose_Deck_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/Choose_Deck.png', confidence=0.9)
+            Choose_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/Choose_Deck.png', confidence=0.9)
             if Choose_Deck_location is not None:
                 Choose_Deck_center = pyautogui.center(Choose_Deck_location)
                 pyautogui.click(Choose_Deck_center.x, Choose_Deck_center.y)
-            Index_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/Index.png', confidence=0.9)
+            Index_location = pyautogui.locateOnScreen(abs + '/screenshots/Index.png', confidence=0.9)
         if Index_location is not None:
             Index_center = pyautogui.center(Index_location)
             pyautogui.click(Index_center.x, Index_center.y)
@@ -214,7 +215,7 @@ for index in list:
         pyautogui.typewrite(Cloze_B)
         pyautogui.press('tab', presses=2)
         pyautogui.typewrite(Cloze_C)
-        Add_main_location = pyautogui.locateOnScreen('D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/screenshots/Add_main.png', confidence=0.9)
+        Add_main_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_main.png', confidence=0.9)
         if Add_main_location is not None:
             Add_main_center = pyautogui.center(Add_main_location)
             pyautogui.click(Add_main_center.x, Add_main_center.y)
@@ -224,5 +225,5 @@ driver.quit()
 if win32gui.FindWindow(None, "Add") != 0:
     # pyautogui.hotkey('alt', 'f4')
     os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
-    os.system("start D:/Backup/VisualStudioCode/Python/PyAutoGUI/Anki_web/pending.txt")
+    os.system("start D:/Backup/VisualStudioCode/Python/Bots/Anki/Add-Word/pending.txt")
 print(time.strftime("%Y-%m-%d %I:%M:%S %p", time.localtime()))
