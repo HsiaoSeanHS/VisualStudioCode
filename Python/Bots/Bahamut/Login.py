@@ -40,8 +40,7 @@ R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a; Ar = rand(2)
 Agent = Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
 options = Options()
 options.set_preference("general.useragent.override", Agent)
-service = Service(executable_path = "geckodriver")
-driver = webdriver.Firefox(service = service, options = options)
+driver = webdriver.Firefox(options = options)
 
 os.system("cls")
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/temp."
@@ -90,7 +89,29 @@ while True:
         break
     except: continue
 driver.find_element(By.ID, "signin-btn").click() # 每日簽到
-try: driver.find_element(By.CSS_SELECTOR, 'button.popup-dailybox__btn').click() # 領取雙倍巴幣
-except: print("已簽到")
-time.sleep(15)
-driver.quit()
+try: 
+    driver.find_element(By.CSS_SELECTOR, "button.popup-dailybox__btn").click() # 領取雙倍巴幣
+    human
+    driver.find_element(By.CSS_SELECTOR, "button.btn.btn-insert.btn-primary").click() #是否觀看廣告?
+    while True:
+        try: 
+            driver.find_element(By.ID, 'ad_position_box')
+            if driver.find_element(By.PARTIAL_LINK_TEXT, "每日額度有限請下次再來嘗試") is not None: 
+                print("沒有看廣告額度")
+                break
+            while True:
+                if driver.find_element(By.LINK_TEXT, "0 秒後可獲獎勵") is None:
+                    print("廣告還沒播完")
+                    time.sleep(5)
+                else: 
+                    driver.find_element(By.ID, "close_button_icon").click()
+                    print("廣告看完了")
+                    break
+            print("成功簽到")
+        except: 
+            print("等候廣告載入")
+            time.sleep(7)
+except: 
+    print("已簽到")
+    time.sleep(15)
+# driver.quit()
