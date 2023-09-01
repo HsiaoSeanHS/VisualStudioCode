@@ -49,7 +49,7 @@ while True:
 # t = 0
 # start = time.time()
 # time.sleep(1)
-
+Situation = ""
 while True:
     pyautogui.keyUp('right')
     pyautogui.keyUp('left')
@@ -57,107 +57,30 @@ while True:
     if Head_location is not None:
         Head_center = pyautogui.center(Head_location)
     else:
-        print("can't find head")
+        if Situation != "Head": 
+            print("can't find head")
+            Situation = "Head"
         continue
         # break
-    Exit_location = pyautogui.locateOnScreen(ABS + 'Exit.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
+    Exit_location = pyautogui.locateOnScreen(ABS + 'Exit.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,480))
     if Exit_location is not None:
         Exit_center = pyautogui.center(Exit_location)
-        # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
-        # try: Head_center = pyautogui.center(Head_location)
-        # except: pass
         distanceE = Exit_center.x - Head_center.x
-        distanceC = 1440 - Exit_center.x
-        
-        if abs(distanceE) < 50: time.sleep(2); continue
+        # distanceC = 1440 - Exit_center.x
+        if abs(distanceE) < 30: time.sleep(2); continue
         if distanceE > 0: #turn right
-            # now = time.time()
-            # if (now-start) > 30
             print("Turn right")
-            # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
-            # try: Head_center = pyautogui.center(Head_location)
-            # except: pass
-            # while True:
-            #     pyautogui.keyDown('right')
-                
-            #     if Exit_center.x > Head_center.x: break
-                # time.sleep(0.1)
-                # if Head_center.x > 1870:
-                #     print(0)
-                #     break
             move("right", distanceE)
-            # pyautogui.keyUp('right')
-            # if dL: break
-            # print("Right done")
-            # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9)
-            # Head_center = pyautogui.center(Head_location)
-
-
-
-            # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
-            # try: Head_center = pyautogui.center(Head_location)
-            # except: pass
-            # while True:
-                
-            #     pyautogui.keyDown('left')
-                
-            #     if Head_center.x > 1440: break
-                # time.sleep(0.1)
-            # distanceC = 1440 - Exit_center.x
-            # move("left", distanceC)
-            # pyautogui.keyUp('left')
-            # if dL: break
-            # print("Right back")
-
-
-
         elif distanceE < 0: #turn left
             print("Turn left")
             move("left", distanceE)
-            # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
-            # try: Head_center = pyautogui.center(Head_location)
-            # except: pass
-            # while True:
-                
-            #     pyautogui.keyDown('left')
-                
-            #     if Exit_center.x < Head_center.x: break
-                # time.sleep(0.1)
-                # if Head_center.x < 50:
-                #     print(0)
-                #     break
-            # if dL: break
-            # print("Left done")
-            
-            # pyautogui.keyUp('left')
-            # Head_location = pyautogui.locateOnScreen(ABS + 'head.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
-            # try: Head_center = pyautogui.center(Head_location)
-            # except: pass
-            # while True:
-                
-                
-            #     pyautogui.keyDown('right')
-                
-            #     if Head_center.x < 1440: break
-            #     # time.sleep(0.1)
-            # pyautogui.keyUp('right')
-            # move("right", distanceC)
-            # if dL: break
-            # print("Left back")
-            # pyautogui.mouseUp(button='left')
-            # if Exit_location is None: 
-            #     # pyautogui.mouseUp(button='left')
-            #     # print("fail")
-            #     break
-            # continue
-        # Exit_location = pyautogui.locateOnScreen(ABS + 'Exit.jpg', confidence=0.9)
-        # while Exit_location is None:
-        #     time.sleep(0.5)
         else: 
             # time.sleep(1)
             continue # No need to move
     else:
-        print("can't detect Exit")
+        if Situation != "Exit": 
+            print("can't detect Exit")
+            Situation = "Exit"
         continue
         # if t > 0: break
         # t += 1
