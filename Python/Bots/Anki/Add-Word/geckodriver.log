@@ -6976,3 +6976,1014 @@ Dynamically enable window occlusion 1
 [GPU 35128, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
 [Parent 30752, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 [GPU 35128, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693413360645	geckodriver	INFO	Listening on 127.0.0.1:59095
+1693413363691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59096" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile2YHpOR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693413364079	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693413364163	Marionette	INFO	Listening on port 59106
+WebDriver BiDi listening on ws://127.0.0.1:59096
+Read port: 59106
+1693413364331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59096/devtools/browser/c41719a2-b086-434e-9c98-af9d9ba06a0a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.26261073032805615%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.26261073032805615%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.26261073032805615%22}:14:3642
+
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693413374550	Marionette	INFO	Stopped listening on port 59106
+JavaScript warning: https://ads.as.criteo.com/delivery/r/afr.php?u=%7Cg5UYfAEZZkSKyO8GVl9ORTI8LzUtT%2BZ6ULGCOZbooCI%3D%7C&c1=zhOks3zwNR3WrnLxo3t3vdzDgg3YQGRk4vXTzEckPuuBR512onzEZyVN0ikvFdkttmRPDiXdFKtuZ8cW9jTgOf_uKjCRUg7Kysa3eZ2zGhyWySWvzkLB6RZn4IATytD18Ids5VWzINraYd3TtwT3j661yscuKuhwVt9eHKkpgPAefz4S9R_31gtjwAiJ4TkDYXZocdmvj0BO8ibO6aJX8I-YImBgJg1NmHPPHQqkO7cqvtuTu98_dZlV6kqo0GEp96J5ZbG1TnB8KXQuIbR9e1cWlxgTMfkL05H54Rx8sO-2jwsh49zMm9MGY1bIvdJCk0ZkNBFCy8Z--fp1nre07uQZ6fY_k2kvlY98vhkSnZ66DKLuAeGHYN6Ubb5KHWrHKD_b8jFhzKsEP8ly95lUi1zFUzXKn4o7O9U7dlGXHae1ajz8OisCf6e__yezyv6eXDNJrcblJG-dXPyp4kACG1kJ1qIyuk_k2Jov6OSXiX7miRnHpUmdAh98AaoIk1mTDRbuKIy5YXGFtqig5HbaKuozhjqDMYMSVNd5aWyXJ2Q8MSm2V8C6n1CroOK3WL1OWPb-wTliAdn9Y4Iiq0EuDigMAAcYd7c0eLV2WLEuX9HKr54LdxtANOO6aBVfpybOnDE6cdtATEYTtDKl8fXljzh2NvfjmbXwOnEprYpWuwSt93_a5XC6Plah8dfZUCsS1rRfR_Scos0czbrfBiae74upnVzBKofO, line 42: Script terminated by timeout at:
+v@https://ads.as.criteo.com/delivery/r/afr.php?u=%7Cg5UYfAEZZkSKyO8GVl9ORTI8LzUtT%2BZ6ULGCOZbooCI%3D%7C&c1=zhOks3zwNR3WrnLxo3t3vdzDgg3YQGRk4vXTzEckPuuBR512onzEZyVN0ikvFdkttmRPDiXdFKtuZ8cW9jTgOf_uKjCRUg7Kysa3eZ2zGhyWySWvzkLB6RZn4IATytD18Ids5VWzINraYd3TtwT3j661yscuKuhwVt9eHKkpgPAefz4S9R_31gtjwAiJ4TkDYXZocdmvj0BO8ibO6aJX8I-YImBgJg1NmHPPHQqkO7cqvtuTu98_dZlV6kqo0GEp96J5ZbG1TnB8KXQuIbR9e1cWlxgTMfkL05H54Rx8sO-2jwsh49zMm9MGY1bIvdJCk0ZkNBFCy8Z--fp1nre07uQZ6fY_k2kvlY98vhkSnZ66DKLuAeGHYN6Ubb5KHWrHKD_b8jFhzKsEP8ly95lUi1zFUzXKn4o7O9U7dlGXHae1ajz8OisCf6e__yezyv6eXDNJrcblJG-dXPyp4kACG1kJ1qIyuk_k2Jov6OSXiX7miRnHpUmdAh98AaoIk1mTDRbuKIy5YXGFtqig5HbaKuozhjqDMYMSVNd5aWyXJ2Q8MSm2V8C6n1CroOK3WL1OWPb-wTliAdn9Y4Iiq0EuDigMAAcYd7c0eLV2WLEuX9HKr54LdxtANOO6aBVfpybOnDE6cdtATEYTtDKl8fXljzh2NvfjmbXwOnEprYpWuwSt93_a5XC6Plah8dfZUCsS1rRfR_Scos0czbrfBiae74upnVzBKofO:42:1398
+
+JavaScript warning: https://dictionary.cambridge.org/zht/translator.js?version=5.0.333, line 170: Script terminated by timeout at:
+x/<@https://dictionary.cambridge.org/zht/translator.js?version=5.0.333:170:410
+
+Dynamically enable window occlusion 1
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13112, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693413418246	geckodriver	INFO	Listening on 127.0.0.1:59363
+1693413421289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileRL878D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693413421678	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693413421758	Marionette	INFO	Listening on port 59373
+WebDriver BiDi listening on ws://127.0.0.1:59364
+Read port: 59373
+1693413421936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59364/devtools/browser/ba037b1b-9c33-47cd-94c9-b590b394213e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.06764542305277366%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.06764542305277366%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.06764542305277366%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9684
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9856
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:13959
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10889
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22f5LSU19nMU1vODR0ZEd5THM1TWdFa0NxV25uTHpIVm5PbHpJJTJGVW1FJTJCQW9ZYW9tNWQlMkZjTGNSN3prMmRXTkNYOFU1Z3hkeXdpajJWN0NGdHR4MVNYZXg4VURMSjFqRXpsR2tNRTFUZFFPaDBIRmdXNWFsalVMUTY4VHlxQnlLaEhXTUk4c2ZRcnNjUjlLeXU2ZGR1MjA1cjNkc3F2Q3psOWV6Zmhwb1BsZkFVbVhwMHJ1Tk1Lb0Fmc0ZHVERSakVZa3ZUUkU%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.45986668351653504%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22f5LSU19nMU1vODR0ZEd5THM1TWdFa0NxV25uTHpIVm5PbHpJJTJGVW1FJTJCQW9ZYW9tNWQlMkZjTGNSN3prMmRXTkNYOFU1Z3hkeXdpajJWN0NGdHR4MVNYZXg4VURMSjFqRXpsR2tNRTFUZFFPaDBIRmdXNWFsalVMUTY4VHlxQnlLaEhXTUk4c2ZRcnNjUjlLeXU2ZGR1MjA1cjNkc3F2Q3psOWV6Zmhwb1BsZkFVbVhwMHJ1Tk1Lb0Fmc0ZHVERSakVZa3ZUUkU%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.45986668351653504%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22f5LSU19nMU1vODR0ZEd5THM1TWdFa0NxV25uTHpIVm5PbHpJJTJGVW1FJTJCQW9ZYW9tNWQlMkZjTGNSN3prMmRXTkNYOFU1Z3hkeXdpajJWN0NGdHR4MVNYZXg4VURMSjFqRXpsR2tNRTFUZFFPaDBIRmdXNWFsalVMUTY4VHlxQnlLaEhXTUk4c2ZRcnNjUjlLeXU2ZGR1MjA1cjNkc3F2Q3psOWV6Zmhwb1BsZkFVbVhwMHJ1Tk1Lb0Fmc0ZHVERSakVZa3ZUUkU%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.45986668351653504%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JMqhpF9nMU1vODR0ZEd5THM1TWdFa0NxV25nZFFLU3drc0FubUxvbkpYWmd0VlNOZXdXamRwSUFNZlZKTEV1bmoxVWp4TmdQRGR3Vmx4WCUyRjYySkFsdWlNWHdjR2JlVWFhbVVXWEJwS2NiNEhaSzVncUZSN2liekRiTUFWNTlzMlk1dTZNZ0RJMG1hczRMMzRjSDJBV0p2Ym9Vc3VZRmhCMTliNTZBUkVCM2x6elB6JTJGbHZlJTJGMW93Q2FmbDBtaHFFR29USEw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.41185129502289386%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JMqhpF9nMU1vODR0ZEd5THM1TWdFa0NxV25nZFFLU3drc0FubUxvbkpYWmd0VlNOZXdXamRwSUFNZlZKTEV1bmoxVWp4TmdQRGR3Vmx4WCUyRjYySkFsdWlNWHdjR2JlVWFhbVVXWEJwS2NiNEhaSzVncUZSN2liekRiTUFWNTlzMlk1dTZNZ0RJMG1hczRMMzRjSDJBV0p2Ym9Vc3VZRmhCMTliNTZBUkVCM2x6elB6JTJGbHZlJTJGMW93Q2FmbDBtaHFFR29USEw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.41185129502289386%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JMqhpF9nMU1vODR0ZEd5THM1TWdFa0NxV25nZFFLU3drc0FubUxvbkpYWmd0VlNOZXdXamRwSUFNZlZKTEV1bmoxVWp4TmdQRGR3Vmx4WCUyRjYySkFsdWlNWHdjR2JlVWFhbVVXWEJwS2NiNEhaSzVncUZSN2liekRiTUFWNTlzMlk1dTZNZ0RJMG1hczRMMzRjSDJBV0p2Ym9Vc3VZRmhCMTliNTZBUkVCM2x6elB6JTJGbHZlJTJGMW93Q2FmbDBtaHFFR29USEw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.41185129502289386%22}:14:3642
+
+1693413507462	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://cdn-client.medium.com/lite/static/js/6036.d874957b.js, line 2: Script terminated by timeout at:
+m@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:663279
+m@https://cdn-client.medium.com/lite/static/js/main.724486c7.js:2:756882
+B@https://cdn-client.medium.com/lite/static/js/main.724486c7.js:2:239689
+xa@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:496306
+ws@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:553477
+yc@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:542421
+hc@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:542349
+dc@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:542210
+tc@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:537328
+E@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:564344
+j@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:564875
+24889/d/<@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:650835
+d@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:650950
+a@https://cdn-client.medium.com/lite/static/js/6036.d874957b.js:2:649930
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22peRrXF9nMU1vODR0ZEd5THM1TWdFa0NxV25vJTJGeUVCZTd3JTJGOEtBYmh5JTJCemVhd1JWNElzUkh6a3IwVjBqTXRrQUgxQyUyQm5GWTRpVXFOUnVub3lSMzVZcHg0TXVXdkFNWU9VeFg1UjNPZHJlMzFzMExteiUyRklzMHZRTTZMNGJMWnMlMkIwSHlPMTQ3M1NJd2t6RHBGQVNwSWFWNmRJRlhLakZxdVh4dnQ0N2J5S0RMR2R5elh0aDZTbVQlMkZZaUF4VSUyQmF5OFVDJTJCRjY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8689955238130428%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22peRrXF9nMU1vODR0ZEd5THM1TWdFa0NxV25vJTJGeUVCZTd3JTJGOEtBYmh5JTJCemVhd1JWNElzUkh6a3IwVjBqTXRrQUgxQyUyQm5GWTRpVXFOUnVub3lSMzVZcHg0TXVXdkFNWU9VeFg1UjNPZHJlMzFzMExteiUyRklzMHZRTTZMNGJMWnMlMkIwSHlPMTQ3M1NJd2t6RHBGQVNwSWFWNmRJRlhLakZxdVh4dnQ0N2J5S0RMR2R5elh0aDZTbVQlMkZZaUF4VSUyQmF5OFVDJTJCRjY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8689955238130428%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22peRrXF9nMU1vODR0ZEd5THM1TWdFa0NxV25vJTJGeUVCZTd3JTJGOEtBYmh5JTJCemVhd1JWNElzUkh6a3IwVjBqTXRrQUgxQyUyQm5GWTRpVXFOUnVub3lSMzVZcHg0TXVXdkFNWU9VeFg1UjNPZHJlMzFzMExteiUyRklzMHZRTTZMNGJMWnMlMkIwSHlPMTQ3M1NJd2t6RHBGQVNwSWFWNmRJRlhLakZxdVh4dnQ0N2J5S0RMR2R5elh0aDZTbVQlMkZZaUF4VSUyQmF5OFVDJTJCRjY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8689955238130428%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OGlFmV9nMU1vODR0ZEd5THM1TWdFa0NxV252akU0cXJxMWtpY1pkaVE0emlLQ3VPWE1HWkpPYTBSb3hNTlJvaEJHTlhNVVNyZUwyakxGeGZxUnRTREtxQ3ZqenFMb09LcVNXWiUyQlRPNWZQY1dnanVkWWZMVmcwVVN4eGhjNnVPYlkxR1dnbGNuMiUyRkFyZkRTaEJkQjhzb0FUNG5UJTJCN1NmdEEzbWRONlRJb2swQW00eGJKdFBqQ1JMUWpDSVJYcmpnZ2E0Mjk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.578183489641806%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OGlFmV9nMU1vODR0ZEd5THM1TWdFa0NxV252akU0cXJxMWtpY1pkaVE0emlLQ3VPWE1HWkpPYTBSb3hNTlJvaEJHTlhNVVNyZUwyakxGeGZxUnRTREtxQ3ZqenFMb09LcVNXWiUyQlRPNWZQY1dnanVkWWZMVmcwVVN4eGhjNnVPYlkxR1dnbGNuMiUyRkFyZkRTaEJkQjhzb0FUNG5UJTJCN1NmdEEzbWRONlRJb2swQW00eGJKdFBqQ1JMUWpDSVJYcmpnZ2E0Mjk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.578183489641806%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OGlFmV9nMU1vODR0ZEd5THM1TWdFa0NxV252akU0cXJxMWtpY1pkaVE0emlLQ3VPWE1HWkpPYTBSb3hNTlJvaEJHTlhNVVNyZUwyakxGeGZxUnRTREtxQ3ZqenFMb09LcVNXWiUyQlRPNWZQY1dnanVkWWZMVmcwVVN4eGhjNnVPYlkxR1dnbGNuMiUyRkFyZkRTaEJkQjhzb0FUNG5UJTJCN1NmdEEzbWRONlRJb2swQW00eGJKdFBqQ1JMUWpDSVJYcmpnZ2E0Mjk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.578183489641806%22}:14:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9856
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:11065
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22alDc3F9nMU1vODR0ZEd5THM1TWdFa0NxV25uTUhmc0FUd050ZzBFb0ozQVEybWpRMWNOeVIlMkIlMkYlMkJSQ0lEdG9DcHM2dTBqTkNzUVdrNDdmaGtSZTJudXBpTVRhTGozMHZuTlglMkJ0Zm5ZbTkxU0hFNVUwd3ElMkZ1b0hrOG9Gb3FxbHAxSFZySmxOS1NWN0g1VXVxbXBTQnl2JTJGNE1pZmdWNTJwVXlna1JXeWNER29nUGF6NW4lMkZ0ZmxQemdDNFFpOUtuOE15RUpKcw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.24636605931492328%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22alDc3F9nMU1vODR0ZEd5THM1TWdFa0NxV25uTUhmc0FUd050ZzBFb0ozQVEybWpRMWNOeVIlMkIlMkYlMkJSQ0lEdG9DcHM2dTBqTkNzUVdrNDdmaGtSZTJudXBpTVRhTGozMHZuTlglMkJ0Zm5ZbTkxU0hFNVUwd3ElMkZ1b0hrOG9Gb3FxbHAxSFZySmxOS1NWN0g1VXVxbXBTQnl2JTJGNE1pZmdWNTJwVXlna1JXeWNER29nUGF6NW4lMkZ0ZmxQemdDNFFpOUtuOE15RUpKcw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.24636605931492328%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22alDc3F9nMU1vODR0ZEd5THM1TWdFa0NxV25uTUhmc0FUd050ZzBFb0ozQVEybWpRMWNOeVIlMkIlMkYlMkJSQ0lEdG9DcHM2dTBqTkNzUVdrNDdmaGtSZTJudXBpTVRhTGozMHZuTlglMkJ0Zm5ZbTkxU0hFNVUwd3ElMkZ1b0hrOG9Gb3FxbHAxSFZySmxOS1NWN0g1VXVxbXBTQnl2JTJGNE1pZmdWNTJwVXlna1JXeWNER29nUGF6NW4lMkZ0ZmxQemdDNFFpOUtuOE15RUpKcw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.24636605931492328%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fZPMvV9nMU1vODR0ZEd5THM1TWdFa0NxV25pMnhpSkFlZGFRV0pwQmpSSzFmMlZGckJ4bk1rMGJjc0hXZ084eDN6SURrZzR2dkdwQTBQWkhoeFZKR3NBT2t3VVNIVXl2JTJCdHRzRzJrJTJCaHZqZ092cHBhT1NFeTZWQ1RDZiUyQm1nVnJ0aURNOEpSQTM3dmt1ZUZwTlNEM0h0dUxOcUljMUpRbHdUcDVJSGI4NCUyRlYzZWl0ZVgxb2VTeThLdGdzaElrNERkZU5GYg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6257084500253366%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fZPMvV9nMU1vODR0ZEd5THM1TWdFa0NxV25pMnhpSkFlZGFRV0pwQmpSSzFmMlZGckJ4bk1rMGJjc0hXZ084eDN6SURrZzR2dkdwQTBQWkhoeFZKR3NBT2t3VVNIVXl2JTJCdHRzRzJrJTJCaHZqZ092cHBhT1NFeTZWQ1RDZiUyQm1nVnJ0aURNOEpSQTM3dmt1ZUZwTlNEM0h0dUxOcUljMUpRbHdUcDVJSGI4NCUyRlYzZWl0ZVgxb2VTeThLdGdzaElrNERkZU5GYg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6257084500253366%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fZPMvV9nMU1vODR0ZEd5THM1TWdFa0NxV25pMnhpSkFlZGFRV0pwQmpSSzFmMlZGckJ4bk1rMGJjc0hXZ084eDN6SURrZzR2dkdwQTBQWkhoeFZKR3NBT2t3VVNIVXl2JTJCdHRzRzJrJTJCaHZqZ092cHBhT1NFeTZWQ1RDZiUyQm1nVnJ0aURNOEpSQTM3dmt1ZUZwTlNEM0h0dUxOcUljMUpRbHdUcDVJSGI4NCUyRlYzZWl0ZVgxb2VTeThLdGdzaElrNERkZU5GYg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6257084500253366%22}:14:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+aq@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10718
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:11024
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%229mH6kV9nMU1vODR0ZEd5THM1TWdFa0NxV25nenc0eTBTOElVTVl6ZGhmUFRzYVBQc0xNcjlEbklIWm10ZGo3S2NaUkU1Ymg1dzQ5N0dxWkNQZkJ4OVJuTFVkMWNPdWxYVHpIJTJCJTJCJTJCaWZ4RW5MMHJlbFQ5WmMlMkJwR2ZqQncxVWR2YyUyRnJQYVFDYjhXVHclMkZHd1J6R3Zva1RTSFhwSE5XQ2ZmJTJGSk5NeWpGMHpNVE0zOEc2QzFJU0hmSElKaiUyQjUzenZUbE9vRWNO%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5987889180014649%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%229mH6kV9nMU1vODR0ZEd5THM1TWdFa0NxV25nenc0eTBTOElVTVl6ZGhmUFRzYVBQc0xNcjlEbklIWm10ZGo3S2NaUkU1Ymg1dzQ5N0dxWkNQZkJ4OVJuTFVkMWNPdWxYVHpIJTJCJTJCJTJCaWZ4RW5MMHJlbFQ5WmMlMkJwR2ZqQncxVWR2YyUyRnJQYVFDYjhXVHclMkZHd1J6R3Zva1RTSFhwSE5XQ2ZmJTJGSk5NeWpGMHpNVE0zOEc2QzFJU0hmSElKaiUyQjUzenZUbE9vRWNO%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5987889180014649%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%229mH6kV9nMU1vODR0ZEd5THM1TWdFa0NxV25nenc0eTBTOElVTVl6ZGhmUFRzYVBQc0xNcjlEbklIWm10ZGo3S2NaUkU1Ymg1dzQ5N0dxWkNQZkJ4OVJuTFVkMWNPdWxYVHpIJTJCJTJCJTJCaWZ4RW5MMHJlbFQ5WmMlMkJwR2ZqQncxVWR2YyUyRnJQYVFDYjhXVHclMkZHd1J6R3Zva1RTSFhwSE5XQ2ZmJTJGSk5NeWpGMHpNVE0zOEc2QzFJU0hmSElKaiUyQjUzenZUbE9vRWNO%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5987889180014649%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tYxNqF9nMU1vODR0ZEd5THM1TWdFa0NxV25zd285SjVOd1hUSVEyaXRFSVFWJTJGM2F1RWluWEl0Mm42QmZtS0ZaakRMUm1IZE93aTRHNnN4dEZGeUROeCUyQklYOERXTmhHTHlkYkt6SExiRklIbm9rMnpPTEd1MGx1MWdmcm1RVXQ3Tm1MZ015RXlDNVRNV3FUWFU4QmI5MnhHakZJZWt4eVlaS3FLZmQxOFR2amZQSHhQbEpxYkMzbnpBV1gzcWJ1VlU0NXVD%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5514326382868973%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tYxNqF9nMU1vODR0ZEd5THM1TWdFa0NxV25zd285SjVOd1hUSVEyaXRFSVFWJTJGM2F1RWluWEl0Mm42QmZtS0ZaakRMUm1IZE93aTRHNnN4dEZGeUROeCUyQklYOERXTmhHTHlkYkt6SExiRklIbm9rMnpPTEd1MGx1MWdmcm1RVXQ3Tm1MZ015RXlDNVRNV3FUWFU4QmI5MnhHakZJZWt4eVlaS3FLZmQxOFR2amZQSHhQbEpxYkMzbnpBV1gzcWJ1VlU0NXVD%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5514326382868973%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tYxNqF9nMU1vODR0ZEd5THM1TWdFa0NxV25zd285SjVOd1hUSVEyaXRFSVFWJTJGM2F1RWluWEl0Mm42QmZtS0ZaakRMUm1IZE93aTRHNnN4dEZGeUROeCUyQklYOERXTmhHTHlkYkt6SExiRklIbm9rMnpPTEd1MGx1MWdmcm1RVXQ3Tm1MZ015RXlDNVRNV3FUWFU4QmI5MnhHakZJZWt4eVlaS3FLZmQxOFR2amZQSHhQbEpxYkMzbnpBV1gzcWJ1VlU0NXVD%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5514326382868973%22}:14:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+aq@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10718
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:11024
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22yozb4F9nMU1vODR0ZEd5THM1TWdFa0NxV252VVRBcVNzOVpXTktMcGh2SkkyckpNd2dIbGlhQmFhYnZvVGllMyUyRjJQOU1oazlYTEFYOWElMkJGYVh2WTc5a3ZmTG9Eb3ZrYTBiUG5RVlNZb2I3VEJHOUZidEE1b0Z2Q0Q5QnRRUmRDMTJYWGowUkduQlhoUW1sMmpiWUdoUSUyRmxXWFdkJTJGY3ZraklLcHltN2M1cyUyQmJZYmM0R25uUVNZdktoemtibmdZUEFFMGZV%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5308309611435785%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22yozb4F9nMU1vODR0ZEd5THM1TWdFa0NxV252VVRBcVNzOVpXTktMcGh2SkkyckpNd2dIbGlhQmFhYnZvVGllMyUyRjJQOU1oazlYTEFYOWElMkJGYVh2WTc5a3ZmTG9Eb3ZrYTBiUG5RVlNZb2I3VEJHOUZidEE1b0Z2Q0Q5QnRRUmRDMTJYWGowUkduQlhoUW1sMmpiWUdoUSUyRmxXWFdkJTJGY3ZraklLcHltN2M1cyUyQmJZYmM0R25uUVNZdktoemtibmdZUEFFMGZV%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5308309611435785%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22yozb4F9nMU1vODR0ZEd5THM1TWdFa0NxV252VVRBcVNzOVpXTktMcGh2SkkyckpNd2dIbGlhQmFhYnZvVGllMyUyRjJQOU1oazlYTEFYOWElMkJGYVh2WTc5a3ZmTG9Eb3ZrYTBiUG5RVlNZb2I3VEJHOUZidEE1b0Z2Q0Q5QnRRUmRDMTJYWGowUkduQlhoUW1sMmpiWUdoUSUyRmxXWFdkJTJGY3ZraklLcHltN2M1cyUyQmJZYmM0R25uUVNZdktoemtibmdZUEFFMGZV%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5308309611435785%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22lOrMAl9nMU1vODR0ZEd5THM1TWdFa0NxV25uRUpRQmpsdWFFMyUyQkFnS3Z0QlN4U1R6cjJVMk11dTdsUUEzTTVUVWJkb05Ea1hoczg2VzVWOGJCeG9DWUpDOTlYa2RkejZNeGNGQ3lqUzhHZzE2VGh3alNpd2hMTFF1RHB2dlVDQzM5WTdFS2ZuZlZxVGtsOWlha0N4MGl4b2NVOWgyQnNKNUJuOHlxalBYNUFGcnFBRk9ZcmpRJTJGV052UDZDQml4YzRNbzdK%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2819435479757829%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22lOrMAl9nMU1vODR0ZEd5THM1TWdFa0NxV25uRUpRQmpsdWFFMyUyQkFnS3Z0QlN4U1R6cjJVMk11dTdsUUEzTTVUVWJkb05Ea1hoczg2VzVWOGJCeG9DWUpDOTlYa2RkejZNeGNGQ3lqUzhHZzE2VGh3alNpd2hMTFF1RHB2dlVDQzM5WTdFS2ZuZlZxVGtsOWlha0N4MGl4b2NVOWgyQnNKNUJuOHlxalBYNUFGcnFBRk9ZcmpRJTJGV052UDZDQml4YzRNbzdK%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2819435479757829%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22lOrMAl9nMU1vODR0ZEd5THM1TWdFa0NxV25uRUpRQmpsdWFFMyUyQkFnS3Z0QlN4U1R6cjJVMk11dTdsUUEzTTVUVWJkb05Ea1hoczg2VzVWOGJCeG9DWUpDOTlYa2RkejZNeGNGQ3lqUzhHZzE2VGh3alNpd2hMTFF1RHB2dlVDQzM5WTdFS2ZuZlZxVGtsOWlha0N4MGl4b2NVOWgyQnNKNUJuOHlxalBYNUFGcnFBRk9ZcmpRJTJGV052UDZDQml4YzRNbzdK%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2819435479757829%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 166: Script terminated by timeout at:
+h@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:166:159
+cp@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:381:512
+Uv@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:422:689
+jF/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:559:153
+aa.vk/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:509:126
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:420
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9856
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:13959
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10889
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tQhH8F9nMU1vODR0ZEd5THM1TWdFa0NxV251QUlETUxiWXVBZGMxaFNlNFl6bXppNjBUZ1B1STlOaHRWQzF0Y0c0ZGFlUWp0OExtQk5nZWlCSjVRMzBWNk9ZM3FNY3lIRSUyQm5DUFVTdlNsbkolMkJMJTJCJTJGRlM2eTk1Z3RLZlBYVndBR0k1Z1RZSXV0Z3lXMUhRWUQ4Z3RWNGl1MEEyd3QlMkJud2JTc05KYzljYlJIRmNETTNzZ2RTeDlER1hRJTJGMGpnb1JxMm5sRlA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19009326532630877%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tQhH8F9nMU1vODR0ZEd5THM1TWdFa0NxV251QUlETUxiWXVBZGMxaFNlNFl6bXppNjBUZ1B1STlOaHRWQzF0Y0c0ZGFlUWp0OExtQk5nZWlCSjVRMzBWNk9ZM3FNY3lIRSUyQm5DUFVTdlNsbkolMkJMJTJCJTJGRlM2eTk1Z3RLZlBYVndBR0k1Z1RZSXV0Z3lXMUhRWUQ4Z3RWNGl1MEEyd3QlMkJud2JTc05KYzljYlJIRmNETTNzZ2RTeDlER1hRJTJGMGpnb1JxMm5sRlA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19009326532630877%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tQhH8F9nMU1vODR0ZEd5THM1TWdFa0NxV251QUlETUxiWXVBZGMxaFNlNFl6bXppNjBUZ1B1STlOaHRWQzF0Y0c0ZGFlUWp0OExtQk5nZWlCSjVRMzBWNk9ZM3FNY3lIRSUyQm5DUFVTdlNsbkolMkJMJTJCJTJGRlM2eTk1Z3RLZlBYVndBR0k1Z1RZSXV0Z3lXMUhRWUQ4Z3RWNGl1MEEyd3QlMkJud2JTc05KYzljYlJIRmNETTNzZ2RTeDlER1hRJTJGMGpnb1JxMm5sRlA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19009326532630877%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 167: Script terminated by timeout at:
+Oa@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:167:437
+cp@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:381:519
+Uv@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:422:689
+jF/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:559:153
+aa.vk/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:509:126
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:420
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=137711&s=137812&predirect=https%3A%2F%2Fce.lijit.com%2Fmerge%3Fpid%3D58%263pid%3D&gdpr=0&gdpr_consent=, line 1: Script terminated by timeout at:
+an@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=137711&s=137812&predirect=https%3A%2F%2Fce.lijit.com%2Fmerge%3Fpid%3D58%263pid%3D&gdpr=0&gdpr_consent=:1:10548
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=137711&s=137812&predirect=https%3A%2F%2Fce.lijit.com%2Fmerge%3Fpid%3D58%263pid%3D&gdpr=0&gdpr_consent=:1:11101
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22sCGc-V9nMU1vODR0ZEd5THM1TWdFa0NxV251WmE4NDlYRzJqaWY3T3BaUGFOaWJnZW0zSnJaWTRHc2ZhanBDTE5TMWlJT0l6Zjg2akRuVDZSMEluWG5SQVhReG5wM1FkJTJCSGduWklMdmdZODFEV2RSYUwxR2tzcnlyZXZMY1gyR3RKUllWdmtGdENyZ3N6OWQ3UHY2SFpWVUh6MTVyMkdHNzZFT0NFR0J5Z1ZOaHVrME8xaTh4a0VZMVFrWTJFNGVlbVFxdg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0899003855733036%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22sCGc-V9nMU1vODR0ZEd5THM1TWdFa0NxV251WmE4NDlYRzJqaWY3T3BaUGFOaWJnZW0zSnJaWTRHc2ZhanBDTE5TMWlJT0l6Zjg2akRuVDZSMEluWG5SQVhReG5wM1FkJTJCSGduWklMdmdZODFEV2RSYUwxR2tzcnlyZXZMY1gyR3RKUllWdmtGdENyZ3N6OWQ3UHY2SFpWVUh6MTVyMkdHNzZFT0NFR0J5Z1ZOaHVrME8xaTh4a0VZMVFrWTJFNGVlbVFxdg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0899003855733036%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22sCGc-V9nMU1vODR0ZEd5THM1TWdFa0NxV251WmE4NDlYRzJqaWY3T3BaUGFOaWJnZW0zSnJaWTRHc2ZhanBDTE5TMWlJT0l6Zjg2akRuVDZSMEluWG5SQVhReG5wM1FkJTJCSGduWklMdmdZODFEV2RSYUwxR2tzcnlyZXZMY1gyR3RKUllWdmtGdENyZ3N6OWQ3UHY2SFpWVUh6MTVyMkdHNzZFT0NFR0J5Z1ZOaHVrME8xaTh4a0VZMVFrWTJFNGVlbVFxdg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0899003855733036%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 2169 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 311: Script terminated by timeout at:
+Vk@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:311:670
+kl@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:315:214
+bw@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:423:381
+aw.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:427:266
+aw.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:425:207
+Uv@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:422:712
+jF/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:559:153
+aa.vk/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:509:126
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:420
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JQPhW19nMU1vODR0ZEd5THM1TWdFa0NxV25rWXRmWHJveEUwJTJCSEt3YU90bTFJY0lvUE44V29vSzUyR01nSmM3SllCS3owY1RXSkxpRGdCc3JKVXFaZDRpQ2xseEwyMk84N01WQWhVY1VGd3ZtQTF4MWFhWTFOWSUyQmJDV0RkWDd3YnpPN2RuQXROUiUyRkNNN1NRYm1zYWlSbno0aEczRlg1cmVhcXp1ZlhWNnhJaVpnSnBEeWdaUHRNYnBQZDlTdVh3ODAzbWo%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4857609243920433%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JQPhW19nMU1vODR0ZEd5THM1TWdFa0NxV25rWXRmWHJveEUwJTJCSEt3YU90bTFJY0lvUE44V29vSzUyR01nSmM3SllCS3owY1RXSkxpRGdCc3JKVXFaZDRpQ2xseEwyMk84N01WQWhVY1VGd3ZtQTF4MWFhWTFOWSUyQmJDV0RkWDd3YnpPN2RuQXROUiUyRkNNN1NRYm1zYWlSbno0aEczRlg1cmVhcXp1ZlhWNnhJaVpnSnBEeWdaUHRNYnBQZDlTdVh3ODAzbWo%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4857609243920433%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22JQPhW19nMU1vODR0ZEd5THM1TWdFa0NxV25rWXRmWHJveEUwJTJCSEt3YU90bTFJY0lvUE44V29vSzUyR01nSmM3SllCS3owY1RXSkxpRGdCc3JKVXFaZDRpQ2xseEwyMk84N01WQWhVY1VGd3ZtQTF4MWFhWTFOWSUyQmJDV0RkWDd3YnpPN2RuQXROUiUyRkNNN1NRYm1zYWlSbno0aEczRlg1cmVhcXp1ZlhWNnhJaVpnSnBEeWdaUHRNYnBQZDlTdVh3ODAzbWo%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4857609243920433%22}:14:3642
+
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M-HeFlSCME_k5Ph7lXtMc9K-bQ1dlElVsMlNN0Ru4uM.js line 2 > eval line 6253 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 15172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693414059295	geckodriver	INFO	Listening on 127.0.0.1:56162
+1693414062332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileN8axY2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693414062727	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693414062803	Marionette	INFO	Listening on port 56172
+WebDriver BiDi listening on ws://127.0.0.1:56163
+Read port: 56172
+1693414062992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56163/devtools/browser/6fe200be-075b-4f1c-948d-e0590420ed56
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7207846745434271%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7207846745434271%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7207846745434271%22}:14:3642
+
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 2065 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+1693414079567	Marionette	INFO	Stopped listening on port 56172
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 5728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12896, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693414099238	geckodriver	INFO	Listening on 127.0.0.1:56426
+1693414102267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile9evj5S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693414102650	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693414102729	Marionette	INFO	Listening on port 56437
+WebDriver BiDi listening on ws://127.0.0.1:56427
+Read port: 56437
+1693414102904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56427/devtools/browser/a88a08cd-fc5f-47be-9270-9b5d247cd176
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9684
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9856
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:13959
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10889
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AKL-1V9tNWVzTU5lVlowTGRQbnNSOWdMJTJCM0ZwTUklMkZ6a3FmUlBnU3JodGZqJTJCTXN2Tk9rak52YkpOJTJGY1p1VE05N080d1d5ZEJFVzIyc2IzSmROMHYyNHdtY0Y2cFZNJTJGbXRJUWdySkNJRjFHODFGbzFXTjJNbkRsZks4WkRYeEFpNU5ISFNhQnQ5V1dtc1FGQ0E3QjBvZ3MyV01BJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6993408726950384%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AKL-1V9tNWVzTU5lVlowTGRQbnNSOWdMJTJCM0ZwTUklMkZ6a3FmUlBnU3JodGZqJTJCTXN2Tk9rak52YkpOJTJGY1p1VE05N080d1d5ZEJFVzIyc2IzSmROMHYyNHdtY0Y2cFZNJTJGbXRJUWdySkNJRjFHODFGbzFXTjJNbkRsZks4WkRYeEFpNU5ISFNhQnQ5V1dtc1FGQ0E3QjBvZ3MyV01BJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6993408726950384%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AKL-1V9tNWVzTU5lVlowTGRQbnNSOWdMJTJCM0ZwTUklMkZ6a3FmUlBnU3JodGZqJTJCTXN2Tk9rak52YkpOJTJGY1p1VE05N080d1d5ZEJFVzIyc2IzSmROMHYyNHdtY0Y2cFZNJTJGbXRJUWdySkNJRjFHODFGbzFXTjJNbkRsZks4WkRYeEFpNU5ISFNhQnQ5V1dtc1FGQ0E3QjBvZ3MyV01BJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6993408726950384%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:13959
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10889
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22vF1NGl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRNnk2ZkJTZXNpTVFvMkxHOWglMkI1dWpzU1RKc0FRSGNsbVZ5cnd5T3lVemdoJTJGdnFIdlpVUG12RkFJJTJGdEJCY2xrQlJBU3dYT3NnSHZBUzh0ZzhORzVWOHo0WjkxeTJGVmd2JTJCdyUyQlRhVVk5bmRqR2g0N0d6ZFd1bzJpJTJCQ0czbEtJdXBmdCUyQmttc1BpJTJGYTlSYlZkTU94QnhXalVWaG5SdlI2UGxqeDBaUVhQT3Jk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.824941634488652%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22vF1NGl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRNnk2ZkJTZXNpTVFvMkxHOWglMkI1dWpzU1RKc0FRSGNsbVZ5cnd5T3lVemdoJTJGdnFIdlpVUG12RkFJJTJGdEJCY2xrQlJBU3dYT3NnSHZBUzh0ZzhORzVWOHo0WjkxeTJGVmd2JTJCdyUyQlRhVVk5bmRqR2g0N0d6ZFd1bzJpJTJCQ0czbEtJdXBmdCUyQmttc1BpJTJGYTlSYlZkTU94QnhXalVWaG5SdlI2UGxqeDBaUVhQT3Jk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.824941634488652%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22vF1NGl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRNnk2ZkJTZXNpTVFvMkxHOWglMkI1dWpzU1RKc0FRSGNsbVZ5cnd5T3lVemdoJTJGdnFIdlpVUG12RkFJJTJGdEJCY2xrQlJBU3dYT3NnSHZBUzh0ZzhORzVWOHo0WjkxeTJGVmd2JTJCdyUyQlRhVVk5bmRqR2g0N0d6ZFd1bzJpJTJCQ0czbEtJdXBmdCUyQmttc1BpJTJGYTlSYlZkTU94QnhXalVWaG5SdlI2UGxqeDBaUVhQT3Jk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.824941634488652%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22NY6BBl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRUzZaVWVmdDFYV0dnYklySTJEbTBZQ2dxbHhuOUh2enNnU3BEWDI1VWklMkI1dHNYRXlTWEdJNEpCYyUyRk1nUW1QNyUyRnpBbVJwVWJka1dKYVFWQzhHcDRLT0tlWlZCWmV4SlZvQ1ZJJTJCY0Jja1lVOW4zWEJQTDJERzZQaHZVMVRPbktVY1ZWbDdnTGJ5eSUyRmxBeUppQnI0TlZNOU9BNVdKaWRUV1Q3dEElMkZjejVTNTk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2189283236394206%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22NY6BBl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRUzZaVWVmdDFYV0dnYklySTJEbTBZQ2dxbHhuOUh2enNnU3BEWDI1VWklMkI1dHNYRXlTWEdJNEpCYyUyRk1nUW1QNyUyRnpBbVJwVWJka1dKYVFWQzhHcDRLT0tlWlZCWmV4SlZvQ1ZJJTJCY0Jja1lVOW4zWEJQTDJERzZQaHZVMVRPbktVY1ZWbDdnTGJ5eSUyRmxBeUppQnI0TlZNOU9BNVdKaWRUV1Q3dEElMkZjejVTNTk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2189283236394206%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22NY6BBl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRUzZaVWVmdDFYV0dnYklySTJEbTBZQ2dxbHhuOUh2enNnU3BEWDI1VWklMkI1dHNYRXlTWEdJNEpCYyUyRk1nUW1QNyUyRnpBbVJwVWJka1dKYVFWQzhHcDRLT0tlWlZCWmV4SlZvQ1ZJJTJCY0Jja1lVOW4zWEJQTDJERzZQaHZVMVRPbktVY1ZWbDdnTGJ5eSUyRmxBeUppQnI0TlZNOU9BNVdKaWRUV1Q3dEElMkZjejVTNTk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2189283236394206%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N_D7818lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktjUUN0VjV0NVZ0Uzl6Q2tSc0JsaTNkaXhCcDl1aWlzSkFEQ0JjbDA5ZWxGOENKODc2dnFKZiUyQlUzSU0lMkZCZTRqZG5pUFRIV05TUnlMblpBaTBnbW4lMkZqWDRGMmtoNlNkYjVxJTJGZElGd3JBM0ZXaThqNTlrUXNDdElZb2JoVTZtN3dCQSUyRkFxSTZkYTVRb2VUdnB2T0VLNGh1ZyUyQmkyaGtIdyUyRmsyVDY3UHRZcEFnRw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2476812399102366%22}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N_D7818lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktjUUN0VjV0NVZ0Uzl6Q2tSc0JsaTNkaXhCcDl1aWlzSkFEQ0JjbDA5ZWxGOENKODc2dnFKZiUyQlUzSU0lMkZCZTRqZG5pUFRIV05TUnlMblpBaTBnbW4lMkZqWDRGMmtoNlNkYjVxJTJGZElGd3JBM0ZXaThqNTlrUXNDdElZb2JoVTZtN3dCQSUyRkFxSTZkYTVRb2VUdnB2T0VLNGh1ZyUyQmkyaGtIdyUyRmsyVDY3UHRZcEFnRw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2476812399102366%22}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N_D7818lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktjUUN0VjV0NVZ0Uzl6Q2tSc0JsaTNkaXhCcDl1aWlzSkFEQ0JjbDA5ZWxGOENKODc2dnFKZiUyQlUzSU0lMkZCZTRqZG5pUFRIV05TUnlMblpBaTBnbW4lMkZqWDRGMmtoNlNkYjVxJTJGZElGd3JBM0ZXaThqNTlrUXNDdElZb2JoVTZtN3dCQSUyRkFxSTZkYTVRb2VUdnB2T0VLNGh1ZyUyQmkyaGtIdyUyRmsyVDY3UHRZcEFnRw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2476812399102366%22}:14:3152
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N_D7818lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktjUUN0VjV0NVZ0Uzl6Q2tSc0JsaTNkaXhCcDl1aWlzSkFEQ0JjbDA5ZWxGOENKODc2dnFKZiUyQlUzSU0lMkZCZTRqZG5pUFRIV05TUnlMblpBaTBnbW4lMkZqWDRGMmtoNlNkYjVxJTJGZElGd3JBM0ZXaThqNTlrUXNDdElZb2JoVTZtN3dCQSUyRkFxSTZkYTVRb2VUdnB2T0VLNGh1ZyUyQmkyaGtIdyUyRmsyVDY3UHRZcEFnRw%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.2476812399102366%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_hJScl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZOEpxblAwa0lrVWtQVElqcHB2QnpJdVVYc3JzaFRWR29Tdk5keHlmajhXWkNUJTJGcjNPR0dIS3glMkJxZWVUYTBjZ3ppNkd3N1prNkNvQ21CZ0VaUVBpQlpKUjdpcHpjZyUyRlh4SnRHTUV1N0kyM3lkVlN6a2NBNGpXWDJoclV0Rks5b3B5TGl2MGFkaVhFSzlXZjUwVlhoZ0NLUmIlMkZlbFRvMTdoTFpvM1RRQXAyVQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.28429882068829204%22}, line 14: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_hJScl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZOEpxblAwa0lrVWtQVElqcHB2QnpJdVVYc3JzaFRWR29Tdk5keHlmajhXWkNUJTJGcjNPR0dIS3glMkJxZWVUYTBjZ3ppNkd3N1prNkNvQ21CZ0VaUVBpQlpKUjdpcHpjZyUyRlh4SnRHTUV1N0kyM3lkVlN6a2NBNGpXWDJoclV0Rks5b3B5TGl2MGFkaVhFSzlXZjUwVlhoZ0NLUmIlMkZlbFRvMTdoTFpvM1RRQXAyVQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.28429882068829204%22}:14:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_hJScl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZOEpxblAwa0lrVWtQVElqcHB2QnpJdVVYc3JzaFRWR29Tdk5keHlmajhXWkNUJTJGcjNPR0dIS3glMkJxZWVUYTBjZ3ppNkd3N1prNkNvQ21CZ0VaUVBpQlpKUjdpcHpjZyUyRlh4SnRHTUV1N0kyM3lkVlN6a2NBNGpXWDJoclV0Rks5b3B5TGl2MGFkaVhFSzlXZjUwVlhoZ0NLUmIlMkZlbFRvMTdoTFpvM1RRQXAyVQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.28429882068829204%22}:14:3152
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_hJScl8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZOEpxblAwa0lrVWtQVElqcHB2QnpJdVVYc3JzaFRWR29Tdk5keHlmajhXWkNUJTJGcjNPR0dIS3glMkJxZWVUYTBjZ3ppNkd3N1prNkNvQ21CZ0VaUVBpQlpKUjdpcHpjZyUyRlh4SnRHTUV1N0kyM3lkVlN6a2NBNGpXWDJoclV0Rks5b3B5TGl2MGFkaVhFSzlXZjUwVlhoZ0NLUmIlMkZlbFRvMTdoTFpvM1RRQXAyVQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.28429882068829204%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224qXgDV8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktYZWlXSjBxS1NOVnNveTlPUEJiSndvMXpXZkhHaUx0RkdyTGNwS2pTWDNERmViRjVPekVzbWUzc3lFbjhsZjNJZlJucUZUeG4zTWxQazhyQnkzeWVleFRxYlU3bzJWZ2FQcXJHNm5NJTJCMnRLdTRqb09SJTJCaTdHeSUyRkJGekQ3QUZQdWhjMUlVUzZuWUE5NTRHd3EzYjRxZFhoQnhheEJhMVVoOG9CQ25VSlZzMGg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5981038377852759%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224qXgDV8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktYZWlXSjBxS1NOVnNveTlPUEJiSndvMXpXZkhHaUx0RkdyTGNwS2pTWDNERmViRjVPekVzbWUzc3lFbjhsZjNJZlJucUZUeG4zTWxQazhyQnkzeWVleFRxYlU3bzJWZ2FQcXJHNm5NJTJCMnRLdTRqb09SJTJCaTdHeSUyRkJGekQ3QUZQdWhjMUlVUzZuWUE5NTRHd3EzYjRxZFhoQnhheEJhMVVoOG9CQ25VSlZzMGg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5981038377852759%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224qXgDV8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktYZWlXSjBxS1NOVnNveTlPUEJiSndvMXpXZkhHaUx0RkdyTGNwS2pTWDNERmViRjVPekVzbWUzc3lFbjhsZjNJZlJucUZUeG4zTWxQazhyQnkzeWVleFRxYlU3bzJWZ2FQcXJHNm5NJTJCMnRLdTRqb09SJTJCaTdHeSUyRkJGekQ3QUZQdWhjMUlVUzZuWUE5NTRHd3EzYjRxZFhoQnhheEJhMVVoOG9CQ25VSlZzMGg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5981038377852759%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N0qNS18lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktTMnZiZm1UZXdxdTl0cURiSk9sMlBHd2s5dDVaJTJCUzlpWWRjanY4OWhVd0NVZk5aUHoyd3pQcSUyRlBSTWpHZWdRcEtkVllpRmNvb2tNajBLcXVpQ25helZoUkYxVVpiTXlUOWhtVE42eXh3QVNkeGY3aURXR2lxSzRWcjI4b01Yb0puYlI5eGhmNnVQaWpQVVcyNEYwbUxuR09CWSUyQkFUbG5pRGl2dng4Y1NuM0s%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7576734300362633%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N0qNS18lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktTMnZiZm1UZXdxdTl0cURiSk9sMlBHd2s5dDVaJTJCUzlpWWRjanY4OWhVd0NVZk5aUHoyd3pQcSUyRlBSTWpHZWdRcEtkVllpRmNvb2tNajBLcXVpQ25helZoUkYxVVpiTXlUOWhtVE42eXh3QVNkeGY3aURXR2lxSzRWcjI4b01Yb0puYlI5eGhmNnVQaWpQVVcyNEYwbUxuR09CWSUyQkFUbG5pRGl2dng4Y1NuM0s%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7576734300362633%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22N0qNS18lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktTMnZiZm1UZXdxdTl0cURiSk9sMlBHd2s5dDVaJTJCUzlpWWRjanY4OWhVd0NVZk5aUHoyd3pQcSUyRlBSTWpHZWdRcEtkVllpRmNvb2tNajBLcXVpQ25helZoUkYxVVpiTXlUOWhtVE42eXh3QVNkeGY3aURXR2lxSzRWcjI4b01Yb0puYlI5eGhmNnVQaWpQVVcyNEYwbUxuR09CWSUyQkFUbG5pRGl2dng4Y1NuM0s%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7576734300362633%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%225R6SNF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZbUtvSEYlMkZYV1NYMjJNaGN5dUt5c0hWYXJWWjglMkZBSGI4cnhVVVY1azcyNm1MVDdzMU8lMkZoJTJCbWtOMkNDMzFZcGdudzRRZk1CTzVGd0pUTTlVMlZJM2ZNNjRMNkVvMG5vdUtQVER2VjFCSkx0MUlHQVFDR1VWc2xrcHlFdTFuRXdrRUIlMkZxdFJFa2wlMkI2Y1BQdkoyNXY4MUN4JTJGYmhYNEZ0NnpSJTJCSGl5VVI3dlBk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8219507620943696%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%225R6SNF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZbUtvSEYlMkZYV1NYMjJNaGN5dUt5c0hWYXJWWjglMkZBSGI4cnhVVVY1azcyNm1MVDdzMU8lMkZoJTJCbWtOMkNDMzFZcGdudzRRZk1CTzVGd0pUTTlVMlZJM2ZNNjRMNkVvMG5vdUtQVER2VjFCSkx0MUlHQVFDR1VWc2xrcHlFdTFuRXdrRUIlMkZxdFJFa2wlMkI2Y1BQdkoyNXY4MUN4JTJGYmhYNEZ0NnpSJTJCSGl5VVI3dlBk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8219507620943696%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%225R6SNF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktZbUtvSEYlMkZYV1NYMjJNaGN5dUt5c0hWYXJWWjglMkZBSGI4cnhVVVY1azcyNm1MVDdzMU8lMkZoJTJCbWtOMkNDMzFZcGdudzRRZk1CTzVGd0pUTTlVMlZJM2ZNNjRMNkVvMG5vdUtQVER2VjFCSkx0MUlHQVFDR1VWc2xrcHlFdTFuRXdrRUIlMkZxdFJFa2wlMkI2Y1BQdkoyNXY4MUN4JTJGYmhYNEZ0NnpSJTJCSGl5VVI3dlBk%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8219507620943696%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YjIDsF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktkTVpZYiUyQjY5VzlybVQlMkZjYUlpYTBIS0tBd2tSdVNWZm54bXpwbTl6WHNrM09ZMjJmQ3JsYmVqVVJjdlYxaSUyQnJla1BrJTJGaEtlRiUyQmpxNzFmY3MyNjJIVGl3N2tLSE5aV1Q5cFRtQ3FlcDFHZlNIdWFFNVhqSm1Iakhxb1BDU0VuZTlyeCUyRlF5RDRISjBFS3N6REtsSUVncDRJczBZNFBnMiUyQkoyZ3YlMkI2QWttMHRY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4945973848647166%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YjIDsF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktkTVpZYiUyQjY5VzlybVQlMkZjYUlpYTBIS0tBd2tSdVNWZm54bXpwbTl6WHNrM09ZMjJmQ3JsYmVqVVJjdlYxaSUyQnJla1BrJTJGaEtlRiUyQmpxNzFmY3MyNjJIVGl3N2tLSE5aV1Q5cFRtQ3FlcDFHZlNIdWFFNVhqSm1Iakhxb1BDU0VuZTlyeCUyRlF5RDRISjBFS3N6REtsSUVncDRJczBZNFBnMiUyQkoyZ3YlMkI2QWttMHRY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4945973848647166%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YjIDsF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktkTVpZYiUyQjY5VzlybVQlMkZjYUlpYTBIS0tBd2tSdVNWZm54bXpwbTl6WHNrM09ZMjJmQ3JsYmVqVVJjdlYxaSUyQnJla1BrJTJGaEtlRiUyQmpxNzFmY3MyNjJIVGl3N2tLSE5aV1Q5cFRtQ3FlcDFHZlNIdWFFNVhqSm1Iakhxb1BDU0VuZTlyeCUyRlF5RDRISjBFS3N6REtsSUVncDRJczBZNFBnMiUyQkoyZ3YlMkI2QWttMHRY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.4945973848647166%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AHnI8l8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRTWlHTUlsNkxYdk1qbUNUZm1vVTdqSVdLWG9SMTE1YlowWkNTNGpVaTdQVjRlOTZzUFBZaEElMkJvUXFkeFFWZUdsSVROaDNSUzhaWGdvQWRQRlFZRnNiclFmQWl0a0l3JTJCSXV6YlhTbnVpTlJ2ayUyQlFiR3JFa2JkaUo3VmpnUWZrQVNWZUxXaXFKbkxGbW50JTJGZ3Z6QnN4U2F1UUhIMkpEQ0x6Q3k2S3NWQmNpSQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.26504491789952844%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AHnI8l8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRTWlHTUlsNkxYdk1qbUNUZm1vVTdqSVdLWG9SMTE1YlowWkNTNGpVaTdQVjRlOTZzUFBZaEElMkJvUXFkeFFWZUdsSVROaDNSUzhaWGdvQWRQRlFZRnNiclFmQWl0a0l3JTJCSXV6YlhTbnVpTlJ2ayUyQlFiR3JFa2JkaUo3VmpnUWZrQVNWZUxXaXFKbkxGbW50JTJGZ3Z6QnN4U2F1UUhIMkpEQ0x6Q3k2S3NWQmNpSQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.26504491789952844%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22AHnI8l8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktRTWlHTUlsNkxYdk1qbUNUZm1vVTdqSVdLWG9SMTE1YlowWkNTNGpVaTdQVjRlOTZzUFBZaEElMkJvUXFkeFFWZUdsSVROaDNSUzhaWGdvQWRQRlFZRnNiclFmQWl0a0l3JTJCSXV6YlhTbnVpTlJ2ayUyQlFiR3JFa2JkaUo3VmpnUWZrQVNWZUxXaXFKbkxGbW50JTJGZ3Z6QnN4U2F1UUhIMkpEQ0x6Q3k2S3NWQmNpSQ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.26504491789952844%22}:14:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+aq@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:10718
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:11024
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Px-_RF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktlU1ZRNG9wVG5EVThXQkt6T1I4ZnptT2hRMnJVd1dRQ2tSQ0diMlZnSWRTdkRvQ0x6aW1pcW1XcWlIZHdXdTZVR2IzR09kZXE5dEt2WTFDYVhIaXZIeUcyUjhEQ2pqckFyUHg1aDhFciUyQklPdnV2ejVyalQ2WWhWSWhEY28yTnNFVW9pTUdORlJQMExDJTJCZHVKS2toYkVRWWolMkZXZmhGTzJONWxSSGl2azlVTkE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8919243131382328%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Px-_RF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktlU1ZRNG9wVG5EVThXQkt6T1I4ZnptT2hRMnJVd1dRQ2tSQ0diMlZnSWRTdkRvQ0x6aW1pcW1XcWlIZHdXdTZVR2IzR09kZXE5dEt2WTFDYVhIaXZIeUcyUjhEQ2pqckFyUHg1aDhFciUyQklPdnV2ejVyalQ2WWhWSWhEY28yTnNFVW9pTUdORlJQMExDJTJCZHVKS2toYkVRWWolMkZXZmhGTzJONWxSSGl2azlVTkE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8919243131382328%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Px-_RF8lMkJYVSUyQjNXbG5ZZlM4elRlNCUyRno3dktlU1ZRNG9wVG5EVThXQkt6T1I4ZnptT2hRMnJVd1dRQ2tSQ0diMlZnSWRTdkRvQ0x6aW1pcW1XcWlIZHdXdTZVR2IzR09kZXE5dEt2WTFDYVhIaXZIeUcyUjhEQ2pqckFyUHg1aDhFciUyQklPdnV2ejVyalQ2WWhWSWhEY28yTnNFVW9pTUdORlJQMExDJTJCZHVKS2toYkVRWWolMkZXZmhGTzJONWxSSGl2azlVTkE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8919243131382328%22}:14:3642
+
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:146
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+1693414465559	Marionette	INFO	Stopped listening on port 56437
+Dynamically enable window occlusion 1
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1693414465636	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:217
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20172, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13200, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693414502544	geckodriver	INFO	Listening on 127.0.0.1:49370
+1693414505576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofilem4ie1o"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693414505980	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693414506065	Marionette	INFO	Listening on port 49380
+Read port: 49380
+WebDriver BiDi listening on ws://127.0.0.1:49371
+1693414506121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49371/devtools/browser/6c857249-80f9-4809-b1a2-8bb64241a4c2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8664621856427182%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8664621856427182%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:140,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8664621856427182%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OIdPy195dzlCeWtPZEdtb3dtek5pOWZjemZmNWZ1QWJ2aXhtJTJCY05QTklyczRnMmZWVk1rQzdta1NjSGx0SjRCOXlqblFuTHlPOXJNdVpXcWlBMHpySGhxbHVwZW1rQ0JEa2olMkZ5ZjBNdUFYRTIlMkZ1aFZteXpkR3N6bGtrRmkyUnZXUUJ3JTJGYVhvQ0Z0dFZCVHQ4MkZTR2tnRiUyRkhZanl6SUY4VmlKWGxWZFpVcGFaUFB2VmxmN0FXeUs5NURyeGhabElORE8lMkY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.46487194946308863%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OIdPy195dzlCeWtPZEdtb3dtek5pOWZjemZmNWZ1QWJ2aXhtJTJCY05QTklyczRnMmZWVk1rQzdta1NjSGx0SjRCOXlqblFuTHlPOXJNdVpXcWlBMHpySGhxbHVwZW1rQ0JEa2olMkZ5ZjBNdUFYRTIlMkZ1aFZteXpkR3N6bGtrRmkyUnZXUUJ3JTJGYVhvQ0Z0dFZCVHQ4MkZTR2tnRiUyRkhZanl6SUY4VmlKWGxWZFpVcGFaUFB2VmxmN0FXeUs5NURyeGhabElORE8lMkY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.46487194946308863%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22OIdPy195dzlCeWtPZEdtb3dtek5pOWZjemZmNWZ1QWJ2aXhtJTJCY05QTklyczRnMmZWVk1rQzdta1NjSGx0SjRCOXlqblFuTHlPOXJNdVpXcWlBMHpySGhxbHVwZW1rQ0JEa2olMkZ5ZjBNdUFYRTIlMkZ1aFZteXpkR3N6bGtrRmkyUnZXUUJ3JTJGYVhvQ0Z0dFZCVHQ4MkZTR2tnRiUyRkhZanl6SUY4VmlKWGxWZFpVcGFaUFB2VmxmN0FXeUs5NURyeGhabElORE8lMkY%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.46487194946308863%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://cdn.polarbyte.com/idm/cdo/pb.min.js, line 5: TypeError: n is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 508: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tD8ogV95dzlCeWtPZEdtb3dtek5pOWZjemZhZVZ6UTZhQ3R2MnF5S3JWdmttU0o4bTV2bUxpYjZ6UGxkN0lwWmpNJTJGMG5XdThsQmVoaVdYZElVVFR5RG5UYzRwOUpMdTJvRENuJTJGMVFmTTVDOElVTU9hMDEyNG00eHVGNmZCQUQlMkZBMm9PZnNJdUE2JTJCM3hIZ0tsZkc2dnZRbGpEaUhtbFhxVlQxck5ONmdWJTJGN1NUZVhXRGQ4Wmt1ckxhSE1RY1RYcDBOOHpr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19650018465341568%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tD8ogV95dzlCeWtPZEdtb3dtek5pOWZjemZhZVZ6UTZhQ3R2MnF5S3JWdmttU0o4bTV2bUxpYjZ6UGxkN0lwWmpNJTJGMG5XdThsQmVoaVdYZElVVFR5RG5UYzRwOUpMdTJvRENuJTJGMVFmTTVDOElVTU9hMDEyNG00eHVGNmZCQUQlMkZBMm9PZnNJdUE2JTJCM3hIZ0tsZkc2dnZRbGpEaUhtbFhxVlQxck5ONmdWJTJGN1NUZVhXRGQ4Wmt1ckxhSE1RY1RYcDBOOHpr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19650018465341568%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22tD8ogV95dzlCeWtPZEdtb3dtek5pOWZjemZhZVZ6UTZhQ3R2MnF5S3JWdmttU0o4bTV2bUxpYjZ6UGxkN0lwWmpNJTJGMG5XdThsQmVoaVdYZElVVFR5RG5UYzRwOUpMdTJvRENuJTJGMVFmTTVDOElVTU9hMDEyNG00eHVGNmZCQUQlMkZBMm9PZnNJdUE2JTJCM3hIZ0tsZkc2dnZRbGpEaUhtbFhxVlQxck5ONmdWJTJGN1NUZVhXRGQ4Wmt1ckxhSE1RY1RYcDBOOHpr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.19650018465341568%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22DXStuV95dzlCeWtPZEdtb3dtek5pOWZjemZUMlRFJTJCUE1JckRLaXVBeGolMkJyZXZPQ3d6RFp5azNnVEtqYUdPWHY1QlpZaE80WlFXUlcydHhyQVpVeWcyJTJCZ1hhbSUyQkU2VGlxc3ZzWElSYXcxd3RuOFBPekM0dSUyRnhHdkNrOU1XVml1ekliNXA3JTJGZCUyQjhzSDJKUjNxWG14QzIwYUVQdjBuZVQlMkZkanR2NjJSbGltd0dzeEtob2VGVFM5T21WVzVrVUp2cW8wdTBE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9086221225221598%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22DXStuV95dzlCeWtPZEdtb3dtek5pOWZjemZUMlRFJTJCUE1JckRLaXVBeGolMkJyZXZPQ3d6RFp5azNnVEtqYUdPWHY1QlpZaE80WlFXUlcydHhyQVpVeWcyJTJCZ1hhbSUyQkU2VGlxc3ZzWElSYXcxd3RuOFBPekM0dSUyRnhHdkNrOU1XVml1ekliNXA3JTJGZCUyQjhzSDJKUjNxWG14QzIwYUVQdjBuZVQlMkZkanR2NjJSbGltd0dzeEtob2VGVFM5T21WVzVrVUp2cW8wdTBE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9086221225221598%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22DXStuV95dzlCeWtPZEdtb3dtek5pOWZjemZUMlRFJTJCUE1JckRLaXVBeGolMkJyZXZPQ3d6RFp5azNnVEtqYUdPWHY1QlpZaE80WlFXUlcydHhyQVpVeWcyJTJCZ1hhbSUyQkU2VGlxc3ZzWElSYXcxd3RuOFBPekM0dSUyRnhHdkNrOU1XVml1ekliNXA3JTJGZCUyQjhzSDJKUjNxWG14QzIwYUVQdjBuZVQlMkZkanR2NjJSbGltd0dzeEtob2VGVFM5T21WVzVrVUp2cW8wdTBE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9086221225221598%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 381: Script terminated by timeout at:
+cp@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:381:511
+Uv@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:422:689
+jF/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:559:153
+aa.vk/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:509:126
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:420
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ZscsYV95dzlCeWtPZEdtb3dtek5pOWZjemZhaHUyd2RlcG8lMkZHR3VkdmFIT0dwNFowTld2MTJwd2hSJTJCZ3dFU0FVJTJGeXVKQWR0UEk0dXo2JTJGViUyRnVOeVR3Ujh3dzB1NlpmUERmeEEzTiUyQmx2WFhUTVgyczlTcTZ5cm9yQW1DdFA4c0drOUxMNjhPQlA5cVNwQXNwVmZ5Tm5mR0h3SUhHT09PTFpCeHhkJTJGdmx5eFl5b3ozMWxWZHM1JTJGaUh3QTJRVHV0emRYRVF4%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5826326786227827%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ZscsYV95dzlCeWtPZEdtb3dtek5pOWZjemZhaHUyd2RlcG8lMkZHR3VkdmFIT0dwNFowTld2MTJwd2hSJTJCZ3dFU0FVJTJGeXVKQWR0UEk0dXo2JTJGViUyRnVOeVR3Ujh3dzB1NlpmUERmeEEzTiUyQmx2WFhUTVgyczlTcTZ5cm9yQW1DdFA4c0drOUxMNjhPQlA5cVNwQXNwVmZ5Tm5mR0h3SUhHT09PTFpCeHhkJTJGdmx5eFl5b3ozMWxWZHM1JTJGaUh3QTJRVHV0emRYRVF4%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5826326786227827%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ZscsYV95dzlCeWtPZEdtb3dtek5pOWZjemZhaHUyd2RlcG8lMkZHR3VkdmFIT0dwNFowTld2MTJwd2hSJTJCZ3dFU0FVJTJGeXVKQWR0UEk0dXo2JTJGViUyRnVOeVR3Ujh3dzB1NlpmUERmeEEzTiUyQmx2WFhUTVgyczlTcTZ5cm9yQW1DdFA4c0drOUxMNjhPQlA5cVNwQXNwVmZ5Tm5mR0h3SUhHT09PTFpCeHhkJTJGdmx5eFl5b3ozMWxWZHM1JTJGaUh3QTJRVHV0emRYRVF4%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5826326786227827%22}:14:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:9684
+ay@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:12687
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:11119
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7, line 510: Script terminated by timeout at:
+aa.lh@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:510:89
+get@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:87
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L9GCR21SZ7:508:412
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YYXfBl95dzlCeWtPZEdtb3dtek5pOWZjemZaNHJibjc4d0NPdm5TbTd1cFBGTjd4T0QySHJlQUxHdHdpYUhqYnVyS3hIOHFpaXNsNHo1SGlwbE5SZkZrN0NHYlZQJTJCVFdBbGRKdG9qZEo2SjVwZlFhJTJCcVFmVWhGR2RMN3FRVGRnbFd1VGhaUlc2S0RHYiUyRjd6Qk8lMkZKeTAlMkJEOFRkelYlMkJqTGJwbWFzZzFrcUFnMnFMbEtqWktiU0c5azNld2lJSVRoVEFhNDE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0019116042897294738%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YYXfBl95dzlCeWtPZEdtb3dtek5pOWZjemZaNHJibjc4d0NPdm5TbTd1cFBGTjd4T0QySHJlQUxHdHdpYUhqYnVyS3hIOHFpaXNsNHo1SGlwbE5SZkZrN0NHYlZQJTJCVFdBbGRKdG9qZEo2SjVwZlFhJTJCcVFmVWhGR2RMN3FRVGRnbFd1VGhaUlc2S0RHYiUyRjd6Qk8lMkZKeTAlMkJEOFRkelYlMkJqTGJwbWFzZzFrcUFnMnFMbEtqWktiU0c5azNld2lJSVRoVEFhNDE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0019116042897294738%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22YYXfBl95dzlCeWtPZEdtb3dtek5pOWZjemZaNHJibjc4d0NPdm5TbTd1cFBGTjd4T0QySHJlQUxHdHdpYUhqYnVyS3hIOHFpaXNsNHo1SGlwbE5SZkZrN0NHYlZQJTJCVFdBbGRKdG9qZEo2SjVwZlFhJTJCcVFmVWhGR2RMN3FRVGRnbFd1VGhaUlc2S0RHYiUyRjd6Qk8lMkZKeTAlMkJEOFRkelYlMkJqTGJwbWFzZzFrcUFnMnFMbEtqWktiU0c5azNld2lJSVRoVEFhNDE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.0019116042897294738%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ELFrql95dzlCeWtPZEdtb3dtek5pOWZjemZYRW8waHZnYXZaSk1vdkZCRTdvbiUyRlRZZWNzSlNGcjRKU2tXSzVsQUFBS0Q1ZEZVc3I0MUtQb2VMUVZnV2xabDJtWWpBMDUwdmZRaXh5QyUyRkpkM1VuZXBHd3RIaFVjSXJDa2lFTTFQZDBWUU9mTyUyQmNneTJpN05Ddk93JTJCTUt5RUU3VHN5cTF0eUZnN2hpV3IlMkJVUkVUWVNRMXYyeFlKZHhERFhpM1lZMTlKM3NZ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6838309666429768%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ELFrql95dzlCeWtPZEdtb3dtek5pOWZjemZYRW8waHZnYXZaSk1vdkZCRTdvbiUyRlRZZWNzSlNGcjRKU2tXSzVsQUFBS0Q1ZEZVc3I0MUtQb2VMUVZnV2xabDJtWWpBMDUwdmZRaXh5QyUyRkpkM1VuZXBHd3RIaFVjSXJDa2lFTTFQZDBWUU9mTyUyQmNneTJpN05Ddk93JTJCTUt5RUU3VHN5cTF0eUZnN2hpV3IlMkJVUkVUWVNRMXYyeFlKZHhERFhpM1lZMTlKM3NZ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6838309666429768%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22ELFrql95dzlCeWtPZEdtb3dtek5pOWZjemZYRW8waHZnYXZaSk1vdkZCRTdvbiUyRlRZZWNzSlNGcjRKU2tXSzVsQUFBS0Q1ZEZVc3I0MUtQb2VMUVZnV2xabDJtWWpBMDUwdmZRaXh5QyUyRkpkM1VuZXBHd3RIaFVjSXJDa2lFTTFQZDBWUU9mTyUyQmNneTJpN05Ddk93JTJCTUt5RUU3VHN5cTF0eUZnN2hpV3IlMkJVUkVUWVNRMXYyeFlKZHhERFhpM1lZMTlKM3NZ%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:136,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6838309666429768%22}:14:3642
+
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+1693414729929	Marionette	INFO	Stopped listening on port 49380
+Dynamically enable window occlusion 1
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
