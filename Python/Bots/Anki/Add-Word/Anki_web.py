@@ -1,13 +1,10 @@
 
-import os, time
-import pyautogui, pyperclip, keyboard
-from PIL import Image, ImageGrab
-import win32gui, win32com.client
+import os, time, keyboard, pyautogui, pyperclip, win32gui, win32com.client
+from PIL import ImageGrab
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-import win32clipboard as wc
-import win32con
+# from selenium.webdriver.firefox.service import Service
+# import win32clipboard as wc
 
 # def CheckAdd():
 #     if(win32gui.FindWindow(None, "Add") == 0):
