@@ -3,7 +3,7 @@ import speech_recognition as sr
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.service import Service
+# from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 
 def rand(last): return random.randint(0, last)
@@ -96,6 +96,7 @@ try:
     while True:
         try: 
             driver.find_element(By.ID, 'ad_position_box')
+            print("找到廣告視窗")
             if driver.find_element(By.PARTIAL_LINK_TEXT, "每日額度有限請下次再來嘗試") is not None: 
                 print("沒有看廣告額度")
                 break
