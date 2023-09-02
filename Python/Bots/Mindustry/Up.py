@@ -61,7 +61,9 @@ driver.find_element(By.CLASS_NAME, "ServerRow___StyledSpan-sc-1ibsw91-3.eABDrG")
 driver.find_element(By.CLASS_NAME, "style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_KhQ5Q8AB.style-module_AOuopO_r") # Start
 time.sleep(30)
 while True:
-    while driver.find_element(By.CLASS_NAME, "Button___StyledSpan-sc-1qu1gou-2") is None: time.sleep(60)
-    driver.find_element(By.CLASS_NAME, "Button___StyledSpan-sc-1qu1gou-2").click()
-    print(driver.find_element(By.CLASS_NAME, "ServerConsole___StyledDiv14-sc-13p0yj4-24.blaIvP").text.split("in ")[1].split("A")[0])
-    time.sleep(300)
+    try:
+        while driver.find_element(By.CLASS_NAME, "Button___StyledSpan-sc-1qu1gou-2") is None: time.sleep(60)
+        driver.find_element(By.CLASS_NAME, "Button___StyledSpan-sc-1qu1gou-2").click()
+        print(driver.find_element(By.CLASS_NAME, "ServerConsole___StyledDiv14-sc-13p0yj4-24.blaIvP").text.split("in ")[1].split("A")[0].split("P")[0])
+        time.sleep(300)
+    except: continue
