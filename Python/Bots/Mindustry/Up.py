@@ -39,6 +39,7 @@ for l in G: a, n = t(a, l, n) if l.isupper() else (a, n)
 R = "user"; I = "name"; S = "pass"; W = "word"; pa = p + a; pa = p + a
 Agent = randAgent()
 options = Options()
+options.add_argument("-headless")
 options.set_preference("general.useragent.override", Agent)
 driver = webdriver.Firefox(options = options)
 
