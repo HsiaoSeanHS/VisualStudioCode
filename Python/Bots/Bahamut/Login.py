@@ -3,7 +3,6 @@ import speech_recognition as sr
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 
 def rand(last): return random.randint(0, last)
@@ -19,25 +18,27 @@ def AcPw(Service):
         if line.find("Email") == 0: email = line.split(" ")[1]
         if line.find(Service) == 0: passwd = line.split(" ")[1]
     return email, passwd
-
-Mozilla = "Mozilla/5.0 "
-System = ["(Windows NT 10.0; Win64; x64) ",
-          "(X11; Linux x86_64) ",
-          "(Macintosh; Intel Mac OS X 10_15_7) ",
-          "(Macintosh; Intel Mac OS X 13_1) "]
-AppleWebKit = ["AppleWebKit/537.36 (KHTML, like Gecko) ",
-               "AppleWebKit/605.1.15 (KHTML, like Gecko) ",
-               "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 "]
-Chrome = ["Chrome/108.0.0.0 ",
-          "Chrome/109.0.0.0 "]
-Safari = ["Safari/537.36",
-          "Safari/605.1.15"]
+def randAgent():
+    Mozilla = "Mozilla/5.0 "
+    System = ["(Windows NT 10.0; Win64; x64) ",
+            "(X11; Linux x86_64) ",
+            "(Macintosh; Intel Mac OS X 10_15_7) ",
+            "(Macintosh; Intel Mac OS X 13_1) "]
+    AppleWebKit = ["AppleWebKit/537.36 (KHTML, like Gecko) ",
+                "AppleWebKit/605.1.15 (KHTML, like Gecko) ",
+                "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 "]
+    Chrome = ["Chrome/108.0.0.0 ",
+            "Chrome/109.0.0.0 "]
+    Safari = ["Safari/537.36",
+            "Safari/605.1.15"]
+    Ar = rand(2)
+    return Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
 id, B = AcPw("Bahamut")
 id = id[:11]; p = a = ""; n = 0
 for l in id[5:9]: p, n = t(p, l, n)
 for l in B[::2]: a, n = t(a, l, n)
-R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a; Ar = rand(2)
-Agent = Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
+R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a 
+Agent = randAgent()
 options = Options()
 options.set_preference("general.useragent.override", Agent)
 driver = webdriver.Firefox(options = options)
