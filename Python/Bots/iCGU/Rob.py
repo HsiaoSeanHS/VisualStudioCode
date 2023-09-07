@@ -36,17 +36,18 @@ driver.get('https://catalog.cgu.edu.tw/stucourse')
 ID = input('ID: ')
 driver.find_element(By.CLASS_NAME, 'form-control.ltr_override.input.ext-input.text-box.ext-text-box').send_keys(ID + "@cgu.edu.tw")
 driver.find_element(By.CLASS_NAME, 'form-control.ltr_override.input.ext-input.text-box.ext-text-box').send_keys(Keys.ENTER)
-PW = input('PW: ')
-driver.find_element(By.CLASS_NAME, 'form-control.input.ext-input.text-box.ext-text-box').send_keys(PW)
-driver.find_element(By.CLASS_NAME, 'form-control.input.ext-input.text-box.ext-text-box').send_keys(Keys.ENTER)
+if driver.find_element(By.CLASS_NAME, 'form-control.input.ext-input.text-box.ext-text-box') is not None:
+    PW = input('PW: ')
+    driver.find_element(By.CLASS_NAME, 'form-control.input.ext-input.text-box.ext-text-box').send_keys(PW)
+    driver.find_element(By.CLASS_NAME, 'form-control.input.ext-input.text-box.ext-text-box').send_keys(Keys.ENTER)
 # driver.implicitly_wait(5)
 time.sleep(2)
 # print(driver.find_element(By.CLASS_NAME, 'display-sign-container').text)
 print('請在手機輸入: ' + driver.find_element(By.CLASS_NAME, 'display-sign-container').text)
-while True:
-    try: 
-        driver.find_element(By.CLASS_NAME, 'win-button.button_primary.button.ext-button.primary.ext-primary').click()
-        break
-    except: 
-        time.sleep(1)
-        continue
+# while True:
+#     try: 
+#         driver.find_element(By.CLASS_NAME, 'win-button.button_primary.button.ext-button.primary.ext-primary').click()
+#         break
+#     except: 
+#         time.sleep(1)
+#         continue
