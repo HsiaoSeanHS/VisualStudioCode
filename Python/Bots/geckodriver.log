@@ -1734,3 +1734,102 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
 1693921596547	Marionette	INFO	Stopped listening on port 53152
 Dynamically enable window occlusion 1
+1693922362632	geckodriver	INFO	Listening on 127.0.0.1:54428
+1693922365687	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileXj3wGC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693922365958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693922366012	Marionette	INFO	Listening on port 54449
+WebDriver BiDi listening on ws://127.0.0.1:54429
+Read port: 54449
+1693922366125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54429/devtools/browser/064911c8-b68c-4708-8270-8ce6319444af
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924353665	geckodriver	INFO	Listening on 127.0.0.1:56345
+1693924356686	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile3luCHb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924356987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924357048	Marionette	INFO	Listening on port 56373
+WebDriver BiDi listening on ws://127.0.0.1:56346
+Read port: 56373
+1693924357226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56346/devtools/browser/7a6a329b-e619-49e0-b12f-102cbcedcc58
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924378965	Marionette	INFO	Stopped listening on port 56373
+Dynamically enable window occlusion 1
+1693924395054	geckodriver	INFO	Listening on 127.0.0.1:56483
+1693924398123	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilefcc9vc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924398415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924398478	Marionette	INFO	Listening on port 56517
+WebDriver BiDi listening on ws://127.0.0.1:56484
+Read port: 56517
+1693924398649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56484/devtools/browser/db670344-4457-46bf-91f6-a40467499c7a
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924414397	Marionette	INFO	Stopped listening on port 56517
+Dynamically enable window occlusion 1
+1693924472528	geckodriver	INFO	Listening on 127.0.0.1:56678
+1693924475571	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilezkcFFp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924475857	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924475918	Marionette	INFO	Listening on port 56700
+WebDriver BiDi listening on ws://127.0.0.1:56679
+Read port: 56700
+1693924476098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56679/devtools/browser/3ee4dee8-5e96-4770-b10a-e89a72137a48
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype.post@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js:18:182032
+t@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js:18:183590
+
+1693924525296	geckodriver	INFO	Listening on 127.0.0.1:56818
+1693924528345	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile6QJTH9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924528624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924528681	Marionette	INFO	Listening on port 56840
+WebDriver BiDi listening on ws://127.0.0.1:56819
+Read port: 56840
+1693924528861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56819/devtools/browser/76491847-4d2f-4a19-a8b8-13c9ef8c69b5
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924571028	Marionette	INFO	Stopped listening on port 56840
+Dynamically enable window occlusion 1
