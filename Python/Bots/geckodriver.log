@@ -1171,6 +1171,7 @@ console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefin
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://panel.godlike.host."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://godlike.host."
 JavaScript warning: https://pagead2.googlesyndication.com/bg/QWzZRjgqb53KCPJmDiPDE6lnZUdFGzmO3KDfy6MXCng.js line 2 > eval line 1323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+<<<<<<< HEAD
 1693664031495	geckodriver	INFO	Listening on 127.0.0.1:55288
 1693664033750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5528 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofilevI8JeT"
 *** You are running in headless mode.
@@ -1919,4 +1920,667 @@ r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=dictionary.cambr
 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.tw."
 1694878189053	Marionette	INFO	Stopped listening on port 62846
+=======
+1693916600250	geckodriver	INFO	Listening on 127.0.0.1:54871
+1693916603325	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile7VjYj1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693916603756	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693916603805	Marionette	INFO	Listening on port 54913
+WebDriver BiDi listening on ws://127.0.0.1:54872
+Read port: 54913
+1693916603944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54872/devtools/browser/4b09348d-ab12-452d-b18e-8e3722f3f148
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693917491174	Marionette	INFO	Stopped listening on port 54913
+Dynamically enable window occlusion 1
+"--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile4YSW7V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693917237987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693917238036	Marionette	INFO	Listening on port 55776
+WebDriver BiDi listening on ws://127.0.0.1:55755
+Read port: 55776
+1693917238176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55755/devtools/browser/aa4533a7-18c1-43ef-8d0d-8a68e11a7443
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: "Unable to find target with innerWindowId:12884901889"
+console.error: "Unable to find target with innerWindowId:12884901890"
+console.error: "Unable to find target with innerWindowId:17179869185"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693917962924	Marionette	INFO	Stopped listening on port 55776
+Dynamically enable window occlusion 1
+1693918080063	geckodriver	INFO	Listening on 127.0.0.1:61308
+1693918083119	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileSCdOZY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918083359	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918083410	Marionette	INFO	Listening on port 61333
+WebDriver BiDi listening on ws://127.0.0.1:61309
+Read port: 61333
+1693918083547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61309/devtools/browser/7cb146f9-0e80-4211-baae-8c2e70d00802
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918110048	Marionette	INFO	Stopped listening on port 61333
+Dynamically enable window occlusion 1
+1693918156619	geckodriver	INFO	Listening on 127.0.0.1:51770
+1693918159675	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileLQXRZi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918159909	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918159965	Marionette	INFO	Listening on port 51788
+WebDriver BiDi listening on ws://127.0.0.1:51771
+Read port: 51788
+1693918160107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51771/devtools/browser/02de30da-beb1-4a6b-b878-4f0fcbe93c8c
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918219135	Marionette	INFO	Stopped listening on port 51788
+Dynamically enable window occlusion 1
+1693918221119	geckodriver	INFO	Listening on 127.0.0.1:56548
+1693918224184	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileqvHQrT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918224432	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918224482	Marionette	INFO	Listening on port 56579
+WebDriver BiDi listening on ws://127.0.0.1:56549
+Read port: 56579
+1693918224617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56549/devtools/browser/d1aa4ec9-9ce5-444a-b028-78f388e3191b
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918281655	Marionette	INFO	Stopped listening on port 56579
+Dynamically enable window occlusion 1
+1693918285689	geckodriver	INFO	Listening on 127.0.0.1:52108
+1693918288737	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilea5sfX0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918288975	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918289028	Marionette	INFO	Listening on port 52128
+WebDriver BiDi listening on ws://127.0.0.1:52109
+Read port: 52128
+1693918289165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52109/devtools/browser/7b5f57e3-6fd0-455f-a93d-7aefb2293145
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918342581	geckodriver	INFO	Listening on 127.0.0.1:52262
+1693918345624	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileHnmTvL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918345870	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918345921	Marionette	INFO	Listening on port 52280
+WebDriver BiDi listening on ws://127.0.0.1:52263
+Read port: 52280
+1693918346063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52263/devtools/browser/c0454c7b-8309-4828-97ff-b75d1805fac4
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918376832	Marionette	INFO	Stopped listening on port 52280
+Dynamically enable window occlusion 1
+1693918495669	geckodriver	INFO	Listening on 127.0.0.1:52493
+1693918498752	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile5erABH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918498988	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918499037	Marionette	INFO	Listening on port 52511
+WebDriver BiDi listening on ws://127.0.0.1:52494
+Read port: 52511
+1693918499185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52494/devtools/browser/85d28425-e27d-41af-864c-8d85a5cd2a3d
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918523480	Marionette	INFO	Stopped listening on port 52511
+Dynamically enable window occlusion 1
+1693918586832	geckodriver	INFO	Listening on 127.0.0.1:50750
+1693918589903	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilevDhYte"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918590175	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918590233	Marionette	INFO	Listening on port 50768
+WebDriver BiDi listening on ws://127.0.0.1:50751
+Read port: 50768
+1693918590341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50751/devtools/browser/c9151966-2cb8-4c7b-816f-259f04d5c699
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+1693918638813	geckodriver	INFO	Listening on 127.0.0.1:50877
+1693918641845	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilexHTz15"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918642081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918642132	Marionette	INFO	Listening on port 50895
+WebDriver BiDi listening on ws://127.0.0.1:50878
+Read port: 50895
+1693918642270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50878/devtools/browser/543330fa-78da-4ae8-9d8e-263c39f83fe4
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedError_Core_oVGpC3k6jLvCDqf78DW_1A2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype._numEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedError_Core_oVGpC3k6jLvCDqf78DW_1A2.js:18:181617
+e.exports</e.prototype.hasEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedError_Core_oVGpC3k6jLvCDqf78DW_1A2.js:18:180676
+e.exports</e.prototype.post@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedError_Core_oVGpC3k6jLvCDqf78DW_1A2.js:18:187856
+t@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedError_Core_oVGpC3k6jLvCDqf78DW_1A2.js:18:189331
+
+1693918727783	Marionette	INFO	Stopped listening on port 50895
+Dynamically enable window occlusion 1
+1693918739122	geckodriver	INFO	Listening on 127.0.0.1:64764
+1693918742198	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilepicdmj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918742431	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918742481	Marionette	INFO	Listening on port 64790
+WebDriver BiDi listening on ws://127.0.0.1:64765
+Read port: 64790
+1693918742620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64765/devtools/browser/364958bf-13f8-4bd6-8a53-7de07443dac9
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693918838023	Marionette	INFO	Stopped listening on port 64790
+Dynamically enable window occlusion 1
+1693918842002	geckodriver	INFO	Listening on 127.0.0.1:59553
+1693918845054	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilerXMqcs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693918845294	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693918845346	Marionette	INFO	Listening on port 59575
+WebDriver BiDi listening on ws://127.0.0.1:59554
+Read port: 59575
+1693918845489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59554/devtools/browser/77c9f3a7-c234-42a8-8ec8-715688caea20
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+JavaScript warning: https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype._numEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:198505
+e.exports</e.prototype.hasEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:197564
+e.exports</e.prototype.post@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:204744
+t@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:206219
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693919031045	Marionette	INFO	Stopped listening on port 59575
+Dynamically enable window occlusion 1
+4d1-9e96-40ee-97e4-9ebef06c5703
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693919033007	Marionette	INFO	Stopped listening on port 49189
+Dynamically enable window occlusion 1
+1693919060932	geckodriver	INFO	Listening on 127.0.0.1:52473
+1693919063948	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile1aVn4H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919064236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919064302	Marionette	INFO	Listening on port 52497
+WebDriver BiDi listening on ws://127.0.0.1:52474
+Read port: 52497
+1693919064450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52474/devtools/browser/6a0e3056-b68c-4626-bb36-ea7ff31d9e65
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693919136625	Marionette	INFO	Stopped listening on port 52497
+Dynamically enable window occlusion 1
+1693919165167	geckodriver	INFO	Listening on 127.0.0.1:50638
+1693919168195	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile0go2vx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919168439	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919168489	Marionette	INFO	Listening on port 50656
+WebDriver BiDi listening on ws://127.0.0.1:50639
+Read port: 50656
+1693919168628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50639/devtools/browser/fc460c47-8cbd-4065-8d13-27bc05019d37
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693919213582	Marionette	INFO	Stopped listening on port 50656
+Dynamically enable window occlusion 1
+1693919231496	geckodriver	INFO	Listening on 127.0.0.1:65365
+1693919234530	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileRdQWjh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919234778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919234832	Marionette	INFO	Listening on port 65403
+WebDriver BiDi listening on ws://127.0.0.1:65366
+Read port: 65403
+1693919234979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65366/devtools/browser/4b9b0bf7-787b-479f-bffd-babc16102ad9
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype._numEvents@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:198505
+e.exports</e.prototype.hasEvents@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:197564
+e.exports</e.prototype.post@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:204744
+t@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:206219
+
+1693919260653	Marionette	INFO	Stopped listening on port 65403
+Dynamically enable window occlusion 1
+1693919322886	geckodriver	INFO	Listening on 127.0.0.1:54743
+1693919325916	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilemdBdTm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919326167	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919326218	Marionette	INFO	Listening on port 54769
+WebDriver BiDi listening on ws://127.0.0.1:54744
+Read port: 54769
+1693919326358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54744/devtools/browser/e5545568-70ca-4146-830e-a697e0593815
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype._numEvents@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:198505
+e.exports</e.prototype.hasEvents@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:197564
+e.exports</e.prototype.post@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:204744
+t@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedSA_Core_grvfyRlRBVMfrvjB1CRvwQ2.js:18:206219
+
+1693919355355	Marionette	INFO	Stopped listening on port 54769
+Dynamically enable window occlusion 1
+1693919370873	geckodriver	INFO	Listening on 127.0.0.1:54143
+1693919373924	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileYpUMtI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919374159	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919374211	Marionette	INFO	Listening on port 54171
+WebDriver BiDi listening on ws://127.0.0.1:54144
+Read port: 54171
+1693919374350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54144/devtools/browser/e19d59e4-0228-43cb-860c-942880872edc
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.2.7.min.js, line 6: Script terminated by timeout at:
+t/Ic/</h.setUnloading@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.2.7.min.js:6:58254
+d@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.2.7.min.js:6:59203
+
+1693919441499	Marionette	INFO	Stopped listening on port 54171
+Dynamically enable window occlusion 1
+1693919509809	geckodriver	INFO	Listening on 127.0.0.1:54413
+1693919512867	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilelFJL67"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919513138	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919513195	Marionette	INFO	Listening on port 54432
+WebDriver BiDi listening on ws://127.0.0.1:54414
+Read port: 54432
+1693919513304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54414/devtools/browser/9e49d453-3c89-4cb9-816c-4506955ac982
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.error: "Unable to find target with innerWindowId:8589934595"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://www.cloudflare.com/vendor/adobe/at.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tr.www.cloudflare.com/gtag/js?id=G-PHVG60J2FD&l=dataLayer&cx=c&sign=21975abf76734ba0e6b03800652de110a207ac1932da7ade66a5ab1b4a0314b0_20230905, line 389: Script terminated by timeout at:
+aa.lh@https://tr.www.cloudflare.com/gtag/js?id=G-PHVG60J2FD&l=dataLayer&cx=c&sign=21975abf76734ba0e6b03800652de110a207ac1932da7ade66a5ab1b4a0314b0_20230905:389:42
+get@https://tr.www.cloudflare.com/gtag/js?id=G-PHVG60J2FD&l=dataLayer&cx=c&sign=21975abf76734ba0e6b03800652de110a207ac1932da7ade66a5ab1b4a0314b0_20230905:387:119
+stop@https://tr.www.cloudflare.com/gtag/js?id=G-PHVG60J2FD&l=dataLayer&cx=c&sign=21975abf76734ba0e6b03800652de110a207ac1932da7ade66a5ab1b4a0314b0_20230905:387:87
+aa.vk/c/<@https://tr.www.cloudflare.com/gtag/js?id=G-PHVG60J2FD&l=dataLayer&cx=c&sign=21975abf76734ba0e6b03800652de110a207ac1932da7ade66a5ab1b4a0314b0_20230905:387:412
+
+JavaScript warning: https://js.driftt.com/core/assets/js/22.6b9a301a.chunk.js, line 1: Script terminated by timeout at:
+addNonEnumerableProperty@https://js.driftt.com/core/assets/js/22.6b9a301a.chunk.js:1:27883
+markFunctionWrapped@https://js.driftt.com/core/assets/js/22.6b9a301a.chunk.js:1:28023
+wrap@https://js.driftt.com/core/assets/js/51.558be3c5.chunk.js:1:9294
+jrvE/_wrapEventTarget/</<@https://js.driftt.com/core/assets/js/51.558be3c5.chunk.js:1:13813
+jniC/instrument/</</<@https://js.driftt.com/core/assets/js/22.6b9a301a.chunk.js:1:22178
+addInitialPointerMoveListeners@https://js.driftt.com/core/assets/js/20.8c21ea18.chunk.js:1:17008
+onVisibilityChange@https://js.driftt.com/core/assets/js/20.8c21ea18.chunk.js:1:18731
+
+1693919592534	Marionette	INFO	Stopped listening on port 54432
+Dynamically enable window occlusion 1
+1693919772525	geckodriver	INFO	Listening on 127.0.0.1:62748
+1693919775568	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileYNqjAK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919775813	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919775864	Marionette	INFO	Listening on port 62773
+WebDriver BiDi listening on ws://127.0.0.1:62749
+Read port: 62773
+1693919776005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62749/devtools/browser/2832df06-c10e-46f9-aab6-0c51c290b1ad
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+JavaScript warning: https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_2W3IEdsiCwViwvv0RWyRLg2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype._numEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_2W3IEdsiCwViwvv0RWyRLg2.js:18:152793
+e.exports</e.prototype.hasEvents@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_2W3IEdsiCwViwvv0RWyRLg2.js:18:151852
+e.exports</e.prototype.post@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_2W3IEdsiCwViwvv0RWyRLg2.js:18:159032
+t@https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_2W3IEdsiCwViwvv0RWyRLg2.js:18:160507
+
+1693919797820	Marionette	INFO	Stopped listening on port 62773
+Dynamically enable window occlusion 1
+1693919817831	geckodriver	INFO	Listening on 127.0.0.1:53891
+1693919820886	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileAlhi0D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693919821143	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693919821196	Marionette	INFO	Listening on port 53909
+WebDriver BiDi listening on ws://127.0.0.1:53892
+Read port: 53909
+1693919821332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53892/devtools/browser/0a89bb6c-d17e-4f05-bb9e-39cbcd9393fd
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693920001290	Marionette	INFO	Stopped listening on port 53909
+Dynamically enable window occlusion 1
+1693920052991	geckodriver	INFO	Listening on 127.0.0.1:53033
+1693920056036	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileBPwm82"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693920056273	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693920056326	Marionette	INFO	Listening on port 53052
+WebDriver BiDi listening on ws://127.0.0.1:53034
+Read port: 53052
+1693920056465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53034/devtools/browser/e16cdb9d-c76a-4d0b-a90c-f7729aea21c4
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693920130093	Marionette	INFO	Stopped listening on port 53052
+Dynamically enable window occlusion 1
+1693920371963	geckodriver	INFO	Listening on 127.0.0.1:57567
+1693920375008	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilelT8h95"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693920375259	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693920375310	Marionette	INFO	Listening on port 57593
+WebDriver BiDi listening on ws://127.0.0.1:57568
+Read port: 57593
+1693920375450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57568/devtools/browser/775ceb36-5233-4ab6-856a-b9b5c07172dc
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693920405668	Marionette	INFO	Stopped listening on port 57593
+Dynamically enable window occlusion 1
+1693920405778	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2153390067, errorCode: 2, reason: error
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1693920408632	geckodriver	INFO	Listening on 127.0.0.1:57699
+1693920411657	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--remote-debugging- ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileD5ZPF7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693920411890	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693920411942	Marionette	INFO	Listening on port 57726
+WebDriver BiDi listening on ws://127.0.0.1:57700
+Read port: 57726
+1693920412081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57700/devtools/browser/42d3d84c-76ae-4726-918b-fdd8a4b93eb1
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693920464583	Marionette	INFO	Stopped listening on port 57726
+Dynamically enable window occlusion 1
+1693920852148	geckodriver	INFO	Listening on 127.0.0.1:52878
+1693920855200	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "start-maximized" "- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile1ben2c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693920855493	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693920855566	Marionette	INFO	Listening on port 52912
+WebDriver BiDi listening on ws://127.0.0.1:52879
+Read port: 52912
+1693920855752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52879/devtools/browser/96465be2-88ee-4395-a3eb-3b2d7b57f44c
+1693920968654	geckodriver	INFO	Listening on 127.0.0.1:53118
+1693920971707	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilem2QZ61"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693920971997	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693920972060	Marionette	INFO	Listening on port 53152
+WebDriver BiDi listening on ws://127.0.0.1:53119
+Read port: 53152
+1693920972242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53119/devtools/browser/a43c4d38-a974-47b2-b4df-11b920aaa5be
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693921596547	Marionette	INFO	Stopped listening on port 53152
+Dynamically enable window occlusion 1
+1693922362632	geckodriver	INFO	Listening on 127.0.0.1:54428
+1693922365687	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofileXj3wGC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693922365958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693922366012	Marionette	INFO	Listening on port 54449
+WebDriver BiDi listening on ws://127.0.0.1:54429
+Read port: 54449
+1693922366125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54429/devtools/browser/064911c8-b68c-4708-8270-8ce6319444af
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924353665	geckodriver	INFO	Listening on 127.0.0.1:56345
+1693924356686	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile3luCHb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924356987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924357048	Marionette	INFO	Listening on port 56373
+WebDriver BiDi listening on ws://127.0.0.1:56346
+Read port: 56373
+1693924357226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56346/devtools/browser/7a6a329b-e619-49e0-b12f-102cbcedcc58
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924378965	Marionette	INFO	Stopped listening on port 56373
+Dynamically enable window occlusion 1
+1693924395054	geckodriver	INFO	Listening on 127.0.0.1:56483
+1693924398123	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilefcc9vc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924398415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924398478	Marionette	INFO	Listening on port 56517
+WebDriver BiDi listening on ws://127.0.0.1:56484
+Read port: 56517
+1693924398649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56484/devtools/browser/db670344-4457-46bf-91f6-a40467499c7a
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924414397	Marionette	INFO	Stopped listening on port 56517
+Dynamically enable window occlusion 1
+1693924472528	geckodriver	INFO	Listening on 127.0.0.1:56678
+1693924475571	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofilezkcFFp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924475857	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924475918	Marionette	INFO	Listening on port 56700
+WebDriver BiDi listening on ws://127.0.0.1:56679
+Read port: 56700
+1693924476098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56679/devtools/browser/3ee4dee8-5e96-4770-b10a-e89a72137a48
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js, line 18: Script terminated by timeout at:
+e.exports</e.prototype.post@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js:18:182032
+t@https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedKmsi_Core_ly6RX6eV6uryzJpXo-O9rQ2.js:18:183590
+
+1693924525296	geckodriver	INFO	Listening on 127.0.0.1:56818
+1693924528345	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\117.0\\firefox.exe" "--marionette" "--start-maximized"  ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile6QJTH9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693924528624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693924528681	Marionette	INFO	Listening on port 56840
+WebDriver BiDi listening on ws://127.0.0.1:56819
+Read port: 56840
+1693924528861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56819/devtools/browser/76491847-4d2f-4a19-a8b8-13c9ef8c69b5
+JavaScript error: https://catalog.cgu.edu.tw/static/js/main.360ebc06.js, line 1: TypeError: l is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1693924571028	Marionette	INFO	Stopped listening on port 56840
+>>>>>>> 5839706eb86ae031e73c1208cfa1298174886794
 Dynamically enable window occlusion 1
