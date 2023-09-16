@@ -49,9 +49,11 @@ for index in list:
     #driver.execute_script("arguments[0].scrollIntoView();", result_address)
     #result_address.submit()
     search_bar = driver.find_element(By.ID, "searchword")
-    search_button = driver.find_element(By.CLASS_NAME, "bo.iwc.iwc-40.hao.lb0.cdo-search-button.lp-0")
+    # search_button = driver.find_element(By.CLASS_NAME, "i.i-search")
+    print(index)
     search_bar.send_keys(index)
-    search_button.submit()
+    search_bar.submit()
+    # search_button.submit()
     # time.sleep(2)
 
     Have_content = True
