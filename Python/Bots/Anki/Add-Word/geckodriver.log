@@ -7987,3 +7987,27 @@ Dynamically enable window occlusion 1
 [GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
 [Parent 10504, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 [GPU 24284, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1694875812250	geckodriver	INFO	Listening on 127.0.0.1:63169
+1694875815313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofileSA5uoB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694875815915	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694875815992	Marionette	INFO	Listening on port 63181
+WebDriver BiDi listening on ws://127.0.0.1:63170
+Read port: 63181
+1694875816183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63170/devtools/browser/41949f66-3748-422f-a656-6636da93d5e6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8068825731610977%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8068825731610977%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8068825731610977%22}:14:3642
+
+1694875827666	Marionette	INFO	Stopped listening on port 63181
+JavaScript warning: https://ads.as.criteo.com/delivery/r/afr.php?u=%7C0L3ggOoj5LG5jcglUeT00jRq5YGoyX6ny8EEMZId4%2BQ%3D%7C&c1=zhOks3zwNR143i8PptOpoCEryJ9bzKZX59e4sfBOohf-aYmsSLPWynghsi3-uXyJoo7j-u6GI9dPknctA7Y5DuYSGNNr7VkB6gVZ6n7pbhoj9v_YEg2JbZtgf238XVbaS6KElOIVo_NEqPCsSmMrtJEm1zb_DoJHRNdIBhNyA7CB_fmYJXtEedQnzYDVSyHRaAPDsSNdD7LCaxVMmijjW49fdCLDcVUronMz_Gv_PhO_eV2MF8tEuulUo_FahCS6xZnGJhQ-XlFLwV5GYhjtIMNxu2vi1Mremq0iKWbhx1lhHK4VhSUYfU7ZEPTupUYhCuVPTAPUGNVGoylvd_DV40oqEUZUYwapJOxAH9aKcjDJyHEKvPixBsyD-N-Q_c03RvHfZBkoTbfaUQrEp3-j-qq8RmJPhX8MMHavelqMlM4QPHUtY0NhSCQeZwJOO5mHmDA1ziSTx8oWTy8ZYXzGlYM4IqmM2MAyq_yQ2PuK2Ms8yUBDDRe_BMnmKJGMVfNlFJxXaZSvl6F4_39JjTdzfCR8wuNysFDdliefhkffpMse8wYNCNCu6rKPUIwXGInBoxJzpwDxSHuNnKulbdstwPVsdl5sh2TlxSxPh4aeWZR5Y98uRcKYlWYoZh6CS1uMz8fLUDSdVEFyr50rEXyqORjc_Y7iu2kuFjlT2tXCAS4n85oZGrTBWdiPFes70SzwWBBobOfKmP3UmGywJjaOZttsKQAVyMDM-3a9qtg909g, line 50: Script terminated by timeout at:
+h@https://ads.as.criteo.com/delivery/r/afr.php?u=%7C0L3ggOoj5LG5jcglUeT00jRq5YGoyX6ny8EEMZId4%2BQ%3D%7C&c1=zhOks3zwNR143i8PptOpoCEryJ9bzKZX59e4sfBOohf-aYmsSLPWynghsi3-uXyJoo7j-u6GI9dPknctA7Y5DuYSGNNr7VkB6gVZ6n7pbhoj9v_YEg2JbZtgf238XVbaS6KElOIVo_NEqPCsSmMrtJEm1zb_DoJHRNdIBhNyA7CB_fmYJXtEedQnzYDVSyHRaAPDsSNdD7LCaxVMmijjW49fdCLDcVUronMz_Gv_PhO_eV2MF8tEuulUo_FahCS6xZnGJhQ-XlFLwV5GYhjtIMNxu2vi1Mremq0iKWbhx1lhHK4VhSUYfU7ZEPTupUYhCuVPTAPUGNVGoylvd_DV40oqEUZUYwapJOxAH9aKcjDJyHEKvPixBsyD-N-Q_c03RvHfZBkoTbfaUQrEp3-j-qq8RmJPhX8MMHavelqMlM4QPHUtY0NhSCQeZwJOO5mHmDA1ziSTx8oWTy8ZYXzGlYM4IqmM2MAyq_yQ2PuK2Ms8yUBDDRe_BMnmKJGMVfNlFJxXaZSvl6F4_39JjTdzfCR8wuNysFDdliefhkffpMse8wYNCNCu6rKPUIwXGInBoxJzpwDxSHuNnKulbdstwPVsdl5sh2TlxSxPh4aeWZR5Y98uRcKYlWYoZh6CS1uMz8fLUDSdVEFyr50rEXyqORjc_Y7iu2kuFjlT2tXCAS4n85oZGrTBWdiPFes70SzwWBBobOfKmP3UmGywJjaOZttsKQAVyMDM-3a9qtg909g:50:8083
+
+JavaScript warning: https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/ line 2 > injectedScript, line 2: Script terminated by timeout at:
+value/this.timeoutId<@https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/ line 2 > injectedScript:2:165949
+
+Dynamically enable window occlusion 1
