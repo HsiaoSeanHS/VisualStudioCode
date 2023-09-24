@@ -8011,3 +8011,27 @@ JavaScript warning: https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%
 value/this.timeoutId<@https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/ line 2 > injectedScript:2:165949
 
 Dynamically enable window occlusion 1
+1695179735571	geckodriver	INFO	Listening on 127.0.0.1:56286
+1695179738602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofile6igfZp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695179739284	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695179739380	Marionette	INFO	Listening on port 56302
+WebDriver BiDi listening on ws://127.0.0.1:56287
+Read port: 56302
+1695179739650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56287/devtools/browser/efb85fcd-9050-4de8-b243-06c88afca1dc
+JavaScript warning: https://script.4dex.io/localstore.js line 1 > Function, line 4: Script terminated by timeout at:
+anonymous/_ADAGIO</</</<@https://script.4dex.io/localstore.js line 1 > Function:4:74017
+ym.prototype.push@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202309140101/pubads_impl.js:10:272845
+zg/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202309140101/pubads_impl.js:10:30182
+J/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202309140101/pubads_impl.js:10:29820
+anonymous/_ADAGIO</</<@https://script.4dex.io/localstore.js line 1 > Function:4:73981
+anonymous/_ADAGIO</<@https://script.4dex.io/localstore.js line 1 > Function:4:74976
+anonymous/_ADAGIO<@https://script.4dex.io/localstore.js line 1 > Function:4:76229
+anonymous@https://script.4dex.io/localstore.js line 1 > Function:4:76372
+@https://script.4dex.io/localstore.js:1:3639
+
+1695179745947	Marionette	INFO	Stopped listening on port 56302
+Dynamically enable window occlusion 1
