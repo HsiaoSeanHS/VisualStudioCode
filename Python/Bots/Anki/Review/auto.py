@@ -1,5 +1,6 @@
-import os, time, random, sys
+import os, time, random, sys, geometry
 import pyautogui
+import pygetwindow as gw
 import win32gui, win32com.client
 # from win10toast import ToastNotifier
 
@@ -13,6 +14,9 @@ def CheckAnki():
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.AppActivate("User 1 - Anki")
     else: os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+    window = gw.getWindowsWithTitle("User 1 - Anki")[0]
+    window.moveTo(0, 0)
+    window.resizeTo(640, 1028)
     time.sleep(3)
 
 def StudyNow(AllDone):
