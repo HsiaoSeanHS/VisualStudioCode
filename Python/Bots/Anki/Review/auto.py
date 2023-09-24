@@ -1,4 +1,4 @@
-import os, time, random, sys, geometry
+import os, time, random, sys
 import pyautogui
 import pygetwindow as gw
 import win32gui, win32com.client
@@ -34,7 +34,9 @@ def StudyNow(AllDone):
 
 pyautogui.PAUSE = 0.5
 os.system("cls")
-os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+#os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
+#os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+CheckAnki()
 
 while True:
     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
