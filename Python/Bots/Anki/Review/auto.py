@@ -7,7 +7,7 @@ import win32gui, win32com.client
 # toaster = ToastNotifier()
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
 
-def CheckAnki():
+def CheckAnki(wp, w, h):
     if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
         os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
         time.sleep(10)
@@ -15,8 +15,8 @@ def CheckAnki():
         shell.AppActivate("User 1 - Anki")
     else: os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
     window = gw.getWindowsWithTitle("User 1 - Anki")[0]
-    window.moveTo(0, 0)
-    window.resizeTo(640, 1028)
+    window.moveTo(wp, 0)
+    window.resizeTo(w, h)
     time.sleep(3)
 
 def StudyNow(AllDone):
@@ -36,7 +36,9 @@ pyautogui.PAUSE = 0.5
 os.system("cls")
 #os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 #os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
-CheckAnki()
+width, height = pyautogui.size()
+wp = round(width * 2 / 3); w = width - wp; h = round(height * (1 - 70/1440))
+CheckAnki(wp, w, h)
 
 while True:
     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
@@ -94,7 +96,7 @@ if Anki != 0:
         
         ShowAnswer_location = pyautogui.locateOnScreen(abs + 'ShowAnswer.png', confidence=1)
         pyautogui.press('space')
-        CheckAnki()
+        CheckAnki(wp, w, h)
         Good_location = pyautogui.locateOnScreen(abs + 'Good.png', confidence=0.9)
         if Good_location is not None:
             Good_center = pyautogui.center(Good_location)
@@ -132,7 +134,7 @@ if Anki != 0:
                     print(x, "Easy no10min") #impossible
                 pyautogui.press('space')
                 time.sleep(random.randint(50,60))
-                CheckAnki()
+                CheckAnki(wp, w, h)
                 Good_location = pyautogui.locateOnScreen(abs + 'Good.png', confidence=0.9)
                 if Good_location is None:
                     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)

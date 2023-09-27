@@ -9,6 +9,7 @@ import win32gui, win32api
 from time import sleep, time
 import time
 import win32com.client
+# import tkinter as tk
 
 pyautogui.PAUSE = 0.5 
 # print(random.random())
@@ -42,6 +43,8 @@ pyautogui.PAUSE = 0.5
 # print(aDay_location)
 # SN = cv2.imread(r"screenshots/StudyNow.png")
 # print(os.path.dirname(os.path.abspath(__file__)))
-abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
-StudyNow_location = pyautogui.locateOnScreen(abs + "StudyNow.png", confidence=0.9)
-print(StudyNow_location)
+# abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
+# StudyNow_location = pyautogui.locateOnScreen(abs + "StudyNow.png", confidence=0.9)
+# print(StudyNow_location)
+width, height = pyautogui.size()
+print(width, height)
