@@ -12,6 +12,7 @@ import win32com.client
 # import tkinter as tk
 
 pyautogui.PAUSE = 0.5 
+abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
 # print(random.random())
 # if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
 #     os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
@@ -33,18 +34,21 @@ pyautogui.PAUSE = 0.5
 # os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 # time.sleep(5)
 # os.system('%s%s' % ("taskkill /F /IM ","Anki.exe"))
-# shell = win32com.client.Dispatch("WScript.Shell")
-# shell.AppActivate("User 1 - Anki")
-# Anki = win32gui.FindWindow(None, "User 1 - Anki")
+shell = win32com.client.Dispatch("WScript.Shell")
+shell.AppActivate("User 1 - Anki")
+Anki = win32gui.FindWindow(None, "User 1 - Anki")
 # print(Anki)
 # pyautogui.hotkey('alt', 'tab')
 # pyautogui.moveTo(50, 15, duration = 0)
-# aDay_location = pyautogui.locateOnScreen('screenshots/1d.png', confidence=0.9)
-# print(aDay_location)
+lower10min_location = pyautogui.locateOnScreen(abs +'10min.png', confidence=0.9)
+print(lower10min_location)
 # SN = cv2.imread(r"screenshots/StudyNow.png")
 # print(os.path.dirname(os.path.abspath(__file__)))
 # abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
 # StudyNow_location = pyautogui.locateOnScreen(abs + "StudyNow.png", confidence=0.9)
 # print(StudyNow_location)
-width, height = pyautogui.size()
-print(width, height)
+
+# width, height = pyautogui.size()
+# print(width, height)
+
+# os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
