@@ -19,7 +19,7 @@ def move(direct, distance):
         pyautogui.keyUp('right')
 
 def dL():
-    HeadLose_location = pyautogui.locateOnScreen(ABS + 'head_lose.jpg', confidence=0.9, region=(960,0,1080,960))
+    HeadLose_location = pyautogui.locateOnScreen(ABS + 'head_lose.jpg', confidence=0.9, grayscale=True, region=(960,0,1080,960))
     try: 
         HeadLose_center = pyautogui.center(HeadLose_location)
         print("Not yet")
