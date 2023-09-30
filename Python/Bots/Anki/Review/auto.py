@@ -40,7 +40,7 @@ pyautogui.PAUSE = 0.5
 #os.popen('%s%s' % ("taskkill /F /IM Anki.exe"))
 #os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 width, height = pyautogui.size()
-w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080))
+w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
 CheckAnki(wp, w, h)
 
 while True:
@@ -54,9 +54,9 @@ while True:
         Syncing_location = pyautogui.locateOnScreen(abs + 'Syncing.png', confidence=0.9)
         if Syncing_location is None:
             break
-        else: print("Syncing is found.")
+        # else: print("Syncing is found.")
     else: 
-        print("Can't find Decks.")
+        # print("Can't find Decks.")
         os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
         time.sleep(3)
         CheckAnki(wp, w, h)
@@ -172,7 +172,7 @@ if Anki != 0:
                     #     Decks_center = pyautogui.center(Decks_location)
                     #     pyautogui.click(Decks_center.x, Decks_center.y)
                     pyautogui.press('d')
-                    print('sfjkgjkgj')
+                    # print('sfjkgjkgj')
                     break
         elif AllDone == 7:
             print("Review has done")
