@@ -7,13 +7,19 @@ import win32gui, win32com.client
 # toaster = ToastNotifier()
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
 
-def CheckAnki(wp, w, h):
+def CheckAnki(wp, w, h, portrait):
     if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
         os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
         time.sleep(10)
         window = gw.getWindowsWithTitle("User 1 - Anki")[0]
-        window.moveTo(wp, 0)
-        window.resizeTo(w, h)
+        if portrait: 
+            # window.maximize()
+            window.moveTo(wp, 0)
+            h = round(h/2)
+            window.resizeTo(w, h)
+        else:
+            window.moveTo(wp, 0)
+            window.resizeTo(w, h)
     else: 
         # os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
         os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
@@ -40,8 +46,9 @@ pyautogui.PAUSE = 0.5
 #os.popen('%s%s' % ("taskkill /F /IM Anki.exe"))
 #os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 width, height = pyautogui.size()
+portrait = True if width < height else False
 w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
-CheckAnki(wp, w, h)
+CheckAnki(wp, w, h, portrait)
 
 while True:
     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
@@ -59,7 +66,7 @@ while True:
         # print("Can't find Decks.")
         os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
         time.sleep(3)
-        CheckAnki(wp, w, h)
+        CheckAnki(wp, w, h, portrait)
     time.sleep(1)
 shell = win32com.client.Dispatch("WScript.Shell")
 shell.AppActivate("User 1 - Anki")
@@ -115,7 +122,7 @@ if Anki != 0:
         # ShowAnswer_location = pyautogui.locateOnScreen(abs + 'ShowAnswer.png', confidence=1)
         pyautogui.press('space')
         # pyautogui.press('space')
-        CheckAnki(wp, w, h)
+        CheckAnki(wp, w, h, portrait)
         Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
         if Decks_location is not None:
             Decks_center = pyautogui.center(Decks_location)
@@ -162,7 +169,7 @@ if Anki != 0:
                     print(x, "Easy no10min") #impossible
                 pyautogui.press('space')
                 time.sleep(random.randint(50,60))
-                CheckAnki(wp, w, h)
+                CheckAnki(wp, w, h, portrait)
                 # Good_location = pyautogui.locateOnScreen(abs + 'Good.png', confidence=0.9)
                 # if Good_location is None:
                 bar_location = pyautogui.locateOnScreen(abs + 'bar.png', confidence=0.9)
