@@ -5,11 +5,14 @@ import win32gui, win32com.client
 # from win10toast import ToastNotifier
 
 # toaster = ToastNotifier()
-abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
+width, height = pyautogui.size()
+MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
+
 
 def CheckAnki(wp, w, h, portrait):
     if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
-        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
         time.sleep(10)
         window = gw.getWindowsWithTitle("User 1 - Anki")[0]
         if portrait: 
@@ -22,7 +25,12 @@ def CheckAnki(wp, w, h, portrait):
             window.resizeTo(w, h)
     else: 
         # os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
-        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system("cd %AppData%")
+        # os.system("cd..")
+        # os.system("cd Local/Programs/Anki/")
+        # os.system("start anki.exe")
+        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
     
     shell = win32com.client.Dispatch("WScript.Shell")
     shell.AppActivate("User 1 - Anki")
@@ -45,7 +53,8 @@ def StudyNow(AllDone):
 pyautogui.PAUSE = 0.5
 #os.popen('%s%s' % ("taskkill /F /IM Anki.exe"))
 #os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
-width, height = pyautogui.size()
+
+abs = MainPath + "/screenshots_2K/" if width == 2560 else MainPath + "/screenshots/"
 portrait = True if width < height else False
 w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
 CheckAnki(wp, w, h, portrait)
@@ -63,7 +72,7 @@ while True:
             break
         # else: print("Syncing is found.")
     else: 
-        # print("Can't find Decks.")
+        print("Can't find Decks.")
         os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
         time.sleep(3)
         CheckAnki(wp, w, h, portrait)
@@ -72,6 +81,7 @@ shell = win32com.client.Dispatch("WScript.Shell")
 shell.AppActivate("User 1 - Anki")
 Anki = win32gui.FindWindow(None, "User 1 - Anki")
 os.system("cls")
+
 x = 0
 if Anki != 0:
     while True:
@@ -113,7 +123,9 @@ if Anki != 0:
             AllDone = StudyNow(AllDone)
         # else: print("6")
         KK_location = pyautogui.locateOnScreen(abs + 'KK.png', confidence=0.9)
-        if KK_location is not None: #7
+        if KK_location is None: #7
+            pyautogui.press('down')
+        else:
             KK_center = pyautogui.center(KK_location)
             pyautogui.click(KK_center.x, KK_center.y)
             AllDone = StudyNow(AllDone)
