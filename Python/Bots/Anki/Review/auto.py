@@ -49,7 +49,7 @@ width, height = pyautogui.size()
 portrait = True if width < height else False
 w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
 CheckAnki(wp, w, h, portrait)
-
+print(width)
 while True:
     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
     if Decks_location is not None:
@@ -63,7 +63,7 @@ while True:
             break
         # else: print("Syncing is found.")
     else: 
-        # print("Can't find Decks.")
+        print("Can't find Decks.")
         os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
         time.sleep(3)
         CheckAnki(wp, w, h, portrait)
@@ -73,6 +73,7 @@ shell.AppActivate("User 1 - Anki")
 Anki = win32gui.FindWindow(None, "User 1 - Anki")
 os.system("cls")
 x = 0
+
 if Anki != 0:
     while True:
         AllDone = 0
