@@ -11,8 +11,8 @@ MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
 def CheckAnki(wp, w, h, portrait):
     if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
-        # os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
-        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
+        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system('start "%UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
         time.sleep(10)
         window = gw.getWindowsWithTitle("User 1 - Anki")[0]
         if portrait: 
@@ -30,7 +30,8 @@ def CheckAnki(wp, w, h, portrait):
         # os.system("cd..")
         # os.system("cd Local/Programs/Anki/")
         # os.system("start anki.exe")
-        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
+        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
     
     shell = win32com.client.Dispatch("WScript.Shell")
     shell.AppActivate("User 1 - Anki")
