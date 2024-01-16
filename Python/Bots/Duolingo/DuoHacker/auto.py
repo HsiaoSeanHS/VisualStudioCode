@@ -17,11 +17,12 @@ os.system("start C:\\Users\\Public\\Desktop\\Duo.lnk"); time.sleep(5)
 findANDclick('start', 5); findANDclick('back', 1); pyautogui.scroll(300); findANDclick('rookie_review', 1)
 
 while(True):
+    pyautogui.scroll(11000)
     findANDclick('check', 0.5)
     doing = findANDclick('practice', 0.5)
     times += 1 if doing is False else 0
     if times > 25:
         findANDclick('back', 1)
-        pyautogui.scroll(300)
+        pyautogui.scroll(500)
         findANDclick('rookie_review', 1)
         times = 0
