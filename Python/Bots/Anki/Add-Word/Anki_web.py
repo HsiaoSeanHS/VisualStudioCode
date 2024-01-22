@@ -1,5 +1,4 @@
-
-import os, time, keyboard, pyautogui, pyperclip, win32gui, win32com.client
+import os, math, time, keyboard, pyautogui, pyperclip, win32gui, win32com.client, pygetwindow as gw
 from PIL import ImageGrab
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,15 +14,19 @@ from selenium.webdriver.common.by import By
 #     else: os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
 #     time.sleep(3)
 
+width, height = pyautogui.size()
 abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
+portrait = True if width < height else False
+w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
 if win32gui.FindWindow(None, "Add") == 0 and win32gui.FindWindow(None, "User 1 - Anki") != 0: os.popen('%s%s' % ("taskkill /F /IM ","Anki.exe"))
+
 os.system("cls")
 # service = Service(executable_path = "geckodriver")
 driver = webdriver.Firefox()
 # driver.maximize_window()
 # driver = webdriver.Firefox()
 driver.set_window_position(0, 0)
-driver.set_window_size(1284, 1044)
+driver.set_window_size(wp, 1044)
 
 words = open(abs + '/pending.txt', 'r')
 index = words.readline().replace('\n','') #去掉換行
@@ -34,7 +37,9 @@ index = words.readline().replace('\n','') #去掉換行
 with open(abs + '/pending.txt','r') as words:
     temp = words.read()
     list = temp.split('\n')
+os.system("cls")
 for index in list:
+    if index[0].isalpha() == False: print("Done."); break
     driver.get("https://dictionary.cambridge.org/zht/")
     driver.implicitly_wait(5)
     # time.sleep(5)
@@ -141,27 +146,39 @@ for index in list:
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.AppActivate("User 1 - Anki")
     Anki = win32gui.FindWindow(None, "User 1 - Anki")
-    os.system("cls")
     if Anki != 0:
         Add_home_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_home.png', confidence=0.9)
         New_Learn_Due_location = pyautogui.locateOnScreen(abs + '/screenshots/New_Learn_Due.png', confidence=0.9)
-        if Add_home_location and New_Learn_Due_location is not None:
-            Add_home_center = pyautogui.center(Add_home_location)
-            pyautogui.click(Add_home_center.x, Add_home_center.y)
-            English_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/English_Deck.png', confidence=0.9)
-            if English_Deck_location is not None:
-                English_Deck_center = pyautogui.center(English_Deck_location)
-                pyautogui.click(English_Deck_center.x, English_Deck_center.y)
-                pyautogui.typewrite(['a', 'd', 'd'])
-            Choose_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/Choose_Deck.png', confidence=0.9)
-            if Choose_Deck_location is not None:
-                Choose_Deck_center = pyautogui.center(Choose_Deck_location)
-                pyautogui.click(Choose_Deck_center.x, Choose_Deck_center.y)
-            Index_location = pyautogui.locateOnScreen(abs + '/screenshots/Index.png', confidence=0.9)
-        if Index_location is not None:
-            Index_center = pyautogui.center(Index_location)
-            pyautogui.click(Index_center.x, Index_center.y)
+        if win32gui.FindWindow(None, "Add") == 0:
+            if Add_home_location and New_Learn_Due_location is not None:
+                pyautogui.press('a')
+                # Add_home_center = pyautogui.center(Add_home_location)
+                # pyautogui.click(Add_home_center.x, Add_home_center.y)
+                window = gw.getWindowsWithTitle("Add")[0]
+                if portrait: 
+                    # window.maximize()
+                    window.moveTo(wp, 0)
+                    h = round(h/2)
+                    window.resizeTo(w, h)
+                else:
+                    window.moveTo(wp, 0)
+                    window.resizeTo(w, h)
+                English_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/English_Deck.png', confidence=0.9)
+                if English_Deck_location is not None:
+                    pyautogui.hotkey('ctrl', 'd')
+                    # English_Deck_center = pyautogui.center(English_Deck_location)
+                    # pyautogui.click(English_Deck_center.x, English_Deck_center.y)
+                    pyautogui.typewrite(['a', 'd', 'd'])
+                    pyautogui.press('enter')
+                # Choose_Deck_location = pyautogui.locateOnScreen(abs + '/screenshots/Choose_Deck.png', confidence=0.9)
+                # if Choose_Deck_location is not None:
+                #     Choose_Deck_center = pyautogui.center(Choose_Deck_location)
+                #     pyautogui.click(Choose_Deck_center.x, Choose_Deck_center.y)
 
+        # Index_location = pyautogui.locateOnScreen(abs + '/screenshots/Index.png', confidence=0.9)
+        # if Index_location is not None:
+        #     Index_center = pyautogui.center(Index_location)
+        #     pyautogui.click(Index_center.x, Index_center.y)
 
         pyautogui.typewrite(index)
         pyautogui.press('tab')
@@ -214,10 +231,12 @@ for index in list:
         pyautogui.typewrite(Cloze_B)
         pyautogui.press('tab', presses=2)
         pyautogui.typewrite(Cloze_C)
-        Add_main_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_main.png', confidence=0.9)
-        if Add_main_location is not None:
-            Add_main_center = pyautogui.center(Add_main_location)
-            pyautogui.click(Add_main_center.x, Add_main_center.y)
+        pyautogui.hotkey('ctrl', 'enter')
+        # Add_main_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_main.png', confidence=0.9)
+        # if Add_main_location is not None:
+        #     Add_main_center = pyautogui.center(Add_main_location)
+        #     pyautogui.click(Add_main_center.x, Add_main_center.y)
+        # else: print("What")
     else:
         print("Anki open fail")
 driver.quit()
