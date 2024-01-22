@@ -9,7 +9,9 @@ from PIL import Image, ImageGrab
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 import win32gui, win32com.client
+import pyautogui
 
+abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 # driver = webdriver.Firefox()
 # driver.get("https://www.google.com")
 
@@ -118,5 +120,9 @@ previous = ""
 # driver.set_window_position(0, 0)
 # driver.set_window_size(1284, 1044)
 
-f = open('pending.txt', 'r')
-print(f)
+# f = open('pending.txt', 'r')
+# print(f)
+
+pyautogui.hotkey('alt', 'tab')
+Add_main_location = pyautogui.locateOnScreen(abs + '/screenshots/Add_main.png', confidence=0.9)
+if Add_main_location is not None: print("found")
