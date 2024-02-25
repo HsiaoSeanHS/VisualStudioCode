@@ -1,0 +1,172 @@
+import os, time, random, pydub, urllib
+import speech_recognition as sr
+import pyautogui
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.options import Options
+
+# def rand(last): return random.randint(0, last)
+# def human(): driver.implicitly_wait(random.randint(2,3))
+# def u(n, l):  return l.upper() if(n%2) else l
+# def t(x, l, n): n += 1; return x + u(n, l) + str(n), n
+# def AcPw(Service):
+#     PAs = open("D:/PA.txt", "r")
+#     lines = PAs.readlines()
+#     PAs.close()
+#     for line in lines:
+#         line = line.replace("\n", "")
+#         if line.find("Email") == 0: email = line.split(" ")[1]
+#         if line.find(Service) == 0: passwd = line.split(" ")[1]
+#     return email, passwd
+# def randAgent():
+#     Mozilla = "Mozilla/5.0 "
+#     System = ["(Windows NT 10.0; Win64; x64) ",
+#             "(X11; Linux x86_64) ",
+#             "(Macintosh; Intel Mac OS X 10_15_7) ",
+#             "(Macintosh; Intel Mac OS X 13_1) "]
+#     AppleWebKit = ["AppleWebKit/537.36 (KHTML, like Gecko) ",
+#                 "AppleWebKit/605.1.15 (KHTML, like Gecko) ",
+#                 "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 "]
+#     Chrome = ["Chrome/108.0.0.0 ",
+#             "Chrome/109.0.0.0 "]
+#     Safari = ["Safari/537.36",
+#             "Safari/605.1.15"]
+#     Ar = rand(2)
+#     return Mozilla + System[rand(3)] + AppleWebKit[Ar] + (Chrome[rand(1)] if Ar != 2 else "") + Safari[rand(1)]
+# id, B = AcPw("Bahamut")
+# id = id[:11]; p = a = ""; n = 0
+# for l in id[5:9]: p, n = t(p, l, n)
+# for l in B[::2]: a, n = t(a, l, n)
+# R = "user"; I = "id"; S = "pass"; W = "word"; pa = p + a 
+# Agent = randAgent()
+options = Options()
+# options.set_preference("general.useragent.override", Agent)
+driver = webdriver.Firefox(options = options)
+
+os.system("cls")
+abs = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/") + "/screenshots/"
+driver.maximize_window()
+driver.get("https://v6p9d9t4.ssl.hwcdn.net/html/8524772/1.1/index.html"); #human
+# driver.switch_to.frame(driver.find_element(By.CLASS_NAME, "g-recaptcha").find_elements(By.TAG_NAME, "iframe")[0]); human
+# driver.find_element(By.CLASS_NAME, "recaptcha-checkbox-border").click()
+# driver.switch_to.default_content()
+# driver.switch_to.frame(driver.find_element(By.XPATH, "/html/body/div[3]/div[4]").find_elements(By.TAG_NAME, "iframe")[0])
+
+# try:
+#     driver.implicitly_wait(5)
+#     driver.find_element(By.ID, "recaptcha-audio-button").click()
+#     try:
+#         src = driver.find_element(By.ID, "audio-source").get_attribute("src")
+#         urllib.request.urlretrieve(src, abs + "mp3")
+#         sound = pydub.AudioSegment.from_mp3(abs + "mp3")
+#         sound.export(abs + "wav", format = "wav")
+#         sample_audio = sr.AudioFile(abs + "wav")
+#         print("Get sound file successfully.")
+#         try:
+#             r = sr.Recognizer()
+#             with sr.WavFile(abs + "wav") as source: audio = r.listen(source)
+#             key = r.recognize_google(audio)
+#             try: 
+#                 human
+#                 driver.find_element(By.ID, "audio-response").send_keys(key.lower())
+#                 driver.find_element(By.ID, "audio-response").send_keys(Keys.ENTER)
+#             except: print("Cannot find audio input.")
+#         except Exception as e: print("Sound recongnize failed:" + e)
+#         try: 
+#             os.remove(abs + "mp3"); os.remove(abs + "wav")
+#             print("Temp file deleted.") # The last step in anticipation.
+#         except: print("Temp sound files are not exist.")
+#     except: print("Cannot doing audio test.")
+# except: print("No reCAPTCHA")
+
+# driver.switch_to.default_content()
+# driver.find_element(By.NAME, R + I).send_keys(id)
+# driver.find_element(By.NAME, S + W).send_keys(pa)
+
+# while True:
+#     try:
+#         driver.find_element(By.LINK_TEXT, "登入").click()
+#         human
+#         driver.find_element(By.ID, "signin-btn")
+#         break
+#     except: continue
+# driver.find_element(By.ID, "signin-btn").click() # 每日簽到
+# try: 
+#     driver.find_element(By.CSS_SELECTOR, "button.popup-dailybox__btn").click() # 領取雙倍巴幣
+#     human
+#     driver.find_element(By.CSS_SELECTOR, "button.btn.btn-insert.btn-primary").click() #是否觀看廣告?
+#     while True:
+#         try: 
+#             driver.find_element(By.ID, 'ad_position_box')
+#             print("找到廣告視窗")
+#             if driver.find_element(By.PARTIAL_LINK_TEXT, "每日額度有限請下次再來嘗試") is not None: 
+#                 print("沒有看廣告額度")
+#                 break
+#             while True:
+#                 if driver.find_element(By.LINK_TEXT, "0 秒後可獲獎勵") is None:
+#                     print("廣告還沒播完")
+#                     time.sleep(5)
+#                 else: 
+#                     driver.find_element(By.ID, "close_button_icon").click()
+#                     print("廣告看完了")
+#                     break
+#             print("成功簽到")
+#         except: 
+#             print("等候廣告載入")
+#             time.sleep(7)
+# except: 
+#     print("已簽到")
+#     time.sleep(15)
+driver.implicitly_wait(10)
+start_location = None
+x_location = None
+N_location = None
+play = driver.find_element(By.ID, "unity-canvas")
+nf = False
+while start_location is None: 
+    start_location = pyautogui.locateOnScreen(abs + 'start.png', confidence=0.9)
+    time.sleep(3)
+    # English_center = pyautogui.center(start_location)
+    
+while x_location is None:
+    x_location = pyautogui.locateOnScreen(abs + 'x.png', confidence=0.9)
+print(x_location)
+x_center = pyautogui.center(x_location)
+# driver.send_keys(Keys.SPACE)
+# play.key_down(Keys.SPACE)
+# play.key_up(Keys.SPACE)
+# driver.click(play)
+play.click()
+# pyautogui.press('space')
+# pyautogui.keyUp('space')
+while N_location is None:
+    try: 
+        hit_location = pyautogui.locateOnScreen(abs + 'hit.png', confidence=0.9, region=(640, 720, 1200, 1200))
+        # if cabbage_location is not None:
+        #     cabbage_center = pyautogui.center(cabbage_location)
+        # if cabbage_center.x - x_center.x < 100: 
+        if hit_location is not None:
+            print(hit_location)
+            hit_center = pyautogui.center(hit_location)
+            if hit_center.x - x_center.x < 50:
+                print(hit_center.x - x_center.x)
+                nf = False
+                # print("HIT!")
+            # pyautogui.press('space')
+            # pyautogui.keyUp('space')
+            # driver.send_keys(Keys.SPACE)
+                # play.key_down(Keys.SPACE)
+                # play.key_up(Keys.SPACE)
+                # driver.click(play)
+                play.click()
+        else: 
+            if nf is False:
+                print("Can't find cabbage.")
+                nf = True
+    except:
+        N_location = pyautogui.locateOnScreen(abs + 'N.png', confidence=0.9) 
+        # time.sleep(0.1)
+        pass
+print("End Game!")
+# driver.quit()
