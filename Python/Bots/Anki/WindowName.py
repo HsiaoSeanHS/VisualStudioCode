@@ -14,4 +14,4 @@ lt = [t for t in titles if t]
 lt.sort()
 
 for t in lt:
-    print(t)
+    print("'"+t+"'")

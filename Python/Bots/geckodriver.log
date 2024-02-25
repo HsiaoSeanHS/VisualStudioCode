@@ -2584,6 +2584,7 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1693924571028	Marionette	INFO	Stopped listening on port 56840
 >>>>>>> 5839706eb86ae031e73c1208cfa1298174886794
 Dynamically enable window occlusion 1
+<<<<<<< HEAD
 1697559369418	geckodriver	INFO	Listening on 127.0.0.1:63611
 1697559372456	mozrunner::runner	INFO	Running command: "C:\\Users\\hsiao\\.cache\\selenium\\firefox\\win64\\118.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hsiao\\AppData\\Local\\Temp\\rust_mozprofile5bro2U"
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -4521,3 +4522,33 @@ block: C2
 block: C3
 block: C5
 block: A1
+=======
+1700819245922	geckodriver	INFO	Listening on 127.0.0.1:63682
+1700819248200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HSIAOS~1\\AppData\\Local\\Temp\\rust_mozprofilePOXyo9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700819248620	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700819248702	Marionette	INFO	Listening on port 63693
+WebDriver BiDi listening on ws://127.0.0.1:63683
+Read port: 63693
+1700819248840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63683/devtools/browser/200dbb0c-6576-44d9-a48f-43ce057c560c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dictionary.cambridge.org."
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:144,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7010691331325992%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:144,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7010691331325992%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=dictionary.cambridge.org#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22cambridge.org%22,%22topUrl%22:%22dictionary.cambridge.org%22,%22version%22:144,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7010691331325992%22}:14:3642
+
+1700819258578	Marionette	INFO	Stopped listening on port 63693
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679, line 1: Script terminated by timeout at:
+C@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:6123
+i@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:14922
+r@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:15749
+aF@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:7258
+aE/<@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158679:1:7300
+
+JavaScript warning: https://script.4dex.io/localstore.js line 1 > Function, line 4: Script terminated by timeout at:
+oi/<@https://script.4dex.io/localstore.js line 1 > Function:4:61729
+
+Dynamically enable window occlusion 1
+>>>>>>> dbb1742a5c49434c4290efd6f539cf237bc7d1b2

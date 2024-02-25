@@ -11,8 +11,8 @@ MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
 def CheckAnki(wp, w, h, portrait):
     if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
-        # os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
-        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
+        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system('start "%UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
         time.sleep(10)
         window = gw.getWindowsWithTitle("User 1 - Anki")[0]
         if portrait: 
@@ -30,7 +30,8 @@ def CheckAnki(wp, w, h, portrait):
         # os.system("cd..")
         # os.system("cd Local/Programs/Anki/")
         # os.system("start anki.exe")
-        os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
+        os.system("start C:\\Users\\Public\\Desktop\\Anki.lnk")
+        # os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
     
     shell = win32com.client.Dispatch("WScript.Shell")
     shell.AppActivate("User 1 - Anki")
@@ -58,7 +59,7 @@ abs = MainPath + "/screenshots_2K/" if width == 2560 else MainPath + "/screensho
 portrait = True if width < height else False
 w = math.ceil(width * 768/1920); wp = width - w; h = math.ceil(height * (1030/1080)) + 5
 CheckAnki(wp, w, h, portrait)
-
+print(width)
 while True:
     Decks_location = pyautogui.locateOnScreen(abs + 'Decks.png', confidence=0.9)
     if Decks_location is not None:
@@ -83,6 +84,7 @@ Anki = win32gui.FindWindow(None, "User 1 - Anki")
 os.system("cls")
 
 x = 0
+
 if Anki != 0:
     while True:
         AllDone = 0
