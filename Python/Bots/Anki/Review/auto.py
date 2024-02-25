@@ -154,13 +154,13 @@ if Anki != 0:
                     Lower10min_center = pyautogui.center(Lower10min_location)
                     if Lower10min_center.x >= bar_center.x: 
                         # pyautogui.click(Good_center.x, Good_center.y)
-                        pyautogui.press('3')
+                        pyautogui.press('3') # 3
                         print(x, "Good 10m")
                     elif Lower10min_center.x >= Decks_center.x:
                         # aDay_center = pyautogui.center(aDay_location)
                         # if aDay_center.x >= bar_center.x: 
                         #     # pyautogui.click(Good_center.x, Good_center.y)
-                            pyautogui.press('3')
+                            pyautogui.press('3') # 3
                             print(x, "Good 1d")
                         # else: 
                         #     # pyautogui.click(Easy_center.x, Easy_center.y)
@@ -169,12 +169,12 @@ if Anki != 0:
                     else: #Lower10min on Again
                         if random.random() <= 0.6:
                             # pyautogui.click(Easy_center.x, Easy_center.y)
-                            pyautogui.press('4')
-                            print(x, "Easy rand") #Left10min&no1d
+                            pyautogui.press('2') # 4
+                            print(x, "Hard rand") #Left10min&no1d
                         else:
                             # pyautogui.click(Good_center.x, Good_center.y)
-                            pyautogui.press('3')
-                            print(x, "Good rand")
+                            pyautogui.press('1') # 3
+                            print(x, "Again rand")
                 else: 
                     # pyautogui.click(Easy_center.x, Easy_center.y)
                     pyautogui.press('4')
