@@ -5,13 +5,58 @@ from selenium_driverless import webdriver
 from selenium_driverless.types.by import By
 # from applescript import AppleScript # pip install py-applescript
 
+import os
 import time
 import random
 import asyncio
+import platform
+import requests
+import subprocess
 
 email_prefix = "hsiaoseanhs"
 bir = 911119
 remain = -1
+
+def install_chrome():
+    system = platform.system()
+    chrome_url = ""
+
+    if system == "Windows":
+        chrome_url = "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+        installer_path = "chrome_installer.exe"
+    elif system == "Darwin":  # macOS
+        chrome_url = "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
+        installer_path = "googlechrome.dmg"
+    elif system == "Linux":
+        chrome_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+        installer_path = "google-chrome-stable_current_amd64.deb"
+    else:
+        raise Exception("Unsupported Operating System")
+
+    # Download Chrome installer
+    print(f"Downloading Chrome for {system}...")
+    response = requests.get(chrome_url, stream=True)
+    with open(installer_path, "wb") as file:
+        for chunk in response.iter_content(chunk_size=1024):
+            file.write(chunk)
+
+    print("Download complete.")
+
+    # Install Chrome
+    if system == "Windows":
+        os.system(installer_path)
+    elif system == "Darwin":
+        os.system(f"hdiutil attach {installer_path}")
+        os.system("cp -r /Volumes/Google\\ Chrome/Google\\ Chrome.app /Applications/")
+        os.system(f"hdiutil detach /Volumes/Google\\ Chrome")
+    elif system == "Linux":
+        os.system(f"sudo dpkg -i {installer_path}")
+        os.system("sudo apt-get -f install -y")
+
+    print("Chrome installation complete.")
+
+# Call the function to install Chrome
+install_chrome()
 
 # async def close_all_chrome():
 #     try:
