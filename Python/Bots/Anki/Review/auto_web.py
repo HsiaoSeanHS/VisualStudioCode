@@ -3,7 +3,7 @@ warnings.filterwarnings("ignore", message="got execution_context_id and unique_c
 
 from selenium_driverless import webdriver
 from selenium_driverless.types.by import By
-from applescript import AppleScript
+from applescript import AppleScript # pip install py-applescript
 
 import time
 import random
