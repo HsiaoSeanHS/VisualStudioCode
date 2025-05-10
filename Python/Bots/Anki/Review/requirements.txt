@@ -7,4 +7,3 @@ py_applescript==1.0.3
 PyAutoGUI==0.9.54
 PyGetWindow==0.0.9
 selenium_driverless==1.9.4
-win32gui==221.6
