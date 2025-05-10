@@ -14,11 +14,13 @@ bir = 911119
 remain = -1
 
 async def close_all_chrome():
-    AppleScript('''
-                    if application "Google Chrome" is running then
-                        tell application "Google Chrome" to quit
-                    end if
-                ''').run()
+    try:
+        AppleScript('''
+                        if application "Google Chrome" is running then
+                            tell application "Google Chrome" to quit
+                        end if
+                    ''').run()
+    except: pass
 
 async def login(driver):
     await driver.get("https://ankiweb.net/account/login", wait_load=True)
