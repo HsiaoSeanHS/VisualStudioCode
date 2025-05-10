@@ -3,7 +3,7 @@ warnings.filterwarnings("ignore", message="got execution_context_id and unique_c
 
 from selenium_driverless import webdriver
 from selenium_driverless.types.by import By
-from applescript import AppleScript # pip install py-applescript
+# from applescript import AppleScript # pip install py-applescript
 
 import time
 import random
@@ -13,14 +13,14 @@ email_prefix = "hsiaoseanhs"
 bir = 911119
 remain = -1
 
-async def close_all_chrome():
-    try:
-        AppleScript('''
-                        if application "Google Chrome" is running then
-                            tell application "Google Chrome" to quit
-                        end if
-                    ''').run()
-    except: pass
+# async def close_all_chrome():
+#     try:
+#         AppleScript('''
+#                         if application "Google Chrome" is running then
+#                             tell application "Google Chrome" to quit
+#                         end if
+#                     ''').run()
+#     except: pass
 
 async def login(driver):
     await driver.get("https://ankiweb.net/account/login", wait_load=True)
@@ -80,7 +80,7 @@ async def practice(driver):
         except: await driver.sleep(1)
 
 async def AnkiWeb():
-    await close_all_chrome()
+    # await close_all_chrome()
     options = webdriver.ChromeOptions()
     options.add_argument("--mute-audio")
     options.add_argument("--headless")
