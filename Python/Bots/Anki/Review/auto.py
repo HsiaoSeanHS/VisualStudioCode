@@ -169,10 +169,14 @@ if Anki != 0:
                         #     pyautogui.press('4')
                         #     print(x, "Easy Left1d")
                     else: #Lower10min on Again
-                        if random.random() <= 0.6:
+                        R = random.random()
+                        if R <= 0.3:
                             # pyautogui.click(Easy_center.x, Easy_center.y)
-                            pyautogui.press('2') # 4
-                            print(x, "Hard rand") #Left10min&no1d
+                            pyautogui.press('3') # 4
+                            print(x, "Good rand") #Left10min&no1d
+                        elif R <= 0.6:
+                            pyautogui.press('2')
+                            print(x, "Hard rand")
                         else:
                             # pyautogui.click(Good_center.x, Good_center.y)
                             pyautogui.press('1') # 3
