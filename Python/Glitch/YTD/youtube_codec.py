@@ -5,6 +5,7 @@ import cv2
 import base64
 from Crypto.Cipher import AES
 import config
+import concurrent.futures
 
 ENABLE_ENCRYPTION = getattr(config, 'enable_encryption', False)
 KEY = getattr(config, 'encryption_key', 'DefaultEncryptionKey').encode("ascii")[:16]
@@ -37,6 +38,14 @@ def decrypt_data_aes(data: bytes, key: bytes) -> bytes:
     return clear_data
 
 
+def prepare_frame(args):
+    frame_bytes, num_rows_per_frame, num_cols_per_frame, color_value, size = args
+    frame_bits = np.unpackbits(frame_bytes)
+    frame = color_value(frame_bits).reshape(num_rows_per_frame, num_cols_per_frame, 3).astype(np.uint8)
+    newimg = cv2.resize(frame, size, interpolation=cv2.INTER_AREA)
+    return newimg
+
+
 def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
            fps=20, num_cols_per_frame=64, num_rows_per_frame=36):
     fd = open(infile_path, 'rb')
@@ -59,20 +68,25 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
     else:
         data_bytes = np.concatenate((len_bytes, data_bytes))
 
-    # Vedio: size=(1280, 720), fps=20
     size = (num_cols_per_frame * 20, num_rows_per_frame * 20)
-
     video = cv2.VideoWriter(outvideo_path, cv2.VideoWriter_fourcc(
         *'mp4v'), fps, size)
 
-    for i in range(num_frames):
-        frame_bytes = data_bytes[i * num_bytes_per_frame: (i + 1) * num_bytes_per_frame]
-        frame_bits = np.unpackbits(frame_bytes)
-        # Reshape array to array(36， 72， 3)
-        frame = color_value(frame_bits).reshape(num_rows_per_frame, num_cols_per_frame, 3).astype(np.uint8)
-        # Resize using OpenCV instead of PIL
-        newimg = cv2.resize(frame, size, interpolation=cv2.INTER_AREA)
-        video.write(newimg)
+    # Prepare arguments for parallel processing
+    args_list = [
+        (
+            data_bytes[i * num_bytes_per_frame: (i + 1) * num_bytes_per_frame],
+            num_rows_per_frame,
+            num_cols_per_frame,
+            color_value,
+            size
+        )
+        for i in range(num_frames)
+    ]
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        for newimg in executor.map(prepare_frame, args_list):
+            video.write(newimg)
     fd.close()
 
 
