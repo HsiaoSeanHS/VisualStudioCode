@@ -89,10 +89,9 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
         for i in range(num_frames)
     ]
 
-    with concurrent.futures.ProcessPoolExecutor() as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
         for newimg in executor.map(prepare_frame, args_list):
             video.write(newimg)
-
 
 def process_frame(frame, step):
     blocks = frame.reshape(frame.shape[0]//step, step, frame.shape[1]//step, step, 3)
