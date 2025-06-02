@@ -6,6 +6,7 @@ import base64
 from Crypto.Cipher import AES
 import config
 import concurrent.futures
+import os
 
 ENABLE_ENCRYPTION = getattr(config, 'enable_encryption', False)
 KEY = getattr(config, 'encryption_key', 'DefaultEncryptionKey').encode("ascii")[:16]
@@ -93,20 +94,25 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
             video.write(newimg)
 
 
+def process_frame(frame, step):
+    blocks = frame.reshape(frame.shape[0]//step, step, frame.shape[1]//step, step, 3)
+    blocks = blocks.transpose(0,2,1,3,4).reshape(-1, step*step, 3)
+    means = normal(blocks.mean(axis=1)).round().astype(np.uint8)
+    return means
+
+
 def decode(invideo_path, outfile_path, decrypt=ENABLE_ENCRYPTION, key=KEY):
     step = 20
     cap = cv2.VideoCapture(invideo_path)
-    data_bits_list = []
+    frames = []
     while True:
         ret, frame = cap.read()
         if not ret:
             break
-        # Vectorized block extraction
-        blocks = frame.reshape(frame.shape[0]//step, step, frame.shape[1]//step, step, 3)
-        blocks = blocks.transpose(0,2,1,3,4).reshape(-1, step*step, 3)
-        means = normal(blocks.mean(axis=1)).round().astype(np.uint8)
-        data_bits_list.append(means)
+        frames.append(frame)
     cap.release()
+    with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+        data_bits_list = list(executor.map(lambda f: process_frame(f, step), frames))
     data_bits = np.concatenate(data_bits_list).reshape(-1, 1)
     data_bytes = np.packbits(data_bits)
     len_of_data = int.from_bytes(data_bytes[:4], byteorder='big')
