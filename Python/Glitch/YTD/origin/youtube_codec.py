@@ -78,27 +78,30 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
 
 
 def decode(invideo_path, outfile_path, decrypt=ENABLE_ENCRYPTION, key=KEY):
+    i = 0
     step = 20
-    cap = cv2.VideoCapture(invideo_path)
     data_bits_list = []
-    while True:
+    cap = cv2.VideoCapture(invideo_path)
+    ret, frame = cap.read()
+    while ret:
+        frame_shape = np.shape(frame)
+        for j in range(0, frame_shape[0], step):
+            for k in range(0, frame_shape[1], step):
+                piece = frame[j:j+step, k:k+step].reshape(step*step, 3)
+                round = normal(piece.mean(0)).round().astype(np.uint8)
+                data_bits_list.append(round)
         ret, frame = cap.read()
-        if not ret:
-            break
-        # Vectorized block extraction
-        blocks = frame.reshape(frame.shape[0]//step, step, frame.shape[1]//step, step, 3)
-        blocks = blocks.transpose(0,2,1,3,4).reshape(-1, step*step, 3)
-        means = normal(blocks.mean(axis=1)).round().astype(np.uint8)
-        data_bits_list.append(means)
+        i += 1
     cap.release()
-    data_bits = np.concatenate(data_bits_list).reshape(-1, 1)
+    data_bits = np.array(data_bits_list).reshape(len(data_bits_list) * 3, 1)
     data_bytes = np.packbits(data_bits)
     len_of_data = int.from_bytes(data_bytes[:4], byteorder='big')
     data_bytes_retrieved = data_bytes[4:len_of_data+4].tobytes()
     if decrypt:
         data_bytes_retrieved = decrypt_data_aes(data_bytes_retrieved, key)
-    with open(outfile_path, 'wb') as fd:
-        fd.write(data_bytes_retrieved)
+    fd = open(outfile_path, 'wb')
+    fd.write(data_bytes_retrieved)
+    fd.close()
 
 
 if __name__ == '__main__':
