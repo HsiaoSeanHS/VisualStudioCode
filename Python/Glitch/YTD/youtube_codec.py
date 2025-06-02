@@ -7,6 +7,10 @@ from Crypto.Cipher import AES
 import config
 import concurrent.futures
 import os
+import glob
+import subprocess
+import platform
+import tempfile
 
 ENABLE_ENCRYPTION = getattr(config, 'enable_encryption', False)
 KEY = getattr(config, 'encryption_key', 'DefaultEncryptionKey').encode("ascii")[:16]
@@ -47,6 +51,22 @@ def prepare_frame(args):
     return newimg
 
 
+def detect_ffmpeg_gpu_encoder():
+    # Check for NVIDIA GPU
+    try:
+        result = subprocess.run(['ffmpeg', '-hide_banner', '-encoders'], capture_output=True, text=True)
+        encoders = result.stdout
+        if 'hevc_nvenc' in encoders:
+            return 'hevc_nvenc'
+        elif 'hevc_qsv' in encoders:
+            return 'hevc_qsv'
+        elif 'hevc_videotoolbox' in encoders:
+            return 'hevc_videotoolbox'
+    except Exception:
+        pass
+    return 'libx265'  # CPU fallback
+
+
 def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
            fps=20, num_cols_per_frame=64, num_rows_per_frame=36):
     with open(infile_path, 'rb') as fd:
@@ -58,7 +78,6 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
     num_bytes_per_row = int(num_cols_per_frame * 3 / 8)
     num_bytes_per_frame = num_bytes_per_row * num_rows_per_frame
 
-    # Avoid unnecessary np.array conversion
     len_bytes = np.frombuffer(len_of_data.to_bytes(4, byteorder='big'), dtype=np.uint8)
     total_data = [len_bytes, data_bytes]
 
@@ -66,17 +85,13 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
 
     if num_leftover_bytes > 0:
         num_bytes_last_frame_padding = num_bytes_per_frame - num_leftover_bytes
-        # Use np.zeros instead of np.full for zero padding
         padding_bytes = np.zeros(num_bytes_last_frame_padding, dtype=np.uint8)
         total_data.append(padding_bytes)
         num_frames += 1
 
-    # Concatenate only once
     data_bytes = np.concatenate(total_data)
 
     size = (num_cols_per_frame * 20, num_rows_per_frame * 20)
-    video = cv2.VideoWriter(outvideo_path, cv2.VideoWriter_fourcc(
-        *'hevc'), fps, size)
 
     args_list = [
         (
@@ -89,9 +104,24 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
         for i in range(num_frames)
     ]
 
-    with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
-        for newimg in executor.map(prepare_frame, args_list):
-            video.write(newimg)
+    # Create a temporary directory for PNG frames
+    with tempfile.TemporaryDirectory() as temp_dir:
+        # Save frames as PNG images in the temp directory
+        with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
+            for idx, newimg in enumerate(executor.map(prepare_frame, args_list)):
+                cv2.imwrite(os.path.join(temp_dir, f"frame_{idx:04d}.png"), newimg)
+
+        # Detect GPU encoder or fallback to CPU
+        encoder = detect_ffmpeg_gpu_encoder()
+        print(f"Using FFmpeg encoder: {encoder}")
+
+        # Run ffmpeg using images from the temp directory
+        ffmpeg_cmd = (
+            f'ffmpeg -y -framerate {fps} -i "{os.path.join(temp_dir, "frame_%04d.png")}" '
+            f'-c:v {encoder} "{outvideo_path}"'
+        )
+        os.system(ffmpeg_cmd)
+
 
 def process_frame(args):
     frame, step = args
@@ -104,15 +134,13 @@ def process_frame(args):
 def decode(invideo_path, outfile_path, decrypt=ENABLE_ENCRYPTION, key=KEY):
     step = 20
     cap = cv2.VideoCapture(invideo_path)
-    frames = []
+    data_bits_list = []
     while True:
         ret, frame = cap.read()
         if not ret:
             break
-        frames.append(frame)
+        data_bits_list.append(process_frame((frame, step)))
     cap.release()
-    with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
-        data_bits_list = list(executor.map(process_frame, [(f, step) for f in frames]))
     data_bits = np.concatenate(data_bits_list).reshape(-1, 1)
     data_bytes = np.packbits(data_bits)
     len_of_data = int.from_bytes(data_bytes[:4], byteorder='big')
