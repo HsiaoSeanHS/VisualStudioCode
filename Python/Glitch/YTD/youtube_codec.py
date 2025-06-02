@@ -4,7 +4,7 @@ import cv2
 
 import base64
 from Crypto.Cipher import AES
-import config
+import origin.config as config
 import concurrent.futures
 import os
 import glob
