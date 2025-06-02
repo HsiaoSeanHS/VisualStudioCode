@@ -69,11 +69,10 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
         frame_bytes = data_bytes[i * num_bytes_per_frame: (i + 1) * num_bytes_per_frame]
         frame_bits = np.unpackbits(frame_bytes)
         # Reshape array to array(36， 72， 3)
-        frame = color_value(frame_bits).reshape(num_rows_per_frame, num_cols_per_frame, 3)
-        img = Image.fromarray(frame, mode="RGB")
-        # Scale image to (1280, 720)
-        newimg = img.resize(size, Image.Resampling.BOX)
-        video.write(np.asarray(newimg))
+        frame = color_value(frame_bits).reshape(num_rows_per_frame, num_cols_per_frame, 3).astype(np.uint8)
+        # Resize using OpenCV instead of PIL
+        newimg = cv2.resize(frame, size, interpolation=cv2.INTER_AREA)
+        video.write(newimg)
     fd.close()
 
 
