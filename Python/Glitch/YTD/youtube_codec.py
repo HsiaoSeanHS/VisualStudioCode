@@ -48,8 +48,8 @@ def prepare_frame(args):
 
 def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
            fps=20, num_cols_per_frame=64, num_rows_per_frame=36):
-    fd = open(infile_path, 'rb')
-    raw_data_bytes = fd.read()
+    with open(infile_path, 'rb') as fd:
+        raw_data_bytes = fd.read()
     if encrypt:
         raw_data_bytes = encrypt_data_aes(raw_data_bytes, key)
     data_bytes = np.frombuffer(raw_data_bytes, dtype=np.uint8)
@@ -57,22 +57,26 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
     num_bytes_per_row = int(num_cols_per_frame * 3 / 8)
     num_bytes_per_frame = num_bytes_per_row * num_rows_per_frame
 
-    len_bytes = np.array(bytearray(len_of_data.to_bytes(4, byteorder='big')), dtype=np.uint8)
+    # Avoid unnecessary np.array conversion
+    len_bytes = np.frombuffer(len_of_data.to_bytes(4, byteorder='big'), dtype=np.uint8)
+    total_data = [len_bytes, data_bytes]
+
     (num_frames, num_leftover_bytes) = quotient_remainder(4 + len_of_data, num_bytes_per_frame)
 
     if num_leftover_bytes > 0:
         num_bytes_last_frame_padding = num_bytes_per_frame - num_leftover_bytes
-        padding_bytes = np.full((num_bytes_last_frame_padding), 0, dtype=np.uint8)
-        data_bytes = np.concatenate((len_bytes, data_bytes, padding_bytes))
+        # Use np.zeros instead of np.full for zero padding
+        padding_bytes = np.zeros(num_bytes_last_frame_padding, dtype=np.uint8)
+        total_data.append(padding_bytes)
         num_frames += 1
-    else:
-        data_bytes = np.concatenate((len_bytes, data_bytes))
+
+    # Concatenate only once
+    data_bytes = np.concatenate(total_data)
 
     size = (num_cols_per_frame * 20, num_rows_per_frame * 20)
     video = cv2.VideoWriter(outvideo_path, cv2.VideoWriter_fourcc(
         *'mp4v'), fps, size)
 
-    # Prepare arguments for parallel processing
     args_list = [
         (
             data_bytes[i * num_bytes_per_frame: (i + 1) * num_bytes_per_frame],
@@ -87,7 +91,6 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
     with concurrent.futures.ThreadPoolExecutor() as executor:
         for newimg in executor.map(prepare_frame, args_list):
             video.write(newimg)
-    fd.close()
 
 
 def decode(invideo_path, outfile_path, decrypt=ENABLE_ENCRYPTION, key=KEY):
