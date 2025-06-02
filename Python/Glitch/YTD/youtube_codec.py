@@ -76,7 +76,7 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
 
     size = (num_cols_per_frame * 20, num_rows_per_frame * 20)
     video = cv2.VideoWriter(outvideo_path, cv2.VideoWriter_fourcc(
-        *'mp4v'), fps, size)
+        *'hevc'), fps, size)
 
     args_list = [
         (
@@ -93,7 +93,8 @@ def encode(infile_path, outvideo_path, encrypt=ENABLE_ENCRYPTION, key=KEY,
         for newimg in executor.map(prepare_frame, args_list):
             video.write(newimg)
 
-def process_frame(frame, step):
+def process_frame(args):
+    frame, step = args
     blocks = frame.reshape(frame.shape[0]//step, step, frame.shape[1]//step, step, 3)
     blocks = blocks.transpose(0,2,1,3,4).reshape(-1, step*step, 3)
     means = normal(blocks.mean(axis=1)).round().astype(np.uint8)
@@ -111,7 +112,7 @@ def decode(invideo_path, outfile_path, decrypt=ENABLE_ENCRYPTION, key=KEY):
         frames.append(frame)
     cap.release()
     with concurrent.futures.ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
-        data_bits_list = list(executor.map(lambda f: process_frame(f, step), frames))
+        data_bits_list = list(executor.map(process_frame, [(f, step) for f in frames]))
     data_bits = np.concatenate(data_bits_list).reshape(-1, 1)
     data_bytes = np.packbits(data_bits)
     len_of_data = int.from_bytes(data_bytes[:4], byteorder='big')
