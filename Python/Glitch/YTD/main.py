@@ -79,7 +79,7 @@ def youtube_retrieve(args):
 
 
 def cmd_upload(args):
-    video_id = youtube_upload(args.filename)
+    video_id = youtube_upload(args)
     print(f"YouTube Video ID: {video_id}", f"YouTube: https://youtu.be/{video_id}", sep="\n")
 
 
