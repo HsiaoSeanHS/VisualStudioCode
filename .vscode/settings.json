@@ -22,5 +22,7 @@
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "python.pythonPath": "D:\\python\\python.exe",
-  "cSpell.words": ["pyautogui"]
+  "cSpell.words": ["pyautogui"],
+  "python-envs.defaultEnvManager": "ms-python.python:pyenv",
+  "python-envs.pythonProjects": []
 }
