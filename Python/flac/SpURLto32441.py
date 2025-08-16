@@ -139,7 +139,7 @@ async def download_HiRes(track_platforms):
     await close_all_chrome()
 
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")
+    # options.add_argument("--headless=new")
     download_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'temp'))
     os.makedirs(download_dir, exist_ok=True)
     options.add_experimental_option("prefs", {
@@ -191,7 +191,7 @@ async def download_HiRes(track_platforms):
                 if files:
                     # downloaded_files.append(files[0])
                     print(f"Successfully downloaded: {os.path.basename(files[0])}")
-                    await extract_flac_lrc(files[0])
+                    await extract_flac_lrc(files[0], platform)
                     track_downloaded = True
                 else:
                     print(f"No file downloaded from {platform}, trying next platform...")
@@ -199,26 +199,30 @@ async def download_HiRes(track_platforms):
             if not track_downloaded:
                 print(f"Failed to download track {track_index} from any platform")
 
-async def extract_flac_lrc(downloaded_file):
+async def extract_flac_lrc(downloaded_file, platform):
     done_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'done'))
+    
+    # Create platform-specific subdirectory
+    platform_dir = os.path.join(done_dir, platform.replace(' ', '_').lower())
+    os.makedirs(platform_dir, exist_ok=True)
+    
     file_path = downloaded_file
     filename = os.path.basename(downloaded_file)
-    os.makedirs(done_dir, exist_ok=True)
     
     if filename.lower().endswith('.flac'):
         try:
-            destination = os.path.join(done_dir, filename)
+            destination = os.path.join(platform_dir, filename)
             shutil.move(file_path, destination)
-            print(f"Extracted: {filename}")
+            print(f"Extracted: {filename} to {platform} folder")
             return
         except Exception as e:
             print(f"Error moving FLAC file {filename}: {e}")
             return
     elif filename.lower().endswith('.m4a'):
         try:
-            destination = os.path.join(done_dir, filename)
+            destination = os.path.join(platform_dir, filename)
             shutil.move(file_path, destination)
-            print(f"Extracted: {filename}")
+            print(f"Extracted: {filename} to {platform} folder")
             return
         except Exception as e:
             print(f"Error moving M4A file {filename}: {e}")
@@ -232,18 +236,18 @@ async def extract_flac_lrc(downloaded_file):
             flac_files = [f for f in file_list if f.lower().endswith('.flac')]
             for flac_file in flac_files:
                 try:
-                    zip_ref.extract(flac_file, done_dir)
+                    zip_ref.extract(flac_file, platform_dir)
                     extracted_files.append(flac_file)
-                    print(f"Extracted: {flac_file}")
+                    print(f"Extracted: {flac_file} to {platform} folder")
                 except Exception as e:
                     print(f"Error extracting FLAC {flac_file}: {e}")
             
             lrc_files = [f for f in file_list if f.lower().endswith('.lrc')]
             for lrc_file in lrc_files:
                 try:
-                    zip_ref.extract(lrc_file, done_dir)
+                    zip_ref.extract(lrc_file, platform_dir)
                     extracted_files.append(lrc_file)
-                    print(f"Extracted: {lrc_file}")
+                    print(f"Extracted: {lrc_file} to {platform} folder")
                 except Exception as e:
                     print(f"Error extracting LRC {lrc_file}: {e}")
             
