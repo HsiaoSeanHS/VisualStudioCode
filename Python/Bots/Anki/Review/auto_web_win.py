@@ -98,4 +98,5 @@ async def AnkiWeb():
 
 asyncio.run(AnkiWeb())
 
+# Use for build executable file
 # pyinstaller -F --collect-all "selenium_driverless" ./AnkiWeb_win.py
