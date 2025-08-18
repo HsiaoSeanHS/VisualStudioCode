@@ -124,16 +124,16 @@ async def practice(driver, target):
 
 async def AnkiWeb(test):
     # Increase file descriptor limit to prevent "too many open files" error
-    try:
-        import resource
-        soft, hard = resource.getrlimit(resource.RLIMIT_NOFILE)
-        print(f"Current file descriptor limits: soft={soft}, hard={hard}")
-        # Try to increase the soft limit to the hard limit
-        resource.setrlimit(resource.RLIMIT_NOFILE, (min(hard, 8192), hard))
-        new_soft, _ = resource.getrlimit(resource.RLIMIT_NOFILE)
-        print(f"New soft limit: {new_soft}")
-    except Exception as e:
-        print(f"Warning: Could not increase file descriptor limit: {e}")
+    # try:
+    #     import resource
+    #     soft, hard = resource.getrlimit(resource.RLIMIT_NOFILE)
+    #     print(f"Current file descriptor limits: soft={soft}, hard={hard}")
+    #     # Try to increase the soft limit to the hard limit
+    #     resource.setrlimit(resource.RLIMIT_NOFILE, (min(hard, 8192), hard))
+    #     new_soft, _ = resource.getrlimit(resource.RLIMIT_NOFILE)
+    #     print(f"New soft limit: {new_soft}")
+    # except Exception as e:
+    #     print(f"Warning: Could not increase file descriptor limit: {e}")
     
     await close_all_chrome()
     if test:
@@ -144,20 +144,6 @@ async def AnkiWeb(test):
     options = webdriver.ChromeOptions()
     options.add_argument("--mute-audio")
     options.add_argument("--headless")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-features=VizDisplayCompositor")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--disable-plugins")
-    options.add_argument("--disable-background-timer-throttling")
-    options.add_argument("--disable-backgrounding-occluded-windows")
-    options.add_argument("--disable-renderer-backgrounding")
-    options.add_argument("--max_old_space_size=4096")
-    options.add_argument("--disable-features=TranslateUI")
-    options.add_argument("--disable-ipc-flooding-protection")
-    options.add_argument("--disable-dns-prefetch")
-    options.add_argument("--disable-dns-over-https")
-    options.add_argument("--dns-prefetch-disable")
     
     try:
         async with webdriver.Chrome(options=options) as driver:
@@ -188,3 +174,12 @@ try:
     subprocess.run(['rm', '-rf', '/tmp/selenium_driverless_*'], shell=True, capture_output=True)
 except:
     pass
+
+# tell application "Terminal"
+# 	if (count of windows) > 0 then
+# 		do script "source ~/.zshrc; ulimit -n 4096; pyenv shell 3.10.11; python /Users/hsiao/Github/VisualStudioCode/Python/Bots/Anki/Review/auto_web_intosh.py" in front window
+# 	else
+# 		do script "source ~/.zshrc; ulimit -n 4096; pyenv shell 3.10.11; python /Users/hsiao/Github/VisualStudioCode/Python/Bots/Anki/Review/auto_web_intosh.py"
+# 	end if
+# 	set miniaturized of front window to true
+# end tell
