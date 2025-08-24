@@ -2,66 +2,89 @@ import warnings
 warnings.filterwarnings("ignore", message="got execution_context_id and unique_context=True, defaulting to execution_context_id")
 
 import os
+
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
+os.environ.pop("all_proxy", None)
+os.environ["no_proxy"] = "127.0.0.1,localhost"
+
 import time
 import random
 import asyncio
+# import subprocess
 from datetime import datetime, timedelta
 
 from selenium_driverless import webdriver
 from selenium_driverless.types.by import By
 
 from applescript import AppleScript
+from pync import Notifier
 
 email_prefix = "hsiaoseanhs"
 bir = 911119
 remain = -1
 
+# def notify(title, message):
+#     """Send a macOS notification"""
+#     script = f'display notification "{message}" with title "{title}"'
+#     subprocess.run(["osascript", "-e", script])
+
 # async def close_all_chrome():
 #     try: os.system('taskkill /F /IM "chrome.exe"') # Windows
 #     except: pass
 async def close_all_chrome():
-    try:
-        # Kill all selenium-driverless Chrome processes
-        os.system('pkill -f "selenium_driverless" 2>/dev/null')
-        os.system('pkill -f "Google Chrome.*remote-debugging-port" 2>/dev/null')
+    # try:
+    #     # Kill all selenium-driverless Chrome processes
+    #     os.system('pkill -f "selenium_driverless" 2>/dev/null')
+    #     os.system('pkill -f "Google Chrome.*remote-debugging-port" 2>/dev/null')
         
-        # Also try AppleScript for any regular Chrome instances
-        AppleScript('''
-                        if application "Google Chrome" is running then
-                            tell application "Google Chrome" to quit
-                        end if
-                    ''').run()
+    #     # Also try AppleScript for any regular Chrome instances
+    # AppleScript('''
+    #                 if application "Google Chrome" is running then
+    #                     tell application "Google Chrome" to quit
+    #                 end if
+    #             ''').run()
+    os.system('''
+                if pgrep "Google Chrome" > /dev/null; then
+                    killall "Google Chrome"
+                fi
+              ''')
+        # # Wait a moment for processes to terminate
+        # await asyncio.sleep(2)
         
-        # Wait a moment for processes to terminate
-        await asyncio.sleep(2)
+        # # Clean up selenium-driverless cache directory
+        # selenium_cache_dir = os.path.expanduser('~/Library/Application Support/selenium-driverless')
+        # if os.path.exists(selenium_cache_dir):
+        #     try:
+        #         import shutil
+        #         shutil.rmtree(selenium_cache_dir)
+        #         # print("Cleaned selenium-driverless cache directory")
+        #     except Exception as e:
+        #         print(f"Warning: Could not clean cache directory: {e}")
+        #         Notifier.notify(f"Could not clean cache directory: {e}", title="Anki Automation")
+        #         # notify("Anki Automation", f"Could not clean cache directory: {e}")
+
+        # # Recreate the directory to avoid FileNotFoundError
+        # try:
+        #     os.makedirs(selenium_cache_dir, exist_ok=True)
+        # except Exception as e:
+        #     print(f"Warning: Could not recreate cache directory: {e}")
+        #     Notifier.notify(f"Could not recreate cache directory: {e}", title="Anki Automation")
+        #     # notify("Anki Automation", f"Could not recreate cache directory: {e}")
+
+        # # Clean up any leftover selenium temp directories
+        # os.system('rm -rf /tmp/selenium_driverless_* 2>/dev/null')
+        # os.system('rm -rf /var/folders/*/T/selenium_driverless_* 2>/dev/null')
         
-        # Clean up selenium-driverless cache directory
-        selenium_cache_dir = os.path.expanduser('~/Library/Application Support/selenium-driverless')
-        if os.path.exists(selenium_cache_dir):
-            try:
-                import shutil
-                shutil.rmtree(selenium_cache_dir)
-                # print("Cleaned selenium-driverless cache directory")
-            except Exception as e:
-                print(f"Warning: Could not clean cache directory: {e}")
+        # # Force garbage collection to free up resources
+    import gc
+    gc.collect()
         
-        # Recreate the directory to avoid FileNotFoundError
-        try:
-            os.makedirs(selenium_cache_dir, exist_ok=True)
-        except Exception as e:
-            print(f"Warning: Could not recreate cache directory: {e}")
-        
-        # Clean up any leftover selenium temp directories
-        os.system('rm -rf /tmp/selenium_driverless_* 2>/dev/null')
-        os.system('rm -rf /var/folders/*/T/selenium_driverless_* 2>/dev/null')
-        
-        # Force garbage collection to free up resources
-        import gc
-        gc.collect()
-        
-    except Exception as e:
-        print(f"Warning: Error closing Chrome processes: {e}")
-        pass
+    # except Exception as e:
+    #     print(f"Warning: Error closing Chrome processes: {e}")
+    #     Notifier.notify(f"Error closing Chrome processes: {e}", title="Anki Automation")
+    #     # notify("Anki Automation", f"Error closing Chrome processes: {e}")
+    #     pass
 
 async def login(driver):
     await driver.get("https://ankiweb.net/account/login", wait_load=True)
@@ -101,20 +124,30 @@ async def practice(driver, target):
                         if goodtime == "10m":
                             await btn[2].click()
                             print(f"G 10m({remain}){count}")
+                            Notifier.notify(f"G 10m({remain}){count}", title="Anki Automation")
+                            # notify("Anki Automation", f"G 10m({remain}){count}")
                         elif goodtime == "01d":
                             await btn[2].click()
                             print(f"G 01d({remain}){count}")
+                            Notifier.notify(f"G 01d({remain}){count}", title="Anki Automation")
+                            # notify("Anki Automation", f"G 01d({remain}){count}")
                         else:
                             R = random.random()
                             if R <= 0.3:
                                 await btn[2].click()
                                 print(f"G ran({remain}){count}")
+                                Notifier.notify(f"G ran({remain}){count}", title="Anki Automation")
+                                # notify("Anki Automation", f"G ran({remain}){count}")
                             elif R <= 0.6:
                                 await btn[1].click()
                                 print(f"H ran({remain}){count}")
+                                Notifier.notify(f"H ran({remain}){count}", title="Anki Automation")
+                                # notify("Anki Automation", f"H ran({remain}){count}")
                             else:
                                 await btn[0].click()
                                 print(f"A ran({remain}){count}")
+                                Notifier.notify(f"A ran({remain}){count}", title="Anki Automation")
+                                # notify("Anki Automation", f"A ran({remain}){count}")
                         count -= 1
                         break
                 # except Exception as e: print("btn:", e); await driver.sleep(1)
@@ -144,16 +177,25 @@ async def AnkiWeb(test):
     options = webdriver.ChromeOptions()
     options.add_argument("--mute-audio")
     options.add_argument("--headless")
+    options.add_argument("--remote-debugging-port=6969")
+    # options.add_argument("--user-data-dir=/tmp/chrome-profile")
+    options.add_argument("--no-proxy-server")
+    options.add_argument("--proxy-server='direct://'")
+    options.add_argument("--proxy-bypass-list=*")
+    options.add_argument("--disable-features=AsyncDns")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-dev-shm-usage")
+
     
     try:
         async with webdriver.Chrome(options=options) as driver:
             # os.system('cls') # Windows
             os.system('clear')  # Linux/Mac
-            print(
-                datetime.now().strftime("%m/%d"),
-                datetime.now().strftime("%H:%M") if random_wait == 0 else (datetime.strptime("12:00", "%H:%M") + timedelta(seconds=random_wait)).strftime("%H:%M"),
-                random_Q
-            )
+            await driver.delete_all_cookies()
+            info = f"{datetime.now().strftime('%m/%d')} {datetime.now().strftime('%H:%M') if random_wait == 0 else (datetime.strptime('12:00', '%H:%M') + timedelta(seconds=random_wait)).strftime('%H:%M')} {random_Q}"
+            print(info)
+            Notifier.notify(info, title="Anki Automation")
+            # notify("Anki Automation", info)
             if not test: 
                 while datetime.now().strftime("%H:%M") <= "12:00": time.sleep(60) # Disable this line to test
             time.sleep(random_wait)
@@ -161,25 +203,30 @@ async def AnkiWeb(test):
             await practice(driver, random_Q)
     except Exception as e:
         print(f"Error running AnkiWeb automation: {e}")
+        Notifier.notify(f"Error running AnkiWeb automation: {e}", title="Anki Automation")
+        # notify("Anki Automation", f"Error running AnkiWeb automation: {e}")
         raise
 
-    await close_all_chrome()
+    # await close_all_chrome()
 
 test = False
+Notifier.notify("Program is starting", title="Anki Automation")
+# notify("Anki Automation", "Program is starting")
 asyncio.run(AnkiWeb(test))
+# asyncio.run(close_all_chrome())
+Notifier.notify("Done", title="Anki Automation")
 
-try:
-    import subprocess
-    subprocess.run(['pkill', '-f', 'selenium_driverless'], capture_output=True)
-    subprocess.run(['rm', '-rf', '/tmp/selenium_driverless_*'], shell=True, capture_output=True)
-except:
-    pass
+# try:
+#     # import subprocess
+#     subprocess.run(['pkill', '-f', 'selenium_driverless'], capture_output=True)
+#     subprocess.run(['rm', '-rf', '/tmp/chrome-profile'], shell=True, capture_output=True)
+# except:
+#     pass
 
-# tell application "Terminal"
-# 	if (count of windows) > 0 then
-# 		do script "source ~/.zshrc; ulimit -n 4096; pyenv shell 3.10.11; python /Users/hsiao/Github/VisualStudioCode/Python/Bots/Anki/Review/auto_web_intosh.py" in front window
-# 	else
-# 		do script "source ~/.zshrc; ulimit -n 4096; pyenv shell 3.10.11; python /Users/hsiao/Github/VisualStudioCode/Python/Bots/Anki/Review/auto_web_intosh.py"
-# 	end if
-# 	set miniaturized of front window to true
-# end tell
+# if pgrep "Google Chrome" > /dev/null; then
+#     killall "Google Chrome"
+# fi
+
+# set pythonPath to "/Users/hsiao/.pyenv/versions/3.10.11/bin/python"
+# set scriptPath to "/Users/hsiao/Github/VisualStudioCode/Python/Bots/Anki/Review/auto_web_intosh.py"
+# do shell script "env -i PATH=$PATH HOME=$HOME " & pythonPath & " " & scriptPath
