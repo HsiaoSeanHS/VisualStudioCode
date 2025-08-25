@@ -221,11 +221,7 @@ async def AnkiWeb(test):
 
     # await close_all_chrome()
 
-<<<<<<< HEAD
 test = False
-=======
-test = True
->>>>>>> 2bb5333d6fc37c97636f6a2868443ca4760182e7
 # Notifier.notify("Program is starting", title="Anki Automation")
 # notify("Anki Automation", "Program is starting")
 asyncio.run(AnkiWeb(test))
