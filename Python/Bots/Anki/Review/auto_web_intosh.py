@@ -3,10 +3,10 @@ warnings.filterwarnings("ignore", message="got execution_context_id and unique_c
 
 import os
 
-os.environ.pop("http_proxy", None)
-os.environ.pop("https_proxy", None)
-os.environ.pop("all_proxy", None)
-os.environ["no_proxy"] = "127.0.0.1,localhost"
+# os.environ.pop("http_proxy", None)
+# os.environ.pop("https_proxy", None)
+# os.environ.pop("all_proxy", None)
+# os.environ["no_proxy"] = "127.0.0.1,localhost"
 
 import time
 import random
@@ -24,10 +24,15 @@ email_prefix = "hsiaoseanhs"
 bir = 911119
 remain = -1
 
-# def notify(title, message):
-#     """Send a macOS notification"""
-#     script = f'display notification "{message}" with title "{title}"'
-#     subprocess.run(["osascript", "-e", script])
+def notify(message, title="Anki Automation"):
+    """Send notification and track its ID"""
+    try:
+        # Remove previous notifications first
+        Notifier.remove()
+        # Send new notification
+        Notifier.notify(message, title=title)
+    except Exception as e:
+        print(f"Notification error: {e}")
 
 # async def close_all_chrome():
 #     try: os.system('taskkill /F /IM "chrome.exe"') # Windows
@@ -124,29 +129,34 @@ async def practice(driver, target):
                         if goodtime == "10m":
                             await btn[2].click()
                             print(f"G 10m({remain}){count}")
-                            Notifier.notify(f"G 10m({remain}){count}", title="Anki Automation")
+                            # Notifier.notify(f"G 10m({remain}){count}", title="Anki Automation")
+                            notify(f"G 10m({remain}){count}")
                             # notify("Anki Automation", f"G 10m({remain}){count}")
                         elif goodtime == "01d":
                             await btn[2].click()
                             print(f"G 01d({remain}){count}")
-                            Notifier.notify(f"G 01d({remain}){count}", title="Anki Automation")
+                            # Notifier.notify(f"G 01d({remain}){count}", title="Anki Automation")
+                            notify(f"G 01d({remain}){count}")
                             # notify("Anki Automation", f"G 01d({remain}){count}")
                         else:
                             R = random.random()
                             if R <= 0.3:
                                 await btn[2].click()
                                 print(f"G ran({remain}){count}")
-                                Notifier.notify(f"G ran({remain}){count}", title="Anki Automation")
+                                # Notifier.notify(f"G ran({remain}){count}", title="Anki Automation")
+                                notify(f"G ran({remain}){count}")
                                 # notify("Anki Automation", f"G ran({remain}){count}")
                             elif R <= 0.6:
                                 await btn[1].click()
                                 print(f"H ran({remain}){count}")
-                                Notifier.notify(f"H ran({remain}){count}", title="Anki Automation")
+                                # Notifier.notify(f"H ran({remain}){count}", title="Anki Automation")
+                                notify(f"H ran({remain}){count}")
                                 # notify("Anki Automation", f"H ran({remain}){count}")
                             else:
                                 await btn[0].click()
                                 print(f"A ran({remain}){count}")
-                                Notifier.notify(f"A ran({remain}){count}", title="Anki Automation")
+                                # Notifier.notify(f"A ran({remain}){count}", title="Anki Automation")
+                                notify(f"A ran({remain}){count}")
                                 # notify("Anki Automation", f"A ran({remain}){count}")
                         count -= 1
                         break
@@ -177,14 +187,14 @@ async def AnkiWeb(test):
     options = webdriver.ChromeOptions()
     options.add_argument("--mute-audio")
     options.add_argument("--headless")
-    options.add_argument("--remote-debugging-port=6969")
+    # options.add_argument("--remote-debugging-port=6969")
     # options.add_argument("--user-data-dir=/tmp/chrome-profile")
-    options.add_argument("--no-proxy-server")
-    options.add_argument("--proxy-server='direct://'")
-    options.add_argument("--proxy-bypass-list=*")
-    options.add_argument("--disable-features=AsyncDns")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-dev-shm-usage")
+    # options.add_argument("--no-proxy-server")
+    # options.add_argument("--proxy-server='direct://'")
+    # options.add_argument("--proxy-bypass-list=*")
+    # options.add_argument("--disable-features=AsyncDns")
+    # options.add_argument("--disable-gpu")
+    # options.add_argument("--disable-dev-shm-usage")
 
     
     try:
@@ -194,7 +204,8 @@ async def AnkiWeb(test):
             await driver.delete_all_cookies()
             info = f"{datetime.now().strftime('%m/%d')} {datetime.now().strftime('%H:%M') if random_wait == 0 else (datetime.strptime('12:00', '%H:%M') + timedelta(seconds=random_wait)).strftime('%H:%M')} {random_Q}"
             print(info)
-            Notifier.notify(info, title="Anki Automation")
+            # Notifier.notify(info, title="Anki Automation")
+            notify(info)
             # notify("Anki Automation", info)
             if not test: 
                 while datetime.now().strftime("%H:%M") <= "12:00": time.sleep(60) # Disable this line to test
@@ -203,18 +214,20 @@ async def AnkiWeb(test):
             await practice(driver, random_Q)
     except Exception as e:
         print(f"Error running AnkiWeb automation: {e}")
-        Notifier.notify(f"Error running AnkiWeb automation: {e}", title="Anki Automation")
+        # Notifier.notify(f"Error running AnkiWeb automation: {e}", title="Anki Automation")
+        notify(f"Error running AnkiWeb automation: {e}")
         # notify("Anki Automation", f"Error running AnkiWeb automation: {e}")
         raise
 
     # await close_all_chrome()
 
 test = False
-Notifier.notify("Program is starting", title="Anki Automation")
+# Notifier.notify("Program is starting", title="Anki Automation")
 # notify("Anki Automation", "Program is starting")
 asyncio.run(AnkiWeb(test))
 # asyncio.run(close_all_chrome())
-Notifier.notify("Done", title="Anki Automation")
+# Notifier.notify("Done", title="Anki Automation")
+notify("Done")
 
 # try:
 #     # import subprocess
