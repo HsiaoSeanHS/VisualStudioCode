@@ -1,18 +1,18 @@
-import os
-import PIL
-import cv2
-#import subprocess
-import pyautogui
-import random
-import keyboard
-import win32gui, win32api
-from time import sleep, time
-import time
-import win32com.client
+# import os
+# import PIL
+# import cv2
+# #import subprocess
+# import pyautogui
+# import random
+# import keyboard
+# import win32gui, win32api
+# from time import sleep, time
+# import time
+# import win32com.client
 # import tkinter as tk
 
-pyautogui.PAUSE = 0.5 
-MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
+# pyautogui.PAUSE = 0.5 
+# MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
 # print(random.random())
 # if(win32gui.FindWindow(None, "User 1 - Anki") == 0):
@@ -36,9 +36,9 @@ MainPath = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 # time.sleep(5)
 # os.system('%s%s' % ("taskkill /F /IM ","Anki.exe"))
 # os.system('start %UserProfile%\\AppData\\Local\\Programs\\Anki\\anki.exe')
-shell = win32com.client.Dispatch("WScript.Shell")
-shell.AppActivate("User 1 - Anki")
-Anki = win32gui.FindWindow(None, "User 1 - Anki")
+# shell = win32com.client.Dispatch("WScript.Shell")
+# shell.AppActivate("User 1 - Anki")
+# Anki = win32gui.FindWindow(None, "User 1 - Anki")
 # print(Anki)
 # pyautogui.hotkey('alt', 'tab')
 # pyautogui.moveTo(50, 15, duration = 0)
@@ -51,8 +51,8 @@ Anki = win32gui.FindWindow(None, "User 1 - Anki")
 # StudyNow_location = pyautogui.locateOnScreen(abs + "StudyNow.png", confidence=0.9)
 # print(StudyNow_location)
 
-width, height = pyautogui.size()
-print(width, height)
+# width, height = pyautogui.size()
+# print(width, height)
 
 # os.popen('%s%s' % ("taskkill /F /IM ", "Anki.exe"))
 
@@ -63,3 +63,27 @@ print(width, height)
 # os.system("cd..")
 # os.system("cd Local/Programs/Anki/")
 # os.system("start anki.exe")
+
+import os
+import asyncio
+from selenium_driverless import webdriver
+options = webdriver.ChromeOptions()
+options.add_argument("--user-data-dir=/Users/hsiao/.selenium-profile")
+
+async def main():
+    options = webdriver.ChromeOptions()
+    profile_dir = os.path.expanduser("~/selenium-profile")
+    os.makedirs(profile_dir, exist_ok=True)
+    options.add_argument(f"--user-data-dir={profile_dir}")
+
+    async with webdriver.Chrome(options=options) as driver:
+        await driver.get("https://www.google.com")
+        await asyncio.sleep(5)
+
+os.system('''
+        export TERM=xterm
+        if pgrep "Google Chrome" > /dev/null; then
+            killall "Google Chrome"
+        fi
+        ''')
+asyncio.run(main())
