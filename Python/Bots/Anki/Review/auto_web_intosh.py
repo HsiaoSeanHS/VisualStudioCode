@@ -2,7 +2,7 @@ import warnings
 warnings.filterwarnings("ignore", message="got execution_context_id and unique_context=True, defaulting to execution_context_id")
 
 import os
-
+os.environ['TERM'] = 'xterm'
 # os.environ.pop("http_proxy", None)
 # os.environ.pop("https_proxy", None)
 # os.environ.pop("all_proxy", None)
@@ -34,10 +34,10 @@ def notify(message, title="Anki Automation"):
     except Exception as e:
         print(f"Notification error: {e}")
 
-# async def close_all_chrome():
+# async def close_processes():
 #     try: os.system('taskkill /F /IM "chrome.exe"') # Windows
 #     except: pass
-async def close_all_chrome():
+async def close_processes():
     # try:
     #     # Kill all selenium-driverless Chrome processes
     #     os.system('pkill -f "selenium_driverless" 2>/dev/null')
@@ -49,7 +49,7 @@ async def close_all_chrome():
     #                     tell application "Google Chrome" to quit
     #                 end if
     #             ''').run()
-    os.system('''
+    os.system(f'''
                 if pgrep "Google Chrome" > /dev/null; then
                     killall "Google Chrome"
                 fi
@@ -92,15 +92,49 @@ async def close_all_chrome():
     #     pass
 
 async def login(driver):
-    await driver.get("https://ankiweb.net/account/login", wait_load=True)
+    # max_retries = 10
+    # retry_count = 0
+    
+    # while retry_count < max_retries:
+        # try:
+    # await driver.get("https://ankiweb.net/account/login", wait_load=True)
+            
+        #     # Check if we actually loaded the target page
+        #     current_url = await driver.current_url
+        #     if current_url == "about:blank" or "ankiweb.net" not in current_url:
+        #         retry_count += 1
+        #         print(f"Got {current_url}, retrying... ({retry_count}/{max_retries})")
+        #         notify(f"Page load failed, retrying... ({retry_count}/{max_retries})")
+        #         await driver.sleep(2)
+        #         continue
+            
+        #     # If we get here, the page loaded successfully
+        #     break
+            
+        # except Exception as e:
+        #     retry_count += 1
+        #     print(f"Error loading page: {e}, retrying... ({retry_count}/{max_retries})")
+        #     notify(f"Error loading page, retrying... ({retry_count}/{max_retries})")
+        #     await driver.sleep(2)
+            
+        #     if retry_count >= max_retries:
+        #         raise Exception(f"Failed to load ankiweb.net after {max_retries} attempts")
+    
+    # Continue with login process
     while True:
-        try: Login = await driver.find_element(By.CLASS_NAME, "btn btn-primary btn-lg", timeout=1); break
-        except: await driver.sleep(1)
-
-    svelte = await driver.find_elements(By.CLASS_NAME, "form-control svelte-1ak1s42")
-    await svelte[0].send_keys(email_prefix + "@gmail.com")
-    await svelte[1].send_keys("sean" + str(bir))
-    await Login.click()
+        try: 
+            await driver.get("https://ankiweb.net/account/login", wait_load=True)
+            Login = await driver.find_element(By.CLASS_NAME, "btn btn-primary btn-lg", timeout=1)
+            svelte = await driver.find_elements(By.CLASS_NAME, "form-control svelte-1ak1s42")
+            await svelte[0].send_keys(email_prefix + "@gmail.com")
+            await svelte[1].send_keys("sean" + str(bir))
+            await Login.click()
+            break
+            # return True
+        except: 
+            await driver.sleep(1)
+    # return False
+    
 
 async def practice(driver, target):
     while True:
@@ -166,6 +200,9 @@ async def practice(driver, target):
         except: await driver.sleep(1)
 
 async def AnkiWeb(test):
+    await close_processes()
+    # os.system('cls') # Windows
+    os.system('clear')  # Linux/Mac
     # Increase file descriptor limit to prevent "too many open files" error
     # try:
     #     import resource
@@ -178,40 +215,46 @@ async def AnkiWeb(test):
     # except Exception as e:
     #     print(f"Warning: Could not increase file descriptor limit: {e}")
     
-    await close_all_chrome()
     if test:
         random_wait, random_Q = 0, 5
     else:
         random_wait, random_Q = random.randint(12, 34567), random.randint(20, 60)
-    if random_wait <= (datetime.now() - datetime.combine(datetime.now().date(), datetime.strptime("12:00", "%H:%M").time())).total_seconds(): random_wait = 0
+        # if random_wait <= (datetime.now() - datetime.combine(datetime.now().date(), datetime.strptime("12:00", "%H:%M").time())).total_seconds(): random_wait = 0
+    info = f"{datetime.now().strftime('%m/%d')} {datetime.now().strftime('%H:%M')}  {random_Q}" # if random_wait == 0 else (datetime.strptime('12:00', '%H:%M') + timedelta(seconds=random_wait)).strftime('%H:%M')} {random_Q}"
+    print(info)
+    # Notifier.notify(info, title="Anki Automation")
+    notify(info)
+    # notify("Anki Automation", info)
+        # if not test: 
+        #     while datetime.now().strftime("%H:%M") <= "12:00": time.sleep(60) # Disable this line to test
+        # time.sleep(random_wait)
     options = webdriver.ChromeOptions()
     options.add_argument("--mute-audio")
-    options.add_argument("--headless")
+    options.add_argument("--headless=new")
     # options.add_argument("--remote-debugging-port=6969")
+    options.add_argument("--user-data-dir=/Users/hsiao/.selenium-profile")
     # options.add_argument("--user-data-dir=/tmp/chrome-profile")
-    # options.add_argument("--no-proxy-server")
+    options.add_argument("--no-proxy-server")
     # options.add_argument("--proxy-server='direct://'")
     # options.add_argument("--proxy-bypass-list=*")
     # options.add_argument("--disable-features=AsyncDns")
-    # options.add_argument("--disable-gpu")
-    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-features=NetworkService")
 
     
     try:
+        # while True:
         async with webdriver.Chrome(options=options) as driver:
-            # os.system('cls') # Windows
-            os.system('clear')  # Linux/Mac
             await driver.delete_all_cookies()
-            info = f"{datetime.now().strftime('%m/%d')} {datetime.now().strftime('%H:%M') if random_wait == 0 else (datetime.strptime('12:00', '%H:%M') + timedelta(seconds=random_wait)).strftime('%H:%M')} {random_Q}"
-            print(info)
-            # Notifier.notify(info, title="Anki Automation")
-            notify(info)
-            # notify("Anki Automation", info)
-            if not test: 
-                while datetime.now().strftime("%H:%M") <= "12:00": time.sleep(60) # Disable this line to test
-            time.sleep(random_wait)
             await login(driver)
+                # if login_success: 
             await practice(driver, random_Q)
+            #         break
+            await driver.quit()
+            # await asyncio.sleep(5)
+            # await close_processes()
+
     except Exception as e:
         print(f"Error running AnkiWeb automation: {e}")
         # Notifier.notify(f"Error running AnkiWeb automation: {e}", title="Anki Automation")
@@ -219,13 +262,13 @@ async def AnkiWeb(test):
         # notify("Anki Automation", f"Error running AnkiWeb automation: {e}")
         raise
 
-    # await close_all_chrome()
+    await close_processes()
 
 test = False
 # Notifier.notify("Program is starting", title="Anki Automation")
 # notify("Anki Automation", "Program is starting")
 asyncio.run(AnkiWeb(test))
-# asyncio.run(close_all_chrome())
+# asyncio.run(close_processes())
 # Notifier.notify("Done", title="Anki Automation")
 notify("Done")
 
