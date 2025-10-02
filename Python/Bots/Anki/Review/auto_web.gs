@@ -22,7 +22,7 @@ function scheduleAnkiReview() {
   // GitHub repository details
   const owner = "HsiaoSeanHS";
   const repo = "VisualStudioCode";
-  const workflow_id = "anki_review.yml";
+  const workflow_id = "auto_web.yml";
   const githubToken =
     PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
 
@@ -30,7 +30,7 @@ function scheduleAnkiReview() {
   updateWorkflowFile(owner, repo, workflow_id, cronExpression, githubToken);
 
   // Option 2: Trigger repository_dispatch event
-  triggerRepositoryDispatch(owner, repo, githubToken, formattedTime);
+  // triggerRepositoryDispatch(owner, repo, githubToken, formattedTime);
 
   // Record the scheduled time
   const now = new Date();
@@ -90,29 +90,29 @@ function updateWorkflowFile(owner, repo, workflow_id, cronExpression, token) {
   }
 }
 
-function triggerRepositoryDispatch(owner, repo, token, scheduledTime) {
-  try {
-    const url = `https://api.github.com/repos/${owner}/${repo}/dispatches`;
-    const options = {
-      method: "post",
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: "application/vnd.github.v3+json",
-      },
-      payload: JSON.stringify({
-        event_type: "schedule_anki_review",
-        client_payload: {
-          scheduled_time: scheduledTime,
-        },
-      }),
-      muteHttpExceptions: true,
-    };
+// function triggerRepositoryDispatch(owner, repo, token, scheduledTime) {
+//   try {
+//     const url = `https://api.github.com/repos/${owner}/${repo}/dispatches`;
+//     const options = {
+//       method: "post",
+//       headers: {
+//         Authorization: `token ${token}`,
+//         Accept: "application/vnd.github.v3+json",
+//       },
+//       payload: JSON.stringify({
+//         event_type: "schedule_anki_review",
+//         client_payload: {
+//           scheduled_time: scheduledTime,
+//         },
+//       }),
+//       muteHttpExceptions: true,
+//     };
 
-    const response = UrlFetchApp.fetch(url, options);
-    console.log("Repository dispatch triggered:", response.getResponseCode());
-    return true;
-  } catch (error) {
-    console.error("Error triggering repository dispatch:", error);
-    return false;
-  }
-}
+//     const response = UrlFetchApp.fetch(url, options);
+//     console.log("Repository dispatch triggered:", response.getResponseCode());
+//     return true;
+//   } catch (error) {
+//     console.error("Error triggering repository dispatch:", error);
+//     return false;
+//   }
+// }
