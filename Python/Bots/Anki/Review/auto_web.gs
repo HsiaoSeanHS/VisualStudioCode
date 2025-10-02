@@ -59,11 +59,66 @@ function updateWorkflowFile(owner, repo, workflow_id, cronExpression, token) {
     const content = Utilities.base64Decode(fileData.content);
     const contentStr = Utilities.newBlob(content).getDataAsString();
 
+    // Debug: Log the original content
+    // console.log("Original workflow content:", contentStr);
+
     // Update the cron expression in the workflow file
+    const originalRegex = /cron: '([0-9* ]+)'/;
+
+    // Debug: Check if regex matches anything
+    // console.log("Regex test result:", originalRegex.test(contentStr));
+
     const updatedContent = contentStr.replace(
-      /cron: '([0-9* ]+)'/,
+      originalRegex,
       `cron: '${cronExpression}'`
     );
+
+    // Debug: Check if content was actually modified
+    // console.log("Content changed:", contentStr !== updatedContent);
+
+    // If no change was made, try a more flexible regex
+    let finalContent = updatedContent;
+    if (contentStr === updatedContent) {
+      console.log("First regex didn't match, trying alternate patterns...");
+
+      // Try different quote styles and formats
+      const alternateRegexes = [
+        /cron: "([0-9* ]+)"/, // Double quotes
+        /cron:[ \t]*'([0-9* ]+)'/, // With whitespace
+        /cron:[ \t]*"([0-9* ]+)"/, // With whitespace and double quotes
+        /cron:[ \t]*([0-9* ]+)/, // No quotes
+      ];
+
+      for (const regex of alternateRegexes) {
+        if (regex.test(contentStr)) {
+          console.log("Found matching regex:", regex);
+
+          // Preserve the quote style of the original
+          if (regex.toString().includes('"')) {
+            // If the matching pattern used double quotes, preserve that in replacement
+            finalContent = contentStr.replace(
+              regex,
+              `cron: "${cronExpression}"`
+            );
+          } else {
+            // Otherwise use single quotes as before
+            finalContent = contentStr.replace(
+              regex,
+              `cron: '${cronExpression}'`
+            );
+          }
+          break;
+        }
+      }
+    }
+
+    // Only proceed if a change was made
+    if (contentStr === finalContent) {
+      console.log("WARNING: No cron pattern was matched in the workflow file!");
+      return false;
+    }
+
+    console.log("Final content to upload:", finalContent);
 
     // Commit the updated file back to GitHub
     const updateUrl = `https://api.github.com/repos/${owner}/${repo}/contents/.github/workflows/${workflow_id}`;
@@ -75,7 +130,7 @@ function updateWorkflowFile(owner, repo, workflow_id, cronExpression, token) {
       },
       payload: JSON.stringify({
         message: `Update scheduled time to ${cronExpression}`,
-        content: Utilities.base64Encode(updatedContent),
+        content: Utilities.base64Encode(finalContent),
         sha: fileData.sha,
       }),
       muteHttpExceptions: true,
