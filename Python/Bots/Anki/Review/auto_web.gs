@@ -34,12 +34,27 @@ function scheduleAnkiReview() {
 
   // Record the scheduled time
   const now = new Date();
-  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  sheet.appendRow([
-    now,
-    formattedTime,
-    `UTC: ${utcHour}:${randomMinute.toString().padStart(2, "0")}`,
-  ]);
+
+  // Open spreadsheet by ID instead of relying on active spreadsheet
+  const spreadsheetId =
+    PropertiesService.getScriptProperties().getProperty("SPREADSHEET_ID");
+  if (spreadsheetId) {
+    try {
+      const spreadsheet = SpreadsheetApp.openById(spreadsheetId);
+      const sheet =
+        spreadsheet.getSheetByName("Schedule Log") ||
+        spreadsheet.getSheets()[0];
+      sheet.appendRow([
+        now,
+        formattedTime,
+        `UTC: ${utcHour}:${randomMinute.toString().padStart(2, "0")}`,
+      ]);
+    } catch (error) {
+      console.error("Error logging to spreadsheet:", error);
+    }
+  } else {
+    console.log("No spreadsheet ID configured. Skipping logging.");
+  }
 }
 
 function updateWorkflowFile(owner, repo, workflow_id, cronExpression, token) {
